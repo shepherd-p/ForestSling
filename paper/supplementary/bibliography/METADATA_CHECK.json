@@ -1,0 +1,173 @@
+[
+  {
+    "key": "sun2025",
+    "doi": "10.1126/scirobotics.adu8015",
+    "title": [
+      "Agile and cooperative aerial manipulation of a cable-suspended load"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "heins2025",
+    "doi": "10.1109/LRA.2025.3551067",
+    "title": [
+      "Robust Nonprehensile Object Transportation With Uncertain Inertial Parameters"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "wensing2018",
+    "doi": "10.1109/LRA.2017.2729659",
+    "title": [
+      "Linear Matrix Inequalities for Physically Consistent Inertial Parameter Identification: A Statistical Perspective on the Mass Distribution"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "petitti2020",
+    "doi": "10.1109/ICUAS48674.2020.9213842",
+    "title": [
+      "Inertial Estimation and Energy-Efficient Control of a Cable-suspended Load with a Team of UAVs"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "li2021",
+    "doi": "10.1109/LRA.2021.3065286",
+    "title": [
+      "Cooperative Transportation of Cable Suspended Payloads With MAVs Using Monocular Vision and Inertial Sensing"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "nmpc2023",
+    "doi": "10.1109/IROS55552.2023.10341785",
+    "title": [
+      "Nonlinear Model Predictive Control for Cooperative Transportation and Manipulation of Cable Suspended Payloads with Multiple Quadrotors"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "pallar2025",
+    "doi": "10.1109/ICRA55743.2025.11128734",
+    "title": [
+      "Optimal Trajectory Planning for Cooperative Manipulation with Multiple Quadrotors Using Control Barrier Functions"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "ast2021",
+    "doi": "10.1016/j.ast.2021.106917",
+    "title": [
+      "Planning and distributed control for cooperative transportation of a non-uniform slung-load by multiple quadrotors"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "geng2022",
+    "doi": "10.2514/1.I011067",
+    "title": [
+      "Load-Distribution-Based Trajectory Planning and Control for a Multilift System"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "lee2010",
+    "doi": "10.1109/CDC.2010.5717652",
+    "title": [
+      "Geometric tracking control of a quadrotor UAV on SE(3)"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "mujoco2012",
+    "doi": "10.1109/IROS.2012.6386109",
+    "title": [
+      "MuJoCo: A physics engine for model-based control"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "airsim2017",
+    "doi": "10.1007/978-3-319-67361-5_40",
+    "title": [
+      "AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "boyd2004",
+    "doi": "10.1017/CBO9780511804441",
+    "title": [
+      "Convex Optimization"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "polyfly2026",
+    "doi": "10.1109/LRA.2026.3655278",
+    "title": [
+      "PolyFly: Polytopic Optimal Planning for Collision-Free Cable-Suspended Aerial Payload Transportation"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "crazymarl2026",
+    "doi": "10.1109/ICRA57385.2026.11696542",
+    "title": [
+      "CrazyMARL: Decentralized Direct Motor Control Policies for Cooperative Aerial Transport of Cable-Suspended Payloads"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "icp1992",
+    "doi": "10.1109/34.121791",
+    "title": [
+      "A method for registration of 3-D shapes"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "chai2026",
+    "doi": "10.1016/j.ast.2025.111343",
+    "title": [
+      "Time-optimal gap-traversal trajectory planning scheme for collaborative aerial transportation systems: An experimental research"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "sunlocal2026",
+    "doi": "10.1016/j.ast.2026.111670",
+    "title": [
+      "Local obstacle avoidance and trajectory tracking control of multi-quadrotor cooperative transportation system"
+    ],
+    "verified": true,
+    "error": null
+  },
+  {
+    "key": "chan2026",
+    "doi": "10.1016/j.ast.2025.111460",
+    "title": [
+      "Time-optimal motion planning of cable-suspended payload quadcopters using spatial reformulation"
+    ],
+    "verified": true,
+    "error": null
+  }
+]

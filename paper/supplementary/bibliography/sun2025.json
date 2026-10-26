@@ -1,0 +1,540 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T17:23:30Z",
+      "timestamp": 1792171410030,
+      "version": "4.4.0"
+    },
+    "reference-count": 46,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "107",
+    "content-domain": {
+      "domain": [
+        "www.science.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Sci. Robot."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Quadrotors can carry slung loads to hard-to-reach locations at high speed. Given that a single quadrotor has limited payload capacities, using a team of quadrotors to collaboratively manipulate the full pose of a heavy object is a scalable and promising solution. However, existing control algorithms for multilifting systems only enable low-speed and low-acceleration operations because of the complex dynamic coupling between quadrotors and the load, limiting their use in time-critical missions such as search and rescue. In this work, we present a solution to substantially enhance the agility of cable-suspended multilifting systems. Unlike traditional cascaded solutions, we introduce a trajectory-based framework that solves the whole-body kinodynamic motion planning problem online, accounting for the dynamic coupling effects and constraints between the quadrotors and the load. The planned trajectory is provided to the quadrotors as a reference in a receding-horizon fashion and is tracked by an onboard controller that observes and compensates for the cable tension. Real-world experiments demonstrate that our framework can achieve at least eight times greater acceleration than state-of-the-art methods to follow agile trajectories. Our method can even perform complex maneuvers such as flying through narrow passages at high speed. In addition, it exhibits high robustness against load uncertainties and wind disturbances and does not require adding any sensors to the load, demonstrating strong practicality.</jats:p>",
+    "DOI": "10.1126/scirobotics.adu8015",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2025-10-29T17:59:36Z",
+      "timestamp": 1761760776000
+    },
+    "update-policy": "https://doi.org/10.34133/aaas_crossmark",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "title": [
+      "Agile and cooperative aerial manipulation of a cable-suspended load"
+    ],
+    "prefix": "10.1126",
+    "volume": "10",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8539-3979",
+        "authenticated-orcid": true,
+        "given": "Sihao",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Cognitive Robotics (CoR), Delft University of Technology, Delft, Netherlands."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6330-419X",
+        "authenticated-orcid": true,
+        "given": "Xuerui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Aerospace Structures &amp; Materials (ASM), Delft University of Technology, Delft, Netherlands."
+          },
+          {
+            "name": "Department of Control &amp; Operations (C&amp;O), Delft University of Technology, Delft, Netherlands."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dario",
+        "family": "Sanalitro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institut des Systèmes Intelligents et de Robotique (ISIR), Sorbonne University, Paris, France."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5670-1282",
+        "authenticated-orcid": true,
+        "given": "Antonio",
+        "family": "Franchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Robotics and Mechatronics Group (RaM), University of Twente, Enschede, Netherlands."
+          },
+          {
+            "name": "Department of Computer, Control and Management Engineering (DIAG), Sapienza University of Rome, Rome, Italy."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marco",
+        "family": "Tognon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Université de Rennes, CNRS, Inria, IRISA-UMR 6074, Rennes, France."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0058-570X",
+        "authenticated-orcid": true,
+        "given": "Javier",
+        "family": "Alonso-Mora",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Cognitive Robotics (CoR), Delft University of Technology, Delft, Netherlands."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3131690"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arcontrol.2023.03.009"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2017.2778018"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Tagliabue M. Kamel S. Verling R. Siegwart J. Nieto “Collaborative transportation using MAVs via passive force control” in IEEE International Conference on Robotics and Automation (IEEE 2017) pp. 5766–5773.",
+        "DOI": "10.1109/ICRA.2017.7989678"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364919854131"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11214-021-00815-w"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "first-page": "14",
+        "article-title": "Dragonfly: A rotorcraft lander concept for scientific exploration at Titan",
+        "volume": "34",
+        "author": "Lorenz R. D.",
+        "year": "2018",
+        "unstructured": "R. D. Lorenz, E. P. Turtle, J. W. Barnes, M. G. Trainer, D. S. Adams, K. E. Hibbard, C. Z. Sheldon, K. Zacny, P. N. Peplowski, D. J. Lawrence, M. A. Ravine, T. G. McGee, K. S. Sotzen, S. M. MacKenzie, J. W. Langelaan, S. Schmitz, L. S. Wolfarth, P. D. Bedini, Dragonfly: A rotorcraft lander concept for scientific exploration at Titan. J. Hopkins APL Tech. Dig. 34, 14 (2018).",
+        "journal-title": "J. Hopkins APL Tech. Dig."
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Foehn D. Falanga N. Kuppuswamy R. Tedrake D. Scaramuzza “Fast trajectory optimization for agile quadrotor maneuvers with a cable-suspended payload” in Robotics: Science and Systems (RSS Foundation 2017).",
+        "DOI": "10.15607/RSS.2017.XIII.030"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2024.3511436"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Sreenath V. Kumar “Dynamics control and planning for cooperative manipulation of payloads suspended by cables from multiple quadrotor robots” in Robotics: Science and Systems (RSS Foundation 2013).",
+        "DOI": "10.15607/RSS.2013.IX.011"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3065286"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Li G. Loianno “Nonlinear model predictive control for cooperative transportation and manipulation of cable suspended payloads with multiple quadrotors” in IEEE/RSJ International Conference on Intelligent Robots and Systems (IEEE 2023) pp. 5034–5041.",
+        "DOI": "10.1109/IROS55552.2023.10341785"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Lee K. Sreenath V. Kumar “Geometric control of cooperating multiple quadrotor UAVs with a suspended payload” in IEEE Conference on Decision and Control (IEEE 2013) pp. 5510–5515.",
+        "DOI": "10.1109/CDC.2013.6760757"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2017.2656060"
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "first-page": "366",
+        "article-title": "Load-distribution-based trajectory planning and control for a multilift system",
+        "volume": "19",
+        "author": "Geng J.",
+        "year": "2022",
+        "unstructured": "J. Geng, P. Singla, J. W. Langelaan, Load-distribution-based trajectory planning and control for a multilift system. J. Aerosp. Inf. Syst. 19, 366–381 (2022).",
+        "journal-title": "J. Aerosp. Inf. Syst."
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2024.3351001"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Wahba J. Ortiz-Haro M. Toussaint W. Hönig Kinodynamic motion planning for a team of multirotors transporting a cable-suspended payload in cluttered environments. arXiv:2310.03394 [cs.RO] (2023).",
+        "DOI": "10.1109/IROS58592.2024.10802794"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-010-9205-0"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Manubens D. Devaurs L. Ros J. Corte’s “Motion planning for 6-D manipulation with aerial towed-cable systems” in Robotics: Science and Systems (RSS Foundation 2013).",
+        "DOI": "10.15607/RSS.2013.IX.028"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Fresk G. Nikolakopoulos “Full quaternion based attitude control for a quadrotor” in European Control Conference (IEEE 2013) pp. 3864–3869.",
+        "DOI": "10.23919/ECC.2013.6669617"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2020.2969930"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10846-021-01457-4"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Sun A. Franchi “Nonlinear MPC for full-pose manipulation of a cable-suspended load using multiple UAVs” in 2023 International Conference on Unmanned Aircraft Systems (ICUAS) (IEEE 2023) pp. 969–975.",
+        "DOI": "10.1109/ICUAS57906.2023.10156031"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2023.3336320"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0001924000003638"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rob.20401"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G001490"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2020.3001117"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2022.3177279"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Mellinger V. Kumar “Minimum snap trajectory generation and control for quadrotors” in IEEE International Conference on Robotics and Automation (IEEE 2011) pp. 2520–2525.",
+        "DOI": "10.1109/ICRA.2011.5980409"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scirobotics.abl6259"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "unstructured": "S. F. Hoerner Fluid-Dynamic Drag: Practical Information on Aerodynamic Drag and Hydrodynamic Resistance (Hoerner Fluid Dynamics ed. 2 1965) pp. 3–17."
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Petitti D. Sanalitro M. Tognon A. Milella J. Cortes A. Franchi “Inertial estimation and energy-efficient control of a cable-suspended load with a team of UAVs” in IEEE International Conference on Unmanned Aircraft Systems (IEEE 2020) pp. 158–165.",
+        "DOI": "10.1109/ICUAS48674.2020.9213842"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Richards J. How “Robust stable model predictive control with constraint tightening” in 2006 American Control Conference (IEEE 2006); 10.1109/ACC.2006.1656440.",
+        "DOI": "10.1109/ACC.2006.1656440"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Köhler M. A. Müller F. Allgöwer “A novel constraint tightening approach for nonlinear robust model predictive control” in IEEE American Control Conference (IEEE 2018) pp. 728–734.",
+        "DOI": "10.23919/ACC.2018.8431892"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scirobotics.abh1221"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-6670(17)61205-9"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0959-1524(01)00023-3"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12532-021-00208-8"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2017.2776353"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.88573"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2018.2873224"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.vrih.2019.09.002"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2021.3137751"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "unstructured": "T. Cieslewski “Decentralized multi-agent visual SLAM ” thesis University of Zurich Zurich Switzerland (2021)."
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Peterson P. Lusk A. Avila J. How TCAFF: Temporal consistency for robot frame alignment. arXiv:2405.05210 [cs.RO] (2025).",
+        "DOI": "10.1109/ICRA55743.2025.11127311"
+      }
+    ],
+    "container-title": [
+      "Science Robotics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/scirobotics.adu8015",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2025-10-29T17:59:45Z",
+      "timestamp": 1761760785000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/scirobotics.adu8015"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "107",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/scirobotics.adu8015"
+    ],
+    "URL": "https://doi.org/10.1126/scirobotics.adu8015",
+    "relation": {},
+    "ISSN": [
+      "2470-9476"
+    ],
+    "issn-type": [
+      {
+        "value": "2470-9476",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-12-04",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-01",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-10-29",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "eadu8015"
+  }
+}

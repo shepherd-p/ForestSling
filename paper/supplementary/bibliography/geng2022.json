@@ -1,0 +1,329 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2026-06-28T04:05:25Z",
+      "timestamp": 1782619525836,
+      "version": "3.54.5"
+    },
+    "reference-count": 18,
+    "publisher": "American Institute of Aeronautics and Astronautics (AIAA)",
+    "issue": "5",
+    "funder": [
+      {
+        "name": "Army Aviation Development Directorate"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "arc.aiaa.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Aerospace Information Systems"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.2514/1.i011067",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2022-02-11T15:31:55Z",
+      "timestamp": 1644593515000
+    },
+    "page": "366-381",
+    "update-policy": "https://doi.org/10.2514/aiaa_crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Load-Distribution-Based Trajectory Planning and Control for a Multilift System"
+    ],
+    "prefix": "10.2514",
+    "volume": "19",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6494-6810",
+        "authenticated-orcid": false,
+        "given": "Junyi",
+        "family": "Geng",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University, Pittsburgh, Pennsylvania 15213"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Puneet",
+        "family": "Singla",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennsylvania State University, University Park, Pennsylvania 16802"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0154-1680",
+        "authenticated-orcid": false,
+        "given": "Jack W.",
+        "family": "Langelaan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pennsylvania State University, University Park, Pennsylvania 16802"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1387",
+    "reference": [
+      {
+        "key": "r1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364910382803"
+      },
+      {
+        "key": "r3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3057294"
+      },
+      {
+        "key": "r6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2017.2656060"
+      },
+      {
+        "key": "r7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3065286"
+      },
+      {
+        "key": "r9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.C034111"
+      },
+      {
+        "key": "r11",
+        "unstructured": "BisgaardM. “Modeling, Estimation, and Control of Helicopter Slung Load System,” Ph.D. Thesis, Dept. of Control Engineering, Aalborg Univ., 2008."
+      },
+      {
+        "key": "r14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2018.2876518"
+      },
+      {
+        "key": "r15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-010-9205-0"
+      },
+      {
+        "key": "r16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2020.2969930"
+      },
+      {
+        "key": "r17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3182/20070625-5-FR-2916.00073"
+      },
+      {
+        "key": "r20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G005365"
+      },
+      {
+        "key": "r23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G004680"
+      },
+      {
+        "key": "r24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4050/JAHS.62.042011"
+      },
+      {
+        "key": "r25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "LiZ. “Coordinated Transport of a Slung Load by a Team of Autonomous Rotorcraft,” MS Thesis, Dept. of Aerospace Engineering, Pennsylvania State Univ., Dec. 2014.",
+        "DOI": "10.2514/6.2014-0968"
+      },
+      {
+        "key": "r26",
+        "unstructured": "BrysonA. E.HoY., Applied Optimal Control: Optimization, Estimation and Control, Taylor & Francis, 1975, pp. 148–149."
+      },
+      {
+        "key": "r27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/2.4231"
+      },
+      {
+        "key": "r28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G001755"
+      },
+      {
+        "key": "r29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/16M1062569"
+      }
+    ],
+    "container-title": [
+      "Journal of Aerospace Information Systems"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://arc.aiaa.org/doi/pdf/10.2514/1.I011067",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2022-05-14T02:40:13Z",
+      "timestamp": 1652496013000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://arc.aiaa.org/doi/10.2514/1.I011067"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "references-count": 18,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.2514/1.I011067"
+    ],
+    "URL": "https://doi.org/10.2514/1.i011067",
+    "relation": {},
+    "ISSN": [
+      "2327-3097"
+    ],
+    "issn-type": [
+      {
+        "value": "2327-3097",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-09-25",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2021-12-21",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-01-04",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-02-11",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

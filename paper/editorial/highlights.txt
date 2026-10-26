@@ -1,0 +1,4 @@
+RGB-D shape and cable tensions identify payload mass moments without markers.
+Identified moments link cable-force planning to compliant formation geometry.
+Three and four UAVs transport rectangular and irregular payloads in simulation.
+A forked load performs successive side-on and horizontal aperture passages.

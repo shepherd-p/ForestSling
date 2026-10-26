@@ -1,0 +1,27 @@
+{
+  "source": "F:\\EpicGamesEnv\\ForestSlingLab\\runs\\large_pose_course_20261026_v01\\4_forked_estimated",
+  "interval_start_sec": 99.12,
+  "interval_duration_sec": 2.0,
+  "independent_step_sec": 0.00025,
+  "metrics": [
+    {
+      "engine_step_sec": 0.001,
+      "maximum_payload_com_difference_m": 0.000731134593833113,
+      "maximum_payload_angle_difference_deg": 0.06382106783585166,
+      "maximum_aircraft_com_difference_m": 0.004561360126810777
+    },
+    {
+      "engine_step_sec": 0.0005,
+      "maximum_payload_com_difference_m": 0.00036428081353413744,
+      "maximum_payload_angle_difference_deg": 0.03179715013413722,
+      "maximum_aircraft_com_difference_m": 0.0022725268588001087
+    },
+    {
+      "engine_step_sec": 0.00025,
+      "maximum_payload_com_difference_m": 0.00018181836689647852,
+      "maximum_payload_angle_difference_deg": 0.01587025541016375,
+      "maximum_aircraft_com_difference_m": 0.0011342251431659693
+    }
+  ],
+  "no_resets_within_interval": true
+}

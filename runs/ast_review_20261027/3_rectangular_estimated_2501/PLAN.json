@@ -1,0 +1,112 @@
+{
+  "peak": [
+    1.25,
+    1.15
+  ],
+  "drop": 0.7,
+  "duration": 20.0,
+  "p0": [
+    0.02700533335386785,
+    -0.0070270309308192265,
+    3.0213360110919396
+  ],
+  "R0": [
+    [
+      0.9907794819807215,
+      -0.006235891820359366,
+      0.1353407985020511
+    ],
+    [
+      0.030660661821438635,
+      0.983344397387708,
+      -0.17914720188379626
+    ],
+    [
+      -0.13196947337410656,
+      0.18164501033423427,
+      0.9744686492227543
+    ]
+  ],
+  "formation_mode": "height_cone",
+  "candidates": [
+    {
+      "duration": 20.0,
+      "accepted": true,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.9006159603070443,
+          "min_tension": 1.6203449707430937,
+          "max_tension": 8.200000000050828,
+          "max_residual": 4.902891886937958e-12,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.2,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.646851951841048,
+          "min_tension": 1.6203449707430937,
+          "max_tension": 8.199999999973745,
+          "max_residual": 4.785014104598486e-12,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.4,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.040870184802754506,
+          "min_tension": 1.6203449707430937,
+          "max_tension": 8.160691810638335,
+          "max_residual": 7.700452634721811e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.6,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.042762310168204754,
+          "min_tension": 1.5042799898251566,
+          "max_tension": 8.166733315084374,
+          "max_residual": 2.656587403801544e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.7,
+          "mode": "height_cone",
+          "feasible": true,
+          "gap": 0.043917363504028306,
+          "min_tension": 1.5042800018437026,
+          "max_tension": 7.591693819725317,
+          "max_residual": 1.4139978689277425e-12,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 729,
+            "iterations": 18,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ],
+            "linearized_endpoint_separation_m": null
+          },
+          "maximum_reference_speed_m_s": 1.1319705738400845,
+          "maximum_reference_acceleration_m_s2": 1.9643807409725556,
+          "dense_minimum_tension": 1.5439656174037693,
+          "dense_maximum_tension": 7.673087973093844,
+          "maximum_predicted_thrust_n": 17.154642996044434,
+          "maximum_predicted_tilt_deg": 26.23750940095977,
+          "dense_body_gap": 0.09309280005292576,
+          "dense_rope_hit": false
+        }
+      ]
+    }
+  ],
+  "initial_planning_wall_sec": 2.214147500009858,
+  "pose_mode": "standard"
+}

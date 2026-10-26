@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript."
+title: "ForestSling: Cooperative aerial transport with visual and tension sensing"
+type: software
+authors:
+  - family-names: Peng
+    given-names: Fangwei
+  - family-names: Qi
+    given-names: Juntong
+  - family-names: Peng
+    given-names: Yan
+  - family-names: Wang
+    given-names: Mingming
+  - family-names: Wu
+    given-names: Chong
+repository-code: "https://github.com/shepherd-p/ForestSling"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-27"

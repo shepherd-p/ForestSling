@@ -1,0 +1,242 @@
+[
+  {
+    "duration": 20.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1152296415943437,
+        "min_tension": 2.1513518855272493,
+        "max_tension": 7.497054840185532,
+        "max_residual": 7.182317762203859e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.05251146913621885,
+        "min_tension": 1.744211296431289,
+        "max_tension": 8.199999999629123,
+        "max_residual": 8.848058187266866e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.1380022083487965,
+        "min_tension": 1.7375817011054453,
+        "max_tension": 7.060038161855779,
+        "max_residual": 2.448909663937666e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.11052686072574602,
+        "min_tension": 1.73193484760485,
+        "max_tension": 5.974387564732018,
+        "max_residual": 3.318078676216426e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.09376383531844035,
+        "min_tension": 1.7299101254958824,
+        "max_tension": 5.508577796714235,
+        "max_residual": 5.573273530682423e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 22.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1163115264173724,
+        "min_tension": 2.1513518855280505,
+        "max_tension": 7.491358794660926,
+        "max_residual": 8.721532735504628e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.05249374328165779,
+        "min_tension": 1.7440715481546785,
+        "max_tension": 8.199999999652562,
+        "max_residual": 2.808914446850314e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.13763912744025525,
+        "min_tension": 1.7373682198425067,
+        "max_tension": 7.000758428788364,
+        "max_residual": 2.515650172404056e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.11014377468324466,
+        "min_tension": 1.7317427446375664,
+        "max_tension": 5.896406519747467,
+        "max_residual": 3.6198195882820515e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.09337990068909197,
+        "min_tension": 1.7297402725532285,
+        "max_tension": 5.425025176103364,
+        "max_residual": 2.721496016779273e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 25.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1174766632277402,
+        "min_tension": 2.151351885528049,
+        "max_tension": 7.485245390051152,
+        "max_residual": 5.1014673378168956e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.05247561330381523,
+        "min_tension": 1.7439206610138422,
+        "max_tension": 8.199999999620328,
+        "max_residual": 2.561705858903779e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.13726112231656243,
+        "min_tension": 1.737147566683223,
+        "max_tension": 6.9523530980628845,
+        "max_residual": 3.0570453242913177e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.10973302355120229,
+        "min_tension": 1.7315364493534036,
+        "max_tension": 5.812633401515906,
+        "max_residual": 3.975724360337482e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.09296890069489738,
+        "min_tension": 1.7295658319806215,
+        "max_tension": 5.335267143589198,
+        "max_residual": 2.9008078611789046e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 30.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1187019398670293,
+        "min_tension": 2.15135188552805,
+        "max_tension": 7.478839742947469,
+        "max_residual": 4.380885909961666e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.052457609205084244,
+        "min_tension": 1.7437344994375301,
+        "max_tension": 8.199999999706803,
+        "max_residual": 2.43203561221681e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.1368782534316226,
+        "min_tension": 1.736938474138473,
+        "max_tension": 6.934477372457582,
+        "max_residual": 4.017634286357415e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.1093030930038773,
+        "min_tension": 1.7313215290717827,
+        "max_tension": 5.724768348092106,
+        "max_residual": 3.9701832859441975e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.09253945021244647,
+        "min_tension": 1.7293798763558927,
+        "max_tension": 5.2411254723711345,
+        "max_residual": 2.4491195575442156e-13,
+        "refusal": null,
+        "smoothing_refusal": "Whole-interval force optimization: PrimalInfeasible"
+      }
+    ]
+  }
+]

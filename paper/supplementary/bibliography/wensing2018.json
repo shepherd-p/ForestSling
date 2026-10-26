@@ -1,0 +1,502 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T17:18:34Z",
+      "timestamp": 1790875114382,
+      "version": "4.1.0"
+    },
+    "reference-count": 42,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2018-01-01T00:00:00Z",
+          "timestamp": 1514764800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2018-01-01T00:00:00Z",
+          "timestamp": 1514764800000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2018-01-01T00:00:00Z",
+          "timestamp": 1514764800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2018-01-01T00:00:00Z",
+          "timestamp": 1514764800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "NSF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "IIS-1350879"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IIS-1350879"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100005073",
+        "name": "Agency for Defense Development of Korea",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "UD140073ID"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "UD140073ID"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100005073",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Robot. Autom. Lett."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/lra.2017.2729659",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2017-07-20T18:09:21Z",
+      "timestamp": 1500574161000
+    },
+    "page": "60-67",
+    "source": "Crossref",
+    "is-referenced-by-count": 145,
+    "title": [
+      "Linear Matrix Inequalities for Physically Consistent Inertial Parameter Identification: A Statistical Perspective on the Mass Distribution"
+    ],
+    "prefix": "10.1109",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Patrick M.",
+        "family": "Wensing",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sangbae",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jean-Jacques E.",
+        "family": "Slotine",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jappmathmech.2008.03.007"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0094-114X(95)00100-D"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G000457"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2006.876908"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRA.2002.1019463"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-6911(89)90058-3"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.3607699"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Robot arm dynamics and control",
+        "author": "bejczy",
+        "year": "1974"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4615-4381-7_16"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/6.2017-1902"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2015.2481282"
+      },
+      {
+        "key": "ref40",
+        "first-page": "81",
+        "author": "yoshikawa",
+        "year": "2003",
+        "journal-title": "DYNAMICS"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364913495932"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2016.2558190"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364913514870"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2016.7759801"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/027836498600500306"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.1991.261353"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/70.631234"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15607/RSS.2006.II.032"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2013.2246163"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611970777"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2013.6631008"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511804441"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2010.2043757"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2015.7353843"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4899-7560-7"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364913519834"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-015-9476-6"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-015-9479-3"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2007.900639"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2016.2640183"
+      },
+      {
+        "key": "ref1",
+        "first-page": "249",
+        "article-title": "Multiobjective\n control with frictional contacts",
+        "author": "abe",
+        "year": "2007",
+        "journal-title": "Proc 2007 ACM SIGGRAPH/Eurograph Symp Comput Animation"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACC.2000.879552"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/027836498700600303"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMECH.2005.844703"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10107-002-0349-3"
+      },
+      {
+        "key": "ref24",
+        "author": "ioannou",
+        "year": "2012",
+        "journal-title": "Robust Adaptive Control"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10107-006-0085-1"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2011.5979903"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfa.2009.09.015"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00207178608933564"
+      }
+    ],
+    "container-title": [
+      "IEEE Robotics and Automation Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://ieeexplore.ieee.org/ielaam/7083369/8013191/7987066-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7083369/8013191/07987066.pdf?arnumber=7987066",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2022-04-08T18:54:54Z",
+      "timestamp": 1649444094000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7987066/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/lra.2017.2729659",
+    "relation": {},
+    "ISSN": [
+      "2377-3766",
+      "2377-3774"
+    ],
+    "issn-type": [
+      {
+        "value": "2377-3766",
+        "type": "electronic"
+      },
+      {
+        "value": "2377-3774",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    }
+  }
+}

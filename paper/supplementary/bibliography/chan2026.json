@@ -1,0 +1,971 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T15:52:56Z",
+      "timestamp": 1792857176717,
+      "version": "4.5.0"
+    },
+    "reference-count": 55,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100017649",
+        "name": "Hong Kong Government",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100017649",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001839",
+        "name": "University Grants Committee",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PolyU15201423"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PolyU15201423"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001839",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "72301229"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "72301229"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004377",
+        "name": "Hong Kong Polytechnic University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004377",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011650",
+        "name": "Research Institute for Sustainable Urban Development, Hong Kong Polytechnic University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011650",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002920",
+        "name": "Research Grants Council, University Grants Committee",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002920",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ast.2025.111460",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2025-12-10T08:12:14Z",
+      "timestamp": 1765354334000
+    },
+    "page": "111460",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "special_numbering": "C",
+    "title": [
+      "Time-optimal motion planning of cable-suspended payload quadcopters using spatial reformulation"
+    ],
+    "prefix": "10.1016",
+    "volume": "169",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3451-0725",
+        "authenticated-orcid": false,
+        "given": "Y.Y.",
+        "family": "Chan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-2882-1767",
+        "authenticated-orcid": false,
+        "given": "Yunxiang",
+        "family": "Shu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3356-2889",
+        "authenticated-orcid": false,
+        "given": "Wen-Hua",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4959-0502",
+        "authenticated-orcid": false,
+        "given": "Kam K.H.",
+        "family": "Ng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111460_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/drones8020035",
+        "article-title": "Review of aerial transportation of suspended-cable payloads with quadrotors",
+        "volume": "8",
+        "author": "Estevez",
+        "year": "2024",
+        "journal-title": "Drones"
+      },
+      {
+        "issue": "19",
+        "key": "10.1016/j.ast.2025.111460_bib0002",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/sciadv.adn6642",
+        "article-title": "Powerful UAV manipulation via bioinspired self-adaptive soft self-contained gripper",
+        "volume": "10",
+        "author": "Guo",
+        "year": "2024",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ast.2025.111460_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "6669",
+        "DOI": "10.1109/TIE.2019.2938493",
+        "article-title": "An online trajectory planning approach for a quadrotor UAV with a slung payload",
+        "volume": "67",
+        "author": "Xian",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111460_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "499",
+        "DOI": "10.1007/s10514-022-10035-y",
+        "article-title": "Aggressive maneuvers for a quadrotor-slung-load system through fast trajectory generation and tracking",
+        "volume": "46",
+        "author": "Yu",
+        "year": "2022",
+        "journal-title": "Auton. Robots"
+      },
+      {
+        "issue": "56",
+        "key": "10.1016/j.ast.2025.111460_bib0005",
+        "article-title": "Time-optimal planning for quadrotor waypoint flight",
+        "volume": "6",
+        "author": "Foehn",
+        "year": "2021",
+        "journal-title": "Sci. Rob."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111460_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "3529",
+        "DOI": "10.1109/LRA.2019.2927938",
+        "article-title": "Robust and efficient quadrotor trajectory generation for fast autonomous flight",
+        "volume": "4",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111460_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "5719",
+        "DOI": "10.1109/LRA.2022.3154013",
+        "article-title": "Minimum-time quadrotor waypoint flight in cluttered environments",
+        "volume": "7",
+        "author": "Penicka",
+        "year": "2022",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0008",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2019.07.032",
+        "article-title": "Nonlinear control of unmanned aerial vehicles with cable suspended payloads",
+        "volume": "93",
+        "author": "Godbole",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0009",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.automatica.2024.111516",
+        "article-title": "On dynamic performance control for a quadrotor-slung-load system with unknown load mass",
+        "volume": "162",
+        "author": "Kong",
+        "year": "2024",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.isatra.2020.06.006",
+        "article-title": "Backstepping-based adaptive control of a quadrotor UAV with guaranteed tracking performance",
+        "volume": "105",
+        "author": "Koksal",
+        "year": "2020",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0011",
+        "series-title": "2013 IEEE International Conference on Robotics and Automation",
+        "first-page": "4888",
+        "article-title": "Trajectory generation and control of a quadrotor with a cable-suspended load - A differentially-flat hybrid system",
+        "author": "Sreenath",
+        "year": "2013"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111460_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "3713",
+        "DOI": "10.1007/s11071-021-06464-6",
+        "article-title": "Vibration reduction of a quadrotor with a cable-suspended payload using polynomial trajectories",
+        "volume": "104",
+        "author": "Alkomy",
+        "year": "2021",
+        "journal-title": "Nonlinear Dyn."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0013",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.comcom.2024.108007",
+        "article-title": "Trajectory design of UAV-aided energy-harvesting relay networks in the terahertz band",
+        "volume": "230",
+        "author": "Sabuj",
+        "year": "2025",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0014",
+        "series-title": "2012 IEEE International Conference on Robotics and Automation",
+        "first-page": "2691",
+        "article-title": "Trajectory generation for swing-free maneuvers of a quadrotor with suspended payload: a dynamic programming approach",
+        "author": "Palunko",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.106887",
+        "article-title": "Trajectory planning of load transportation with multi-quadrotors based on reinforcement learning algorithm",
+        "volume": "116",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2025.111460_bib0016",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/drones9030194",
+        "article-title": "A survey on the key technologies of UAV motion planning",
+        "volume": "9",
+        "author": "Zhou",
+        "year": "2025",
+        "journal-title": "Drones"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0017",
+        "series-title": "2016 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "2958",
+        "article-title": "Trajectory generation for quadrotor based systems using numerical optimal control",
+        "author": "Geisert",
+        "year": "2016"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2025.111460_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "789",
+        "DOI": "10.1016/S0005-1098(99)00214-9",
+        "article-title": "Constrained model predictive control: stability and optimality",
+        "volume": "36",
+        "author": "Mayne",
+        "year": "2000",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "2478",
+        "DOI": "10.1109/TRO.2024.3381555",
+        "article-title": "Impact-aware planning and control for aerial robots with suspended payloads",
+        "volume": "40",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Rob."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111460_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "358",
+        "DOI": "10.1109/LRA.2024.3505816",
+        "article-title": "HPA-MPC: hybrid perception-aware nonlinear model predictive control for quadrotors with suspended loads",
+        "volume": "10",
+        "author": "Sarvaiya",
+        "year": "2025",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0021",
+        "series-title": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "first-page": "7674",
+        "article-title": "ALTRO: a fast solver for constrained trajectory optimization",
+        "author": "Howell",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0022",
+        "series-title": "Practical Methods for Optimal Control and Estimation Using Nonlinear Programming",
+        "author": "Betts",
+        "year": "2010"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111460_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1137/16M1062569",
+        "article-title": "An introduction to trajectory optimization: how to do your own direct collocation",
+        "volume": "59",
+        "author": "Kelly",
+        "year": "2017",
+        "journal-title": "SIAM Rev."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111460_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "3074",
+        "DOI": "10.1109/LRA.2020.2972845",
+        "article-title": "Differential flatness based path planning with direct collocation on hybrid modes for a quadrotor with a cable-suspended payload",
+        "volume": "5",
+        "author": "Zeng",
+        "year": "2020",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0025",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.trc.2023.104170",
+        "article-title": "Direct multiple shooting for computationally efficient train trajectory optimization",
+        "volume": "152",
+        "author": "Kouzoupis",
+        "year": "2023",
+        "journal-title": "Transp. Res. Part C Emerg. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0026",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2024.109404",
+        "article-title": "Collision-free trajectory planning for UAVs based on sequential convex programming",
+        "volume": "152",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0027",
+        "series-title": "2020 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "2682",
+        "article-title": "Robust vision-based obstacle avoidance for micro aerial vehicles in dynamic environments",
+        "author": "Lin",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0028",
+        "series-title": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "first-page": "6332",
+        "article-title": "Bubble planner: planning high-speed smooth quadrotor trajectories using receding corridors",
+        "author": "Ren",
+        "year": "2022"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111460_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "4762",
+        "DOI": "10.1109/LRA.2025.3553416",
+        "article-title": "Towards optimizing a convex cover of collision-free space for trajectory generation",
+        "volume": "10",
+        "author": "Wu",
+        "year": "2025",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0030",
+        "series-title": "2016 American Control Conference (ACC)",
+        "first-page": "2092",
+        "article-title": "Time-optimal motion planning for n-dof robot manipulators using a path-parametric system reformulation",
+        "author": "Verschueren",
+        "year": "2016"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111460_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "1335",
+        "DOI": "10.1109/TCST.2017.2709268",
+        "article-title": "Minimum-time trajectory generation for quadrotors in constrained environments",
+        "volume": "26",
+        "author": "Spedicato",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Control Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0032",
+        "series-title": "2022 IEEE 61st Conference on Decision and Control (CDC)",
+        "first-page": "2047",
+        "article-title": "Spatial motion planning with pythagorean hodograph curves",
+        "author": "Arrizabalaga",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0033",
+        "series-title": "2013 European Control Conference (ECC)",
+        "first-page": "4136",
+        "article-title": "An auto-generated nonlinear MPC algorithm for real-time obstacle avoidance of ground vehicles",
+        "author": "Frasch",
+        "year": "2013"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111460_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "14324",
+        "DOI": "10.1016/j.ifacol.2020.12.1376",
+        "article-title": "NMPC for racing using a singularity-free path-parametric model with obstacle avoidance",
+        "volume": "53",
+        "author": "Kloeser",
+        "year": "2020",
+        "journal-title": "IFAC PapersOnLine"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ast.2025.111460_bib0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/s24113281",
+        "article-title": "Time-optimal trajectory planning and tracking for autonomous vehicles",
+        "volume": "24",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0036",
+        "unstructured": "A.J. Hanson, H. Ma, Parallel transport approach to curve framing, Tech. Report 425, Computer Science Dept., Indiana University, 1995, 3\u20137."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2025.111460_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "4393",
+        "DOI": "10.1109/LRA.2021.3068554",
+        "article-title": "A gravity-referenced moving frame for vehicle path following applications in 3D",
+        "volume": "6",
+        "author": "Ram\u00edrez",
+        "year": "2021",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2025.111460_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "3340",
+        "DOI": "10.1109/TRO.2022.3173711",
+        "article-title": "Model predictive contouring control for time-optimal quadrotor flight",
+        "volume": "38",
+        "author": "Romero",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Rob."
+      },
+      {
+        "issue": "20",
+        "key": "10.1016/j.ast.2025.111460_bib0039",
+        "article-title": "MPCC++: model predictive contouring control for time-optimal flight with safety constraints",
+        "author": "Krinner",
+        "year": "2024",
+        "journal-title": "Rob. Sci. Syst. online Proc."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jairtraman.2020.101852",
+        "article-title": "An overview of current research and developments in urban air mobility\u2013Setting the scene for UAM introduction",
+        "volume": "87",
+        "author": "Straubinger",
+        "year": "2020",
+        "journal-title": "J. Air Transp. Manage."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "7798",
+        "DOI": "10.1109/TASE.2024.3470799",
+        "article-title": "A novel contouring control method based on optimal vector-referenced moving frame for 3D trajectory with zero curvature",
+        "volume": "22",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0042",
+        "series-title": "2015 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "6235",
+        "article-title": "PX4: a node-based multithreaded open source robotics framework for deeply embedded platforms",
+        "author": "Meier",
+        "year": "2015"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2025.111460_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.1080/00029890.1975.11993807",
+        "article-title": "There is more than one way to frame a curve",
+        "volume": "82",
+        "author": "Bishop",
+        "year": "1975",
+        "journal-title": "The Am. Math. Mon."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0044",
+        "series-title": "A Comprehensive Introduction to Differential Geometry",
+        "volume": "2",
+        "author": "Spivak",
+        "year": "1970"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0045",
+        "series-title": "AIAA Information Systems-AIAA Infotech@ Aerospace",
+        "first-page": "0223",
+        "article-title": "Concept of operations (ConOps) for traffic management of unmanned aircraft systems (TM-UAS) in urban environment",
+        "author": "Mohamed Salleh",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0046",
+        "series-title": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "first-page": "4827",
+        "article-title": "SCTOMP: spatially constrained time-optimal motion planning",
+        "author": "Arrizabalaga",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0047",
+        "series-title": "2017 IEEE Conference on Control Technology and Applications (CCTA)",
+        "first-page": "19",
+        "article-title": "Time-optimal nonlinear model predictive control with minimal control interventions",
+        "author": "Rosmann",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0048",
+        "series-title": "53rd IEEE Conference on Decision and Control",
+        "first-page": "2505",
+        "article-title": "Towards time-optimal race car driving using nonlinear MPC in real-time",
+        "author": "Verschueren",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0049",
+        "series-title": "2011 IEEE International Conference on Robotics and Automation",
+        "first-page": "2520",
+        "article-title": "Minimum snap trajectory generation and control for quadrotors",
+        "author": "Mellinger",
+        "year": "2011"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111460_bib0050",
+        "article-title": "Research on obstacle avoidance path planning of UAV in complex environments based on improved B\u00e9zier curve",
+        "volume": "13",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0051",
+        "unstructured": "M.P. Kamermans, A primer on B\u00e9zier curves, 2011\u20132020, https://pomax.github.io/bezierinfo/."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111460_bib0052",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s12532-018-0139-4",
+        "article-title": "CasADi \u2013 a software framework for nonlinear optimization and optimal control",
+        "volume": "11",
+        "author": "Andersson",
+        "year": "2019",
+        "journal-title": "Math. Program. Comput."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111460_bib0053",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1007/s12532-021-00208-8",
+        "article-title": "Acados-a modular open-source framework for fast embedded optimal control",
+        "volume": "14",
+        "author": "Verschueren",
+        "year": "2022",
+        "journal-title": "Math. Program. Comput."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111460_bib0054",
+        "doi-asserted-by": "crossref",
+        "first-page": "1714",
+        "DOI": "10.1137/S0363012902400713",
+        "article-title": "A real-time iteration scheme for nonlinear optimization in optimal feedback control",
+        "volume": "43",
+        "author": "Diehl",
+        "year": "2005",
+        "journal-title": "SIAM J. Control Optim."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111460_bib0055",
+        "series-title": "Proc. of the IEEE Intl. Conf. on Robotics and Automation (ICRA) Workshop on Open Source Robotics",
+        "article-title": "ROS: an open-source robot operating system",
+        "author": "Quigley",
+        "year": "2009"
+      }
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S127096382501524X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S127096382501524X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2026-03-19T06:54:18Z",
+      "timestamp": 1773903258000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S127096382501524X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 55,
+    "alternative-id": [
+      "S127096382501524X"
+    ],
+    "URL": "https://doi.org/10.1016/j.ast.2025.111460",
+    "relation": {},
+    "ISSN": [
+      "1270-9638"
+    ],
+    "issn-type": [
+      {
+        "value": "1270-9638",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Time-optimal motion planning of cable-suspended payload quadcopters using spatial reformulation",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Aerospace Science and Technology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ast.2025.111460",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 Elsevier Masson SAS. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "111460"
+  }
+}

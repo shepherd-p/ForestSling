@@ -1,0 +1,72 @@
+{
+  "peak": [
+    1.25,
+    1.15
+  ],
+  "drop": 0.0,
+  "duration": 20.0,
+  "p0": [
+    0.046062551156388555,
+    -0.02181943759908185,
+    3.039280072393018
+  ],
+  "R0": [
+    [
+      0.9859397625790874,
+      0.020519525918264975,
+      0.1658364665012086
+    ],
+    [
+      0.009952858329695339,
+      0.9834586660072705,
+      -0.18085904142811504
+    ],
+    [
+      -0.16680445190877355,
+      0.17996666722290117,
+      0.9694267757350707
+    ]
+  ],
+  "formation_mode": "height_cone",
+  "candidates": [
+    {
+      "duration": 20.0,
+      "accepted": true,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": true,
+          "gap": 0.04374176666398111,
+          "min_tension": 2.049854033635214,
+          "max_tension": 8.035979368280007,
+          "max_residual": 5.966373414667392e-14,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 972,
+            "iterations": 17,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ],
+            "linearized_endpoint_separation_m": null
+          },
+          "maximum_reference_speed_m_s": 1.0738420366102321,
+          "maximum_reference_acceleration_m_s2": 0.8588999847661591,
+          "dense_minimum_tension": 2.0518698130776123,
+          "dense_maximum_tension": 8.167483747254495,
+          "maximum_predicted_thrust_n": 15.408897003126366,
+          "maximum_predicted_tilt_deg": 27.853399780165145,
+          "dense_body_gap": 0.04209853302557243,
+          "dense_rope_hit": false
+        }
+      ]
+    }
+  ],
+  "initial_planning_wall_sec": 1.8565556999965338,
+  "pose_mode": "standard"
+}

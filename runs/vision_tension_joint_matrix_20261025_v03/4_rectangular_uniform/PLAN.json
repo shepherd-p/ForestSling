@@ -1,0 +1,80 @@
+{
+  "peak": [
+    1.25,
+    1.15
+  ],
+  "drop": 0.2,
+  "duration": 20.0,
+  "p0": [
+    0.04809270187960038,
+    -0.022731866321421604,
+    3.0462770260045597
+  ],
+  "R0": [
+    [
+      0.9852189997958966,
+      0.02315865549523045,
+      0.16972683676073413
+    ],
+    [
+      0.008243304878121926,
+      0.9832615854515079,
+      -0.18201291849772736
+    ],
+    [
+      -0.17110105308219664,
+      0.18072169557367798,
+      0.9685370918984868
+    ]
+  ],
+  "formation_mode": "height_cone",
+  "candidates": [
+    {
+      "duration": 20.0,
+      "accepted": true,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.6182980826952817,
+          "min_tension": 1.7249212196264685,
+          "max_tension": 8.200000000000077,
+          "max_residual": 1.5629573956196188e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.2,
+          "mode": "height_cone",
+          "feasible": true,
+          "gap": 0.044019462369799034,
+          "min_tension": 1.5536921130171848,
+          "max_tension": 8.200000000005206,
+          "max_residual": 4.5301031182496396e-13,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 972,
+            "iterations": 19,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ]
+          },
+          "maximum_reference_speed_m_s": 1.027974088559406,
+          "maximum_reference_acceleration_m_s2": 0.9846689745935511,
+          "dense_minimum_tension": 1.7262353458855595,
+          "dense_maximum_tension": 8.20181179502943,
+          "maximum_predicted_thrust_n": 16.025079946365995,
+          "maximum_predicted_tilt_deg": 31.589236822474202,
+          "dense_body_gap": 0.045488752887302586,
+          "dense_rope_hit": false
+        }
+      ]
+    }
+  ],
+  "initial_planning_wall_sec": 0.9386369999992894
+}

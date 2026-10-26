@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "research\\vision_tension_20261025\\vision_closed_loop.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "research\\vision_tension_20261025\\sixdof_transport.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "research\\vision_tension_20261025\\sixdof_identification.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\tension_transport.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\tension_passage.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\sixdof_sling.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\sling_rgbd.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\sling_trajectory.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\smooth_sling_forces.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\shape_tension_identification.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\inertial_identification.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\markerless.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\markerless_tracking.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\complex_sling_course.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    },
+    {
+      "file": "forestlab\\payload_rigging.py",
+      "snapshot_sha256_matches": true,
+      "current_source_matches": true
+    }
+  ]
+}

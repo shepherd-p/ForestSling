@@ -1,0 +1,226 @@
+[
+  {
+    "duration": 20.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1605395856446585,
+        "min_tension": 1.3768960278458136,
+        "max_tension": 7.8707497369647585,
+        "max_residual": 4.318676365834841e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.3531687945828437,
+        "min_tension": 1.3768960278458136,
+        "max_tension": 7.0338934263914865,
+        "max_residual": 4.59553653236104e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.080794360966622,
+        "min_tension": 1.3768960278458136,
+        "max_tension": 7.833922792138748,
+        "max_residual": 4.59553653236104e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.0683690483852835,
+        "min_tension": 1.3768960278458136,
+        "max_tension": 8.130277417150612,
+        "max_residual": 4.59553653236104e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.6956453719036269,
+        "min_tension": 1.3768960278458136,
+        "max_tension": 8.200000000060262,
+        "max_residual": 1.0044044624157885e-12,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 22.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1682516799472484,
+        "min_tension": 1.3768960278464544,
+        "max_tension": 7.8676993657374545,
+        "max_residual": 2.2624754223541114e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.3668857218963324,
+        "min_tension": 1.3768960278464544,
+        "max_tension": 7.046018309344406,
+        "max_residual": 1.1926010319874143e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.0866604960211526,
+        "min_tension": 1.3768960278464544,
+        "max_tension": 7.816688941067208,
+        "max_residual": 5.844590276319685e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.0679017968404099,
+        "min_tension": 1.3768960278464544,
+        "max_tension": 8.031540094695423,
+        "max_residual": 5.844590276319685e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.6893415185618457,
+        "min_tension": 1.3768960278464544,
+        "max_tension": 8.199999999985959,
+        "max_residual": 6.874317649001035e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 25.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1767119874154215,
+        "min_tension": 1.3768960278470426,
+        "max_tension": 7.864451956752252,
+        "max_residual": 1.8146867875128538e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.3819441269344401,
+        "min_tension": 1.3768960278470426,
+        "max_tension": 7.059121564474323,
+        "max_residual": 1.2698838026724498e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.0931763459210853,
+        "min_tension": 1.3768960278470426,
+        "max_tension": 7.798192221782437,
+        "max_residual": 2.091228528903798e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.0673760622166664,
+        "min_tension": 1.3768960278470426,
+        "max_tension": 7.925480084208416,
+        "max_residual": 2.0973797090679958e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.6825730881446699,
+        "min_tension": 1.3768960278470426,
+        "max_tension": 8.199999999999289,
+        "max_residual": 7.039064903894822e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      }
+    ]
+  },
+  {
+    "duration": 30.0,
+    "accepted": false,
+    "candidates": [
+      {
+        "drop": 0.0,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1857856900716475,
+        "min_tension": 1.3768960278465732,
+        "max_tension": 7.861078845404338,
+        "max_residual": 1.4395118266120472e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.2,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.398126106642457,
+        "min_tension": 1.3768960278465732,
+        "max_tension": 7.0729704943508915,
+        "max_residual": 3.799893359860851e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.4,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.1002555051372254,
+        "min_tension": 1.3768960278465732,
+        "max_tension": 7.778811260869064,
+        "max_residual": 3.2956175061234785e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.6,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 1.066797101693311,
+        "min_tension": 1.3768960278465732,
+        "max_tension": 7.814252268811509,
+        "max_residual": 3.2956175061234785e-14,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      },
+      {
+        "drop": 0.7,
+        "mode": "height_cone",
+        "feasible": false,
+        "gap": 0.6754838492071706,
+        "min_tension": 1.3768960278465732,
+        "max_tension": 8.19999999977458,
+        "max_residual": 3.559457265851565e-13,
+        "refusal": "Wrench allocation refused: PrimalInfeasible"
+      }
+    ]
+  }
+]

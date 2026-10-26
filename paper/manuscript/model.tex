@@ -1,0 +1,61 @@
+\section{Transport model and problem formulation}
+\subsection{Payload geometry and attachment coordinates}
+Consider $N\in\{3,4\}$ quadrotors carrying a rigid payload through $N$ individually attached cables. Let $p\in\R^3$ and $R\in\SO$ denote the position and orientation of a reference frame fixed to the scanned object. This frame is determined geometrically and need not coincide with the CoM. Let $b_i$ be the calibrated attachment coordinate in this frame, $x_i$ the aircraft cable endpoint, and $\mathcal{S}$ the reconstructed payload surface. The world attachment is
+\begin{equation}
+ a_i=p+Rb_i,\qquad d_i=x_i-a_i,\qquad q_i=\frac{d_i}{\norm{d_i}}.
+ \label{eq:attachments}
+\end{equation}
+With tension $T_i\geq0$, the cable force acting on the payload is $f_i=T_iq_i$. Noncollinear attachment geometry is required. Installed attachment coordinates are supplied by rigging calibration; they are not inferred from the object's geometric centroid.
+
+The environment is represented by oriented obstacle boxes $\mathcal{O}_j$. Collision evaluation considers the transformed surface $p+R\mathcal{S}$, each aircraft envelope and each complete cable segment $[a_i,x_i]$. The forked payload retains its open bays and protrusions in the collision model. A convex envelope is used separately for inertial support, as described in Section~\ref{sec:identification}.
+
+\subsection{Rigid-body inertial parameters}
+Let $m$ be the payload mass, $c$ its body-frame CoM coordinate and $J_O$ its inertia about the scan origin. The ten linear inertial parameters are
+\begin{equation}
+ \theta=\begin{bmatrix}m&h^T&j^T\end{bmatrix}^{T},\quad h=mc,
+ \label{eq:theta}
+\end{equation}
+where $j$ contains the six independent entries of the symmetric matrix $J_O$. The inertia about the CoM is
+\begin{equation}
+ J_C=J_O-m\big(\norm{c}^{2}I-cc^T\big).
+ \label{eq:parallel}
+\end{equation}
+Let $v=\dot p$, $\omega$ and $\alpha=\dot\omega$ be world-frame linear velocity, angular velocity and angular acceleration, and let $g=[0,0,-9.81]^T$ m/s$^2$. The cable wrench required about the scan origin satisfies
+\begin{align}
+ F&=m(\ddot p-g)+(\sk{\alpha}+\sk{\omega}^{2})Rh,\label{eq:force}\\
+ \tau_O&=\sk{Rh}(\ddot p-g)+RJ_OR^T\alpha
+                 +\omega\times(RJ_OR^T\omega).\label{eq:moment}
+\end{align}
+Consequently $w=[F^T,\tau_O^T]^T=Y_d(R,\omega,\ddot p,\alpha)\theta$ is linear in $\theta$. For stacked cable forces $f=[f_1^T,\ldots,f_N^T]^T$, the same wrench is
+\begin{equation}
+ G(R)f=w,\quad
+ G(R)=\begin{bmatrix} I&\cdots&I\\\sk{Rb_1}&\cdots&\sk{Rb_N}\end{bmatrix}.
+ \label{eq:wrenchmap}
+\end{equation}
+The translation--rotation coupling in Eqs.~\eqref{eq:force}--\eqref{eq:moment} is retained during both identification and planning. In particular, a CoM offset produces a moment even during low-acceleration translation.
+
+\subsection{Compliant cables and aircraft dynamics}
+The cables are modeled as unilateral spring--damper elements with rest length $\ell_0$, stiffness $k_c$ and axial damping $d_c$. With $\delta_i=\norm{d_i}-\ell_0$,
+\begin{equation}
+ T_i=\begin{cases}
+ \max(0,k_c\delta_i+d_c\dot\delta_i),&\delta_i>0,\\
+ 0,&\delta_i\leq0.
+ \end{cases}
+ \label{eq:cable}
+\end{equation}
+This law applies equal and opposite forces to the load and aircraft. The aircraft translational dynamics take the form
+\begin{equation}
+ m_u\ddot p_i=u_i-f_i+m_ug-d_v\dot p_i,
+ \label{eq:uav}
+\end{equation}
+where $u_i$ is the rotor-generated thrust vector. Each aircraft has a free rotational state, and motor-site forces generate the corresponding body moments. A first-order motor response filters each thrust command before it acts on the body. The physical integration therefore includes cable stretch, aircraft attitude response and motor lag.
+
+\subsection{Planning objective}
+Let $p_r(t;\eta)$ and $R_r(t;\eta)$ define an aperture-conditioned reference family, where $\eta$ selects the lowering and duration candidate. The problem is to find a smooth force sequence satisfying Eq.~\eqref{eq:wrenchmap}, cable loading limits and aperture conditions, and to convert that sequence into realizable aircraft endpoints. The complete endpoint and payload trajectories must satisfy the selected geometry and actuation checks. This finite candidate formulation specifies the motion family explicitly; obstacle geometry, attachment calibration and the acquired surface are inputs to the planner.
+
+The coupling can be seen from the quasi-static endpoint map
+\begin{equation}
+ x_i=a_i+\left(\ell_0+\frac{\norm{f_i}}{k_c}\right)\frac{f_i}{\norm{f_i}}.
+ \label{eq:endpointmap}
+\end{equation}
+Changing $\hat\theta$ changes the wrench in Eq.~\eqref{eq:wrenchmap}, the admissible $f_i$, and the endpoint $x_i$. Thus internal mass information influences the spatial formation even for an unchanged external shape and payload reference.

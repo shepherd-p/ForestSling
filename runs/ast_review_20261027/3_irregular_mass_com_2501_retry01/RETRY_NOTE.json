@@ -1,0 +1,5 @@
+{
+  "original": "3_irregular_mass_com_2501",
+  "purpose": "Diagnostic acquisition retry after image-age abort; original attempt retained",
+  "first_attempt_statistical_replacement": false
+}

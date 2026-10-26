@@ -1,0 +1,340 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T21:24:40Z",
+      "timestamp": 1792877080227,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 26,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319673608",
+        "type": "print"
+      },
+      {
+        "value": "9783319673615",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              3
+            ]
+          ],
+          "date-time": "2017-11-03T00:00:00Z",
+          "timestamp": 1509667200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-67361-5_40",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2017-11-02T03:48:31Z",
+      "timestamp": 1509594511000
+    },
+    "page": "621-635",
+    "source": "Crossref",
+    "is-referenced-by-count": 1654,
+    "title": [
+      "AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Shital",
+        "family": "Shah",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Debadeepta",
+        "family": "Dey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Lovett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ashish",
+        "family": "Kapoor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "40_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kober, J., Bagnell, J.A., Peters, J.: Reinforcement learning in robotics: a survey. Int. J. Rob. Res. 32(11), 1238–1274 (2013). https://doi.org/10.1177/0278364913495721",
+        "DOI": "10.1177/0278364913495721"
+      },
+      {
+        "key": "40_CR2",
+        "unstructured": "Bagnell, J.A.: An invitation to imitation. Technical Report, CMU ROBOTICS INST (2015)"
+      },
+      {
+        "key": "40_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weiss, K., Khoshgoftaar, T.M., Wang, D.: A survey of transfer learning. J. Big Data 3(1), 9 (2016). https://doi.org/10.1186/s40537-016-0043-6",
+        "DOI": "10.1186/s40537-016-0043-6"
+      },
+      {
+        "key": "40_CR4",
+        "unstructured": "Shah, S., Dey, D., Lovett, C., Kapoor, A.: Airsim open source platform at github. https://github.com/Microsoft/AirSim (2017)"
+      },
+      {
+        "key": "40_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koenig, N., Howard, A.: Design and use paradigms for gazebo, an open-source multi-robot simulator. In: IROS (2004)",
+        "DOI": "10.1109/IROS.2004.1389727"
+      },
+      {
+        "key": "40_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meyer, J., Sendobry, A., Kohlbrecher, S., Klingauf, U., Von Stryk, O.: Comprehensive simulation of quadrotor uavs using ros and gazebo. In: SIMPAR, pp. 400–411. Springer (2012)",
+        "DOI": "10.1007/978-3-642-34327-8_36"
+      },
+      {
+        "key": "40_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Furrer, F., Burri, M., Achtelik, M., Siegwart, R.: Rotorsa modular gazebo mav simulator framework. In: Robot Operating System (ROS), pp. 595–625. Springer (2016)",
+        "DOI": "10.1007/978-3-319-26054-9_23"
+      },
+      {
+        "key": "40_CR8",
+        "unstructured": "Babushkin, A.: Jmavsim. https://pixhawk.org/dev/hil/jmavsim"
+      },
+      {
+        "key": "40_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meier, L., Tanskanen, P., Fraundorfer, F., Pollefeys, M.: Pixhawk: A system for autonomous flight using onboard computer vision. In: ICRA, pp. 2992–2997. IEEE (2011)",
+        "DOI": "10.1109/ICRA.2011.5980229"
+      },
+      {
+        "key": "40_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jackson, J., Ellingson, G., McLain, T.: Rosflight: a lightweight, inexpensive mav research and development tool. In: ICUAS, pp. 758–762 (2016). https://doi.org/10.1109/ICUAS.2016.7502584",
+        "DOI": "10.1109/ICUAS.2016.7502584"
+      },
+      {
+        "key": "40_CR11",
+        "unstructured": "Hackflight: Simple quadcopter flight control firmware and simulator for c++ hackers. https://github.com/simondlevy/hackflight"
+      },
+      {
+        "key": "40_CR12",
+        "unstructured": "Karis, B., Games, E.: Real shading in unreal engine 4. In: Proceedings Physically Based Shading Theory Practice (2013)"
+      },
+      {
+        "key": "40_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moore, H.: Creating assets for the open world demo (2015)",
+        "DOI": "10.2175/193864715819539588"
+      },
+      {
+        "key": "40_CR14",
+        "unstructured": "Brandt, J., Deters, R., Ananda, G., Selig, M.: Uiuc propeller database, university of illinois at urbana-champaign. http://m-selig.ae.illinois.edu/props/propDB.html (2015)"
+      },
+      {
+        "key": "40_CR15",
+        "unstructured": "Tapley, B., Ries, J., Bettadpur, S., Chambers, D., Cheng, M., Condi, F., Poole, S.: The ggm03 mean earth gravity model from grace. In: American Geophysical Union, G42A-03 (2007)"
+      },
+      {
+        "key": "40_CR16",
+        "unstructured": "Chulliat, A., Macmillan, S., Alken, P., Beggan, C., Nair, M., Hamilton, B., Woods, A., Ridley, V., Maus, S., Thomson, A.: The US/UK world magnetic model for 2015–2020 (2015). https://doi.org/10.7289/V5TB14V7"
+      },
+      {
+        "key": "40_CR17",
+        "unstructured": "Lanza, R., Meloni, A.: The Earth’s Magnetism: An Introduction for Geologists. Springer Science & Business Media (2006)"
+      },
+      {
+        "key": "40_CR18",
+        "unstructured": "Stull, R.: Practical Meteorology: An Algebra-based Survey of Atmospheric Science. University of British Columbia (2015)"
+      },
+      {
+        "key": "40_CR19",
+        "unstructured": "Braeunig, R.: Atmospheric models. http://www.braeunig.us/space/atmmodel.htm (2014)"
+      },
+      {
+        "key": "40_CR20",
+        "unstructured": "Taylor, J.: Classical Mechanics. University Science Books (2005)"
+      },
+      {
+        "key": "40_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nakayama, Y., Boucher, R.: Introduction to Fluid Mechanics. Butterworth-Heinemann (1998)",
+        "DOI": "10.1016/B978-034067649-3/50003-8"
+      },
+      {
+        "key": "40_CR22",
+        "unstructured": "Herman, R.: A first course in differential equations for scientists and engineers. http://people.uncw.edu/hermanr/mat361/ODEBook/ (2017)"
+      },
+      {
+        "key": "40_CR23",
+        "unstructured": "Hecker, C.: Physics, Part 3: Collision Response. Game Developer Magazine (1997)"
+      },
+      {
+        "key": "40_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sabatini, A.M., Genovese, V.: A stochastic approach to noise modeling for barometric altimeters. Sensors (Basel, Switzerland) 13(11), 15,692–15,707 (2013)",
+        "DOI": "10.3390/s131115692"
+      },
+      {
+        "key": "40_CR25",
+        "unstructured": "Burch D., B.T.: Mariner’s Pressure Atlas: Worldwide Mean Sea Level Pressures and Standard Deviations for Weather Analysis. Starpath School of Navigation (2014)"
+      },
+      {
+        "key": "40_CR26",
+        "unstructured": "Woodman, O.J.: An introduction to inertial navigation. Technical Report UCAM-CL-TR-696, University of Cambridge, Computer Laboratory (2007)"
+      }
+    ],
+    "container-title": [
+      "Springer Proceedings in Advanced Robotics",
+      "Field and Service Robotics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-67361-5_40",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2022-08-06T00:02:30Z",
+      "timestamp": 1659744150000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-319-67361-5_40"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          3
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783319673608",
+      "9783319673615"
+    ],
+    "references-count": 26,
+    "URL": "https://doi.org/10.1007/978-3-319-67361-5_40",
+    "relation": {},
+    "ISSN": [
+      "2511-1256",
+      "2511-1264"
+    ],
+    "issn-type": [
+      {
+        "value": "2511-1256",
+        "type": "print"
+      },
+      {
+        "value": "2511-1264",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          3
+        ]
+      ]
+    }
+  }
+}

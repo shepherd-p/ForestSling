@@ -1,0 +1,40 @@
+{
+  "uncertainty_scope": "Observation-space sensitivity on archived image-derived pose records, not repeated flights or pixel-level occlusion tests",
+  "seeds": [
+    27100,
+    27101,
+    27102,
+    27103,
+    27104,
+    27105,
+    27106,
+    27107,
+    27108,
+    27109,
+    27110,
+    27111,
+    27112,
+    27113,
+    27114,
+    27115,
+    27116,
+    27117,
+    27118,
+    27119
+  ],
+  "pose_noise_m": 0.002,
+  "rotation_noise_deg": 0.15,
+  "tension_std_N": 0.02,
+  "tension_bias_std_N": 0.02,
+  "extrinsic_translation_std_m": 0.003,
+  "extrinsic_rotation_std_deg": 0.1,
+  "dropout_probability": 0.2,
+  "rationale": "Declared synthetic sensitivity ranges, not hardware-calibrated specifications",
+  "holdout": "Complete transport-only integral windows excluded from the preparation fit",
+  "regularization": [
+    1e-10,
+    1e-08,
+    1e-06,
+    0.0001
+  ]
+}

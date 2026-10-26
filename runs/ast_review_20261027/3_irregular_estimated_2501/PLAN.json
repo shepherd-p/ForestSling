@@ -1,0 +1,187 @@
+{
+  "peak": [
+    1.25,
+    1.15
+  ],
+  "drop": 0.7,
+  "duration": 22.0,
+  "p0": [
+    0.0853963703046352,
+    0.008221149174780742,
+    3.0204152167832827
+  ],
+  "R0": [
+    [
+      0.980640435621174,
+      -0.007071390248585333,
+      0.1956893749405545
+    ],
+    [
+      0.047016215959508605,
+      0.9786170931008539,
+      -0.20024500125490452
+    ],
+    [
+      -0.1900889567058567,
+      0.20556891917475476,
+      0.9600039624958681
+    ]
+  ],
+  "formation_mode": "height_cone",
+  "candidates": [
+    {
+      "duration": 20.0,
+      "accepted": false,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 1.2063208871631148,
+          "min_tension": 1.7711407773667251,
+          "max_tension": 7.292747087146283,
+          "max_residual": 2.1944223572048974e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.2,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 1.3438828918957273,
+          "min_tension": 1.7711407773667251,
+          "max_tension": 6.484108391583841,
+          "max_residual": 2.1983018368239963e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.4,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.16384675156539086,
+          "min_tension": 1.7711407773667251,
+          "max_tension": 8.142016444597362,
+          "max_residual": 1.5284285152060815e-12,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.6,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.06366194179900841,
+          "min_tension": 1.5303626292398123,
+          "max_tension": 8.105553269090922,
+          "max_residual": 2.350093102995384e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.7,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.05749026904411558,
+          "min_tension": 1.50416488526533,
+          "max_tension": 7.32610318839813,
+          "max_residual": 5.688276850429667e-13,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 729,
+            "iterations": 18,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ],
+            "linearized_endpoint_separation_m": null
+          },
+          "maximum_reference_speed_m_s": 1.100223619678733,
+          "maximum_reference_acceleration_m_s2": 2.694144072963704,
+          "dense_minimum_tension": 1.5419009836890472,
+          "dense_maximum_tension": 7.354284667301049,
+          "maximum_predicted_thrust_n": 16.940191235120462,
+          "maximum_predicted_tilt_deg": 22.800436429426473
+        }
+      ]
+    },
+    {
+      "duration": 22.0,
+      "accepted": true,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 1.206409359802437,
+          "min_tension": 1.771140777367569,
+          "max_tension": 7.2982228521423735,
+          "max_residual": 1.5576141654694224e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.2,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 1.3439246325158973,
+          "min_tension": 1.771140777367569,
+          "max_tension": 6.4694056026463285,
+          "max_residual": 1.5576141654694224e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.4,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.1629258179907841,
+          "min_tension": 1.771140777367569,
+          "max_tension": 8.145554599345584,
+          "max_residual": 4.022449042397391e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.6,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.06360783166811779,
+          "min_tension": 1.531010133663758,
+          "max_tension": 8.099145791846905,
+          "max_residual": 2.830530505644771e-13,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.7,
+          "mode": "height_cone",
+          "feasible": true,
+          "gap": 0.05742899173595106,
+          "min_tension": 1.504369727286454,
+          "max_tension": 7.203252758039817,
+          "max_residual": 3.736283939460944e-13,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 729,
+            "iterations": 18,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ],
+            "linearized_endpoint_separation_m": null
+          },
+          "maximum_reference_speed_m_s": 1.007777980225516,
+          "maximum_reference_acceleration_m_s2": 1.9190454487134847,
+          "dense_minimum_tension": 1.5302249555796796,
+          "dense_maximum_tension": 7.22330585927055,
+          "maximum_predicted_thrust_n": 16.728790817622496,
+          "maximum_predicted_tilt_deg": 20.650410955028075,
+          "dense_body_gap": 0.07135243900115473,
+          "dense_rope_hit": false
+        }
+      ]
+    }
+  ],
+  "initial_planning_wall_sec": 3.478897799999686,
+  "pose_mode": "standard"
+}

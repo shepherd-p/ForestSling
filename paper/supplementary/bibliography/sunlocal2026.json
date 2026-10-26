@@ -1,0 +1,908 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2026-10-02T17:14:09Z",
+      "timestamp": 1790961249810,
+      "version": "4.1.0"
+    },
+    "reference-count": 50,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100007129",
+        "name": "Shandong Province Natural Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZR2022MF297"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ZR2022MF297"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ast.2026.111670",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2026-01-29T07:47:38Z",
+      "timestamp": 1769672858000
+    },
+    "page": "111670",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Local obstacle avoidance and trajectory tracking control of multi-quadrotor cooperative transportation system"
+    ],
+    "prefix": "10.1016",
+    "volume": "173",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-4131-2193",
+        "authenticated-orcid": false,
+        "given": "Jinlong",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9563-8415",
+        "authenticated-orcid": false,
+        "given": "Dong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-1570-8501",
+        "authenticated-orcid": false,
+        "given": "Yuhe",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-2847-9166",
+        "authenticated-orcid": false,
+        "given": "Lingzhi",
+        "family": "Mu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-9893-094X",
+        "authenticated-orcid": false,
+        "given": "Guangyu",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2021.114854",
+        "article-title": "Applications and research avenues for drone-based models in logistics: a classification and review",
+        "volume": "177",
+        "author": "Moshref-Javadi",
+        "year": "2021",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2026.111670_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.3390/drones6060147",
+        "article-title": "Towards the unmanned aerial vehicles (UAVs): a comprehensive review",
+        "volume": "6",
+        "author": "Mohsan",
+        "year": "2022",
+        "journal-title": "Drones"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0003",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.trd.2023.103831",
+        "article-title": "Drones in last-mile delivery: a systematic review on efficiency, accessibility, and sustainability",
+        "volume": "123",
+        "author": "Garg",
+        "year": "2023",
+        "journal-title": "Transport. Res. Part D-Transport. Environ."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0004",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.105731",
+        "article-title": "Accurate control of aerial manipulators outdoors. a reliable and self-coordinated nonlinear approach",
+        "volume": "99",
+        "author": "Acosta",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "11833",
+        "DOI": "10.1109/TITS.2024.3380668",
+        "article-title": "Robust cooperative transportation of a cable-suspended payload by multiple quadrotors featuring cable-reconfiguration capabilities",
+        "volume": "25",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.106887",
+        "article-title": "Trajectory planning of load transportation with multi-quadrotors based on reinforcement learning algorithm",
+        "volume": "116",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ejcon.2025.101406",
+        "article-title": "Aerial payload transportation with energy-efficient flexible formation control of quadrotors",
+        "volume": "86",
+        "author": "Doakhan",
+        "year": "2025",
+        "journal-title": "Eur. J. Control"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2026.111670_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "4324",
+        "DOI": "10.1016/j.ifacol.2017.08.861",
+        "article-title": "Using iterative LQR to control two quadrotors transporting a cable-suspended load",
+        "volume": "50",
+        "author": "Alothman",
+        "year": "2017",
+        "journal-title": "IFAC-PapersOnLine"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2026.111670_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "653",
+        "DOI": "10.1109/TCST.2018.2876518",
+        "article-title": "Cooperative control for multirotors transporting an unknown suspended load under environmental disturbances",
+        "volume": "28",
+        "author": "Klausen",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Control Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3901/JME.2018.04.001",
+        "article-title": "Udwadia\u2013Kalaba equation for constrained mechanical systems: formulation and applications",
+        "volume": "31",
+        "author": "Zhao",
+        "year": "2018",
+        "journal-title": "Chin. J. Mech. Eng."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1016/j.ast.2018.10.027",
+        "article-title": "Cooperative load transportation using multiple UAVs",
+        "volume": "84",
+        "author": "Shirani",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "3449",
+        "DOI": "10.1109/TASE.2023.3279827",
+        "article-title": "Formation planning for tethered multirotor UAV cooperative transportation with unknown payload and cable length",
+        "volume": "21",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "36015",
+        "DOI": "10.1109/ACCESS.2023.3265957",
+        "article-title": "A novel neural network-based robust adaptive formation control for cooperative transport of a payload using two underactuated quadcopters",
+        "volume": "11",
+        "author": "Ccari",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.106917",
+        "article-title": "Planning and distributed control for cooperative transportation of a non-uniform slung-load by multiple quadrotors",
+        "volume": "117",
+        "author": "Arab",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ejcon.2024.100979",
+        "article-title": "A backward control approach for aerial load transportation using a multi-agent system",
+        "volume": "77",
+        "author": "Abbasi",
+        "year": "2024",
+        "journal-title": "Eur. J. Control"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0016",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2024.109078",
+        "article-title": "Coordinated transportation of tethered multi-rotor UAVs based on differential graphical games",
+        "volume": "148",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0017",
+        "article-title": "Improved prescribed performance control for multi-quadrotor payload transport under unknown disturbances",
+        "volume": "195",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Robot. Auton. Syst."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ast.2026.111670_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "7619",
+        "DOI": "10.1109/JIOT.2021.3135578",
+        "article-title": "Anti-collision technologies for unmanned aerial vehicles: recent advances and future trends",
+        "volume": "9",
+        "author": "Wei",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0019",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2023.110797",
+        "article-title": "Path planning for dual UAVs cooperative suspension transport based on artificial potential field-A* algorithm",
+        "volume": "277",
+        "author": "Rao",
+        "year": "2023",
+        "journal-title": "Knowl. Based Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1109/LCSYS.2021.3087339",
+        "article-title": "Multi-UAV collaborative transportation of payloads with obstacle avoidance",
+        "volume": "6",
+        "author": "Hegde",
+        "year": "2021",
+        "journal-title": "IEEE Control Syst. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.robot.2017.02.007",
+        "article-title": "Model predictive control for a multi-body slung-load system",
+        "volume": "92",
+        "author": "Tartaglione",
+        "year": "2017",
+        "journal-title": "Robot. Auton. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "8800",
+        "DOI": "10.1109/TAES.2023.3312065",
+        "article-title": "Integrated decision control approach for cooperative safety-critical payload transport in a cluttered environment",
+        "volume": "59",
+        "author": "Rao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1016/j.isatra.2019.01.019",
+        "article-title": "Avoiding obstacles in cooperative load transportation",
+        "volume": "91",
+        "author": "Pizetta",
+        "year": "2019",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "62247",
+        "DOI": "10.1109/ACCESS.2022.3179984",
+        "article-title": "Control of multiple-UAV conveying slung load with obstacle avoidance",
+        "volume": "10",
+        "author": "Aliyu",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0025",
+        "series-title": "CCDC 2023",
+        "first-page": "2058",
+        "article-title": "Path planning of mobile robot based on improved artificial potential field method",
+        "author": "Ni",
+        "year": "2023"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2026.111670_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "3368",
+        "DOI": "10.1109/LRA.2020.2975956",
+        "article-title": "Scalable cooperative transport of cable-suspended loads with UAVs using distributed trajectory optimization",
+        "volume": "5",
+        "author": "Jackson",
+        "year": "2020",
+        "journal-title": "IEEE Robot. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0027",
+        "series-title": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems. (IROS)",
+        "first-page": "12750",
+        "article-title": "Kinodynamic motion planning for a team of multirotors transporting a cable-suspended payload in cluttered environments",
+        "author": "Wahba",
+        "year": "2024"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ast.2026.111670_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "1536",
+        "DOI": "10.3390/e25111536",
+        "article-title": "Distributed formation control of multi-robot systems with path navigation via complex laplacian",
+        "volume": "25",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "122197",
+        "DOI": "10.1109/ACCESS.2022.3222031",
+        "article-title": "Controller design and disturbance rejection of multi-quadcopters for cable suspended payload transportation using virtual structure",
+        "volume": "10",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2026.111670_bib0030",
+        "first-page": "1291",
+        "article-title": "Predefined-time observer-based nonsingular sliding-mode control for spacecraft attitude stabilization",
+        "volume": "71",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Circuits Syst. II-Express Briefs"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2026.111670_bib0031",
+        "first-page": "2089",
+        "article-title": "Predefined-time disturbance estimation and attitude control for rigid spacecraft",
+        "volume": "71",
+        "author": "Xie",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Circuits Syst. II-Express Briefs"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1109/TAES.2024.3446754",
+        "article-title": "Disturbance observer-based singularity-free predefined-time attitude tracking control of quadrotors: theory and experiments",
+        "volume": "61",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2026.111670_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "2709",
+        "DOI": "10.1016/j.jfranklin.2019.01.041",
+        "article-title": "Predefined-time robust contour tracking of robotic manipulators",
+        "volume": "356",
+        "author": "Mu\u00f1oz-V\u00e1zquez",
+        "year": "2019",
+        "journal-title": "J. Frankl. Inst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2026.111670_bib0034",
+        "first-page": "189",
+        "article-title": "Adaptive nonsingular predefined-time control for attitude stabilization of rigid spacecrafts",
+        "volume": "69",
+        "author": "Xie",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Circuits Syst. II-Express Briefs"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "742",
+        "DOI": "10.1016/j.ins.2020.08.059",
+        "article-title": "Fixed-time adaptive fuzzy control for uncertain strict feedback switched systems",
+        "volume": "546",
+        "author": "Sun",
+        "year": "2021",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ast.2026.111670_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "5032",
+        "DOI": "10.1109/TCYB.2020.3024672",
+        "article-title": "Neural-network-based adaptive singularity-free fixed-time attitude tracking control for spacecrafts",
+        "volume": "51",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE T. Cybern."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0037",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.106673",
+        "article-title": "Analysis, planning and control for cooperative transportation of tethered multi-rotor UAVs",
+        "volume": "113",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0038",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.107139",
+        "article-title": "Fault-tolerant control for the multi-quadrotors cooperative transportation under suspension failures",
+        "volume": "119",
+        "author": "Liang",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2026.111670_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "633",
+        "DOI": "10.1115/1.1519277",
+        "article-title": "Stabilization of Baumgarte\u2019s method using the Runge-Kutta approach",
+        "volume": "124",
+        "author": "Lin",
+        "year": "2002",
+        "journal-title": "J. Mech. Des."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0040",
+        "series-title": "Distributed Consensus in Multi-Vehicle Cooperative Control",
+        "volume": "27",
+        "author": "Ren",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.isatra.2018.07.029",
+        "article-title": "Sliding mode approach for formation control of multi-agent systems with unknown nonlinear interactions",
+        "volume": "80",
+        "author": "Abdoli",
+        "year": "2018",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2026.111670_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "2751",
+        "DOI": "10.1109/TSMC.2019.2916839",
+        "article-title": "Attitude exponential stabilization control of rigid bodies via disturbance observer",
+        "volume": "51",
+        "author": "Xiao",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Syst. Man Cybern. Syst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2026.111670_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "160",
+        "DOI": "10.1109/TIE.2012.2183841",
+        "article-title": "Sliding-mode control for systems with mismatched uncertainties via a disturbance observer",
+        "volume": "60",
+        "author": "Yang",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ast.2026.111670_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.3390/drones6080206",
+        "article-title": "Adaptive neural-network-based nonsingular fast terminal sliding mode control for a quadrotor with dynamic uncertainty",
+        "volume": "6",
+        "author": "Huang",
+        "year": "2022",
+        "journal-title": "Drones"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.oceaneng.2021.108709",
+        "article-title": "The hybrid path planning algorithm based on improved A* and artificial potential field for unmanned surface vehicle formations",
+        "volume": "223",
+        "author": "Sang",
+        "year": "2021",
+        "journal-title": "Ocean Eng."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1016/j.conengprac.2018.07.013",
+        "article-title": "Energy-aware leader-follower tracking control for electric-powered multi-agent systems",
+        "volume": "79",
+        "author": "Yan",
+        "year": "2018",
+        "journal-title": "Control Eng. Prac."
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0047",
+        "series-title": "International Conference on Unmanned Aircraft Systems ICUAS",
+        "first-page": "647",
+        "article-title": "Energy-aware model predictive control with obstacle avoidance",
+        "author": "Santos",
+        "year": "2021"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ast.2026.111670_bib0048",
+        "first-page": "3321",
+        "article-title": "Predefined-time attitude stabilization of receiver aircraft in aerial refueling",
+        "volume": "68",
+        "author": "Wu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Circuits Syst. II-Express Briefs"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "364",
+        "DOI": "10.1016/j.neucom.2021.06.018",
+        "article-title": "Prescribed finite-time adaptive neural trajectory tracking control of quadrotor via output feedback",
+        "volume": "458",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.ast.2026.111670_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.apm.2022.11.011",
+        "article-title": "Predefined-time formation control of the quadrotor-UAV cluster\u2019 position system",
+        "volume": "116",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Appl. Math. Model."
+      }
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963826000519?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963826000519?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2026-05-04T11:49:42Z",
+      "timestamp": 1777895382000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1270963826000519"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "references-count": 50,
+    "alternative-id": [
+      "S1270963826000519"
+    ],
+    "URL": "https://doi.org/10.1016/j.ast.2026.111670",
+    "relation": {},
+    "ISSN": [
+      "1270-9638"
+    ],
+    "issn-type": [
+      {
+        "value": "1270-9638",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Local obstacle avoidance and trajectory tracking control of multi-quadrotor cooperative transportation system",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Aerospace Science and Technology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ast.2026.111670",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2026 Elsevier Masson SAS. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "111670"
+  }
+}

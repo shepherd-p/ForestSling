@@ -1,0 +1,822 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2026-07-28T09:36:42Z",
+      "timestamp": 1785231402673,
+      "version": "3.55.0"
+    },
+    "reference-count": 43,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62273187"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62273187"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ast.2025.111343",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2025-12-06T07:50:35Z",
+      "timestamp": 1765007435000
+    },
+    "page": "111343",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "special_numbering": "C",
+    "title": [
+      "Time-optimal gap-traversal trajectory planning scheme for collaborative aerial transportation systems: An experimental research"
+    ],
+    "prefix": "10.1016",
+    "volume": "169",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2269-8425",
+        "authenticated-orcid": false,
+        "given": "Yi",
+        "family": "Chai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-5015-6561",
+        "authenticated-orcid": false,
+        "given": "Zhichao",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7311-8005",
+        "authenticated-orcid": false,
+        "given": "Xiao",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9664-4534",
+        "authenticated-orcid": false,
+        "given": "Jianda",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2022.107494",
+        "article-title": "Fault-tolerant cooperative navigation of networked UAV swarms for forest fire monitoring",
+        "volume": "123",
+        "author": "Hu",
+        "year": "2022",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111343_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1109/MCOM.001.1900687",
+        "article-title": "Opportunistic UAV utilization in wireless networks: motivations, applications, and challenges",
+        "volume": "58",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1016/j.ast.2018.10.017",
+        "article-title": "Fuzzy multiobjective cooperative surveillance of multiple UAVs based on distributed predictive control for unknown ground moving target in urban environment",
+        "volume": "84",
+        "author": "Hu",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111343_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1870",
+        "DOI": "10.1109/TIE.2022.3163526",
+        "article-title": "Unmanned aerial transportation system with flexible connection between the quadrotor and the payload: modeling, controller design, and experimental validation",
+        "volume": "70",
+        "author": "Liang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ast.2025.111343_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "14224",
+        "DOI": "10.1109/TITS.2022.3155072",
+        "article-title": "The drone scheduling problem: a systematic state-of-the-art review",
+        "volume": "23",
+        "author": "Pasha",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2022.107510",
+        "article-title": "Energy-based nonlinear adaptive control for collaborative transportation systems",
+        "volume": "126",
+        "author": "Chai",
+        "year": "2022",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2019.105671",
+        "article-title": "Reinforcement learning based two-level control framework of UAV swarm for cooperative persistent surveillance in an unknown urban area",
+        "volume": "98",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "1\u20132",
+        "key": "10.1016/j.ast.2025.111343_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1002/rob.20226",
+        "article-title": "Supporting wilderness search and rescue using a camera-equipped mini UAV",
+        "volume": "25",
+        "author": "Goodrich",
+        "year": "2008",
+        "journal-title": "J. Field Rob."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2025.111343_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1109/MRA.2012.2206473",
+        "article-title": "Toward a fully autonomous UAV: research platform for indoor and outdoor urban search and rescue",
+        "volume": "19",
+        "author": "Tomic",
+        "year": "2012",
+        "journal-title": "IEEE Rob. Autom. Mag."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ast.2025.111343_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1183",
+        "DOI": "10.1007/s10514-020-09926-9",
+        "article-title": "Multi-objective drone path planning for search and rescue with quality-of-service requirements",
+        "volume": "44",
+        "author": "Hayat",
+        "year": "2020",
+        "journal-title": "Auton. Robots"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0011",
+        "series-title": "2016 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "1398",
+        "article-title": "Fast nonlinear model predictive control for unified trajectory optimization and tracking",
+        "author": "Neunert",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0012",
+        "series-title": "2017 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "5774",
+        "article-title": "Aggressive quadrotor flight through narrow gaps with onboard sensing and computing using active vision",
+        "author": "Falanga",
+        "year": "2017"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111343_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1109/LRA.2018.2885575",
+        "article-title": "The foldable drone: a morphing quadrotor that can squeeze and fly",
+        "volume": "4",
+        "author": "Falanga",
+        "year": "2019",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111343_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "541",
+        "DOI": "10.1089/soro.2017.0120",
+        "article-title": "Agile robotic fliers: a morphing-based approach",
+        "volume": "5",
+        "author": "Riviere",
+        "year": "2018",
+        "journal-title": "Soft Rob."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "6845",
+        "DOI": "10.1109/LRA.2020.3010460",
+        "article-title": "Tiltdrone: a fully-actuated tilting quadrotor platform",
+        "volume": "5",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "2126",
+        "DOI": "10.1109/LRA.2023.3245499",
+        "article-title": "Ring-Rotor: a novel retractable ring-Shaped quadrotor with aerial grasping and transportation capability",
+        "volume": "8",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "499",
+        "DOI": "10.1007/s10514-022-10035-y",
+        "article-title": "Aggressive maneuvers for a quadrotor-slung-load system through fast trajectory generation and tracking",
+        "volume": "46",
+        "author": "Yu",
+        "year": "2022",
+        "journal-title": "Auton. Robots"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111343_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1007/s10846-019-01038-6",
+        "article-title": "Controlling a quadrotor carrying a cable-suspended load to pass through a window",
+        "volume": "98",
+        "author": "Guo",
+        "year": "2020",
+        "journal-title": "J. Intell. Rob. Syst."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111343_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "2701",
+        "DOI": "10.1109/TNNLS.2021.3107742",
+        "article-title": "Flying through a narrow gap using end-to-end deep reinforcement learning augmented with curriculum learning and sim2real",
+        "volume": "34",
+        "author": "Xiao",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ast.2025.111343_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "13838",
+        "DOI": "10.1109/TIE.2022.3144586",
+        "article-title": "Aggressive quadrotor flight using curiosity-Driven reinforcement learning",
+        "volume": "69",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0021",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "1889",
+        "article-title": "Trust region policy optimization",
+        "author": "Schulman",
+        "year": "2015"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "2114",
+        "DOI": "10.1109/TRO.2022.3141602",
+        "article-title": "Policy search for model predictive control with application to agile drone flight",
+        "volume": "38",
+        "author": "Song",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Rob."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0023",
+        "series-title": "2015 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "2216",
+        "article-title": "Mixed integer quadratic program trajectory generation for a quadrotor with a cable-suspended payload",
+        "author": "Tang",
+        "year": "2015"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2025.111343_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "1272",
+        "DOI": "10.3390/pr12061272",
+        "article-title": "A review of collaborative trajectory planning for multiple unmanned aerial vehicles",
+        "volume": "12",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Processes"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ast.2025.111343_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "10787",
+        "DOI": "10.1109/TMC.2024.3382913",
+        "article-title": "Collaborative reinforcement learning based unmanned aerial vehicle (UAV) trajectory design for 3D UAV tracking",
+        "volume": "23",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Mob. Comput."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2025.111343_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "6231",
+        "DOI": "10.1109/TNSE.2024.3481061",
+        "article-title": "Joint task allocation and trajectory optimization for multi-UAV collaborative air-ground edge computing",
+        "volume": "11",
+        "author": "Qin",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Network Sci. Eng."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ast.2025.111343_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "9391",
+        "DOI": "10.1109/JIOT.2024.3492953",
+        "article-title": "Resource allocation and trajectory optimization in multi-UAV collaborative vehicular networks: an extended multi-agent DRL approach",
+        "volume": "12",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2025.111343_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.23919/CSMS.2024.0013",
+        "article-title": "Multi-UAV collaborative trajectory planning for 3D terrain based on CS-GJO algorithm",
+        "volume": "4",
+        "author": "Lou",
+        "year": "2024",
+        "journal-title": "Complex Syst. Model. Simul."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0029",
+        "first-page": "1",
+        "article-title": "Multi-UAV collaborative trajectory optimization for asynchronous 3-D passive multitarget tracking",
+        "volume": "61",
+        "author": "Dai",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0030",
+        "series-title": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+        "first-page": "8401",
+        "article-title": "Optimal collaborative transportation for under-capacitated vehicle routing problems using aerial drone swarms",
+        "author": "Sreedhara",
+        "year": "2024"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "2340",
+        "DOI": "10.1109/TMECH.2023.3234511",
+        "article-title": "Cooperative transportation of UAVs without inter-UAV communication",
+        "volume": "28",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "IEEE/ASME Trans. Mechatron."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0032",
+        "series-title": "2021 IEEE International Conference on Real-time Computing and Robotics (RCAR)",
+        "first-page": "769",
+        "article-title": "Trajectory planning for collaborative transportation by tethered multi-UAVs",
+        "author": "Pei",
+        "year": "2021"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ast.2025.111343_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.3390/drones8110637",
+        "article-title": "A unified collision avoidance trajectory planning with dual variables for collaborative aerial transportation systems",
+        "volume": "8",
+        "author": "Chai",
+        "year": "2024",
+        "journal-title": "Drones"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0034",
+        "series-title": "Robotics: Science and Systems",
+        "article-title": "Dynamics, control and planning for cooperative manipulation of payloads suspended by cables from multiple quadrotor robots",
+        "author": "Sreenath",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2021.106673",
+        "article-title": "Analysis, planning and control for cooperative transportation of tethered multi-rotor UAVs",
+        "volume": "113",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0036",
+        "series-title": "An Introduction to Numerical Analysis",
+        "author": "Atkinson",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.ast.2025.111343_bib0037",
+        "series-title": "Numerical Methods for Ordinary Differential Equations",
+        "author": "Butcher",
+        "year": "2016"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2025.111343_bib0038",
+        "first-page": "493",
+        "article-title": "A comparative study on numerical solution of initial value problem by using Euler\u2019s method, modified Euler\u2019s method and runge\u2013kutta method",
+        "volume": "9",
+        "author": "Kamruzzaman",
+        "year": "2018",
+        "journal-title": "J. Comput. Math. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111343_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1177/0278364913506757",
+        "article-title": "A direct method for trajectory optimization of rigid bodies through contact",
+        "volume": "33",
+        "author": "Posa",
+        "year": "2014",
+        "journal-title": "Int. J. Rob. Res."
+      },
+      {
+        "issue": "56",
+        "key": "10.1016/j.ast.2025.111343_bib0040",
+        "article-title": "Time-optimal planning for quadrotor waypoint flight",
+        "volume": "6",
+        "author": "Foehn",
+        "year": "2021",
+        "journal-title": "Sci. Rob."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2025.111343_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s12532-018-0139-4",
+        "article-title": "CasADi \u2013 a software framework for nonlinear optimization and optimal control",
+        "volume": "11",
+        "author": "Andersson",
+        "year": "2019",
+        "journal-title": "Math. Program. Comput."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2025.111343_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "3074",
+        "DOI": "10.1109/LRA.2020.2972845",
+        "article-title": "Differential flatness based path planning with direct collocation on hybrid modes for a quadrotor with a cable-suspended payload",
+        "volume": "5",
+        "author": "Zeng",
+        "year": "2020",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ast.2025.111343_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "3529",
+        "DOI": "10.1109/LRA.2019.2927938",
+        "article-title": "Robust and efficient quadrotor trajectory generation for fast autonomous flight",
+        "volume": "4",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "IEEE Rob. Autom. Lett."
+      }
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963825014075?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963825014075?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2026-03-19T01:54:54Z",
+      "timestamp": 1773885294000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1270963825014075"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "references-count": 43,
+    "alternative-id": [
+      "S1270963825014075"
+    ],
+    "URL": "https://doi.org/10.1016/j.ast.2025.111343",
+    "relation": {},
+    "ISSN": [
+      "1270-9638"
+    ],
+    "issn-type": [
+      {
+        "value": "1270-9638",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Time-optimal gap-traversal trajectory planning scheme for collaborative aerial transportation systems: An experimental research",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Aerospace Science and Technology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ast.2025.111343",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 Elsevier Masson SAS. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "111343"
+  }
+}

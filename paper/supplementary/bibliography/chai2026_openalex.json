@@ -1,0 +1,704 @@
+{
+  "id": "https://openalex.org/W4417072558",
+  "doi": "https://doi.org/10.1016/j.ast.2025.111343",
+  "title": "Time-optimal gap-traversal trajectory planning scheme for collaborative aerial transportation systems: An experimental research",
+  "display_name": "Time-optimal gap-traversal trajectory planning scheme for collaborative aerial transportation systems: An experimental research",
+  "publication_year": 2025,
+  "publication_date": "2025-12-06",
+  "ids": {
+    "openalex": "https://openalex.org/W4417072558",
+    "doi": "https://doi.org/10.1016/j.ast.2025.111343"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.ast.2025.111343",
+    "doi": "https://doi.org/10.1016/j.ast.2025.111343",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ast.2025.111343",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S61564791",
+      "display_name": "Aerospace Science and Technology",
+      "issn_l": "1270-9638",
+      "issn": [
+        "1270-9638",
+        "1626-3219"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Aerospace Science and Technology",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100909366",
+        "display_name": "Yi Chai",
+        "orcid": "https://orcid.org/0000-0002-2269-8425",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2269-8425"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205237279",
+          "display_name": "Nankai University",
+          "ror": "https://ror.org/01y1kjr75",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi Chai",
+      "raw_affiliation_strings": [
+        "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+        "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2269-8425",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049478658",
+        "display_name": "Zhichao Yang",
+        "orcid": "https://orcid.org/0009-0004-5015-6561",
+        "observed_orcids": [
+          "https://orcid.org/0009-0004-5015-6561"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205237279",
+          "display_name": "Nankai University",
+          "ror": "https://ror.org/01y1kjr75",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhichao Yang",
+      "raw_affiliation_strings": [
+        "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+        "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0004-5015-6561",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101575076",
+        "display_name": "Xiao Liang",
+        "orcid": "https://orcid.org/0000-0002-7311-8005",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7311-8005"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205237279",
+          "display_name": "Nankai University",
+          "ror": "https://ror.org/01y1kjr75",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Xiao Liang",
+      "raw_affiliation_strings": [
+        "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+        "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7311-8005",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5100439073",
+        "display_name": "Jianda Han",
+        "orcid": "https://orcid.org/0000-0002-9664-4534",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9664-4534"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205237279",
+          "display_name": "Nankai University",
+          "ror": "https://ror.org/01y1kjr75",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jianda Han",
+      "raw_affiliation_strings": [
+        "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+        "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9664-4534",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Intelligence Technology and Robotic Systems, Shenzhen Research Institute of Nankai University, Shenzhen, 518083, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, 300350, China",
+          "institution_ids": [
+            "https://openalex.org/I205237279"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5101575076"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I205237279"
+  ],
+  "apc_list": {
+    "value": 4360,
+    "currency": "USD",
+    "value_usd": 4360
+  },
+  "apc_paid": null,
+  "fwci": 1.7899,
+  "has_fulltext": false,
+  "cited_by_count": 4,
+  "citation_normalized_percentile": {
+    "value": 0.86678335,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "169",
+    "issue": null,
+    "first_page": "111343",
+    "last_page": "111343"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10249",
+    "display_name": "Distributed Control Multi-Agent Systems",
+    "score": 0.6547999978065491,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1705",
+      "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10249",
+      "display_name": "Distributed Control Multi-Agent Systems",
+      "score": 0.6547999978065491,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10586",
+      "display_name": "Robotic Path Planning Algorithms",
+      "score": 0.21549999713897705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12719",
+      "display_name": "Aerospace Engineering and Energy Systems",
+      "score": 0.029100000858306885,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/time-optimal-trajectory-planning",
+      "display_name": "time-optimal trajectory planning",
+      "score": 0.8420000076293945
+    },
+    {
+      "id": "https://openalex.org/keywords/multi-uav-formation",
+      "display_name": "multi-UAV formation",
+      "score": 0.7059999704360962
+    },
+    {
+      "id": "https://openalex.org/keywords/nonlinear-model-predictive-control",
+      "display_name": "nonlinear model predictive control",
+      "score": 0.7519999742507935
+    },
+    {
+      "id": "https://openalex.org/keywords/transportation-logistics",
+      "display_name": "transport logistics",
+      "score": 0.527999997138977
+    },
+    {
+      "id": "https://openalex.org/keywords/disaster-relief",
+      "display_name": "disaster relief",
+      "score": 0.9959999918937683
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781271823",
+      "wikidata": "https://www.wikidata.org/wiki/Q138081",
+      "display_name": "Waypoint",
+      "level": 2,
+      "score": 0.8931000232696533
+    },
+    {
+      "id": "https://openalex.org/C134066672",
+      "wikidata": "https://www.wikidata.org/wiki/Q1424639",
+      "display_name": "Payload (computing)",
+      "level": 3,
+      "score": 0.8274000287055969
+    },
+    {
+      "id": "https://openalex.org/C13662910",
+      "wikidata": "https://www.wikidata.org/wiki/Q193139",
+      "display_name": "Trajectory",
+      "level": 2,
+      "score": 0.7281000018119812
+    },
+    {
+      "id": "https://openalex.org/C140745168",
+      "wikidata": "https://www.wikidata.org/wiki/Q1210082",
+      "display_name": "Tree traversal",
+      "level": 2,
+      "score": 0.5329999923706055
+    },
+    {
+      "id": "https://openalex.org/C105339364",
+      "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+      "display_name": "Software deployment",
+      "level": 2,
+      "score": 0.5184000134468079
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.516700029373169
+    },
+    {
+      "id": "https://openalex.org/C77618280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1155772",
+      "display_name": "Scheme (mathematics)",
+      "level": 2,
+      "score": 0.5156999826431274
+    },
+    {
+      "id": "https://openalex.org/C173246807",
+      "wikidata": "https://www.wikidata.org/wiki/Q7833062",
+      "display_name": "Trajectory optimization",
+      "level": 3,
+      "score": 0.5022000074386597
+    },
+    {
+      "id": "https://openalex.org/C44154836",
+      "wikidata": "https://www.wikidata.org/wiki/Q45045",
+      "display_name": "Simulation",
+      "level": 1,
+      "score": 0.4018000066280365
+    },
+    {
+      "id": "https://openalex.org/C79403827",
+      "wikidata": "https://www.wikidata.org/wiki/Q3988",
+      "display_name": "Real-time computing",
+      "level": 1,
+      "score": 0.39649999141693115
+    },
+    {
+      "id": "https://openalex.org/C98045186",
+      "wikidata": "https://www.wikidata.org/wiki/Q205663",
+      "display_name": "Process (computing)",
+      "level": 2,
+      "score": 0.3903000056743622
+    },
+    {
+      "id": "https://openalex.org/C81074085",
+      "wikidata": "https://www.wikidata.org/wiki/Q366872",
+      "display_name": "Motion planning",
+      "level": 3,
+      "score": 0.3391999900341034
+    },
+    {
+      "id": "https://openalex.org/C201995342",
+      "wikidata": "https://www.wikidata.org/wiki/Q682496",
+      "display_name": "Systems engineering",
+      "level": 1,
+      "score": 0.33719998598098755
+    },
+    {
+      "id": "https://openalex.org/C59519942",
+      "wikidata": "https://www.wikidata.org/wiki/Q650665",
+      "display_name": "Drone",
+      "level": 2,
+      "score": 0.3278999924659729
+    },
+    {
+      "id": "https://openalex.org/C146978453",
+      "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+      "display_name": "Aerospace engineering",
+      "level": 1,
+      "score": 0.32760000228881836
+    },
+    {
+      "id": "https://openalex.org/C137836250",
+      "wikidata": "https://www.wikidata.org/wiki/Q984063",
+      "display_name": "Optimization problem",
+      "level": 2,
+      "score": 0.32199999690055847
+    },
+    {
+      "id": "https://openalex.org/C120314980",
+      "wikidata": "https://www.wikidata.org/wiki/Q180634",
+      "display_name": "Distributed computing",
+      "level": 1,
+      "score": 0.3140000104904175
+    },
+    {
+      "id": "https://openalex.org/C2742236",
+      "wikidata": "https://www.wikidata.org/wiki/Q924713",
+      "display_name": "Efficient energy use",
+      "level": 2,
+      "score": 0.3043000102043152
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.3019999861717224
+    },
+    {
+      "id": "https://openalex.org/C2777735758",
+      "wikidata": "https://www.wikidata.org/wiki/Q817765",
+      "display_name": "Path (computing)",
+      "level": 2,
+      "score": 0.2946999967098236
+    },
+    {
+      "id": "https://openalex.org/C2780864053",
+      "wikidata": "https://www.wikidata.org/wiki/Q5147495",
+      "display_name": "Collision avoidance",
+      "level": 3,
+      "score": 0.2922999858856201
+    },
+    {
+      "id": "https://openalex.org/C2780451532",
+      "wikidata": "https://www.wikidata.org/wiki/Q759676",
+      "display_name": "Task (project management)",
+      "level": 2,
+      "score": 0.28940001130104065
+    },
+    {
+      "id": "https://openalex.org/C101468663",
+      "wikidata": "https://www.wikidata.org/wiki/Q1620158",
+      "display_name": "Modular design",
+      "level": 2,
+      "score": 0.2888000011444092
+    },
+    {
+      "id": "https://openalex.org/C133731056",
+      "wikidata": "https://www.wikidata.org/wiki/Q4917288",
+      "display_name": "Control engineering",
+      "level": 1,
+      "score": 0.2858999967575073
+    },
+    {
+      "id": "https://openalex.org/C20556612",
+      "wikidata": "https://www.wikidata.org/wiki/Q4469374",
+      "display_name": "Volume (thermodynamics)",
+      "level": 2,
+      "score": 0.2702000141143799
+    },
+    {
+      "id": "https://openalex.org/C48209547",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331104",
+      "display_name": "Controllability",
+      "level": 2,
+      "score": 0.2687000036239624
+    },
+    {
+      "id": "https://openalex.org/C111030470",
+      "wikidata": "https://www.wikidata.org/wiki/Q1430460",
+      "display_name": "Curse of dimensionality",
+      "level": 2,
+      "score": 0.26570001244544983
+    },
+    {
+      "id": "https://openalex.org/C31395832",
+      "wikidata": "https://www.wikidata.org/wiki/Q1318674",
+      "display_name": "Testbed",
+      "level": 2,
+      "score": 0.2506999969482422
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.ast.2025.111343",
+      "doi": "https://doi.org/10.1016/j.ast.2025.111343",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ast.2025.111343",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S61564791",
+        "display_name": "Aerospace Science and Technology",
+        "issn_l": "1270-9638",
+        "issn": [
+          "1270-9638",
+          "1626-3219"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Aerospace Science and Technology",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.8970999717712402,
+      "id": "https://metadata.un.org/sdg/9",
+      "display_name": "Industry, innovation and infrastructure"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G7051720999",
+      "display_name": null,
+      "funder_award_id": "62273187",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W2060794637",
+    "https://openalex.org/W2101340954",
+    "https://openalex.org/W2107664584",
+    "https://openalex.org/W2806599356",
+    "https://openalex.org/W2842089854",
+    "https://openalex.org/W2887130266",
+    "https://openalex.org/W2895832301",
+    "https://openalex.org/W2905560833",
+    "https://openalex.org/W2946236382",
+    "https://openalex.org/W2962787639",
+    "https://openalex.org/W2998573272",
+    "https://openalex.org/W3005922959",
+    "https://openalex.org/W3034825911",
+    "https://openalex.org/W3041521567",
+    "https://openalex.org/W3044963843",
+    "https://openalex.org/W3152096498",
+    "https://openalex.org/W3185165122",
+    "https://openalex.org/W3213243407",
+    "https://openalex.org/W4200630212",
+    "https://openalex.org/W4210434594",
+    "https://openalex.org/W4220849261",
+    "https://openalex.org/W4220973627",
+    "https://openalex.org/W4225797003",
+    "https://openalex.org/W4226085468",
+    "https://openalex.org/W4226409590",
+    "https://openalex.org/W4321609184",
+    "https://openalex.org/W4399850440",
+    "https://openalex.org/W4403420451",
+    "https://openalex.org/W4403826467"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-12-06T00:00:00"
+}

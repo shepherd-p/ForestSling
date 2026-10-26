@@ -1,0 +1,82 @@
+{
+  "peak": [
+    1.25,
+    1.15
+  ],
+  "drop": 0.2,
+  "duration": 20.0,
+  "p0": [
+    0.03937536465516224,
+    -0.020720588896338682,
+    3.0345262094668413
+  ],
+  "R0": [
+    [
+      0.9859566490250916,
+      0.018344196536078876,
+      0.16599089341482506
+    ],
+    [
+      0.011913958358252975,
+      0.9836899144598369,
+      -0.17947760246394914
+    ],
+    [
+      -0.16657594015776525,
+      0.17893474409240434,
+      0.9696570597469755
+    ]
+  ],
+  "formation_mode": "height_cone",
+  "candidates": [
+    {
+      "duration": 20.0,
+      "accepted": true,
+      "candidates": [
+        {
+          "drop": 0.0,
+          "mode": "height_cone",
+          "feasible": false,
+          "gap": 0.7934222222477896,
+          "min_tension": 1.5814538555254265,
+          "max_tension": 8.200000000119267,
+          "max_residual": 6.798672469160694e-12,
+          "refusal": "Wrench allocation refused: PrimalInfeasible"
+        },
+        {
+          "drop": 0.2,
+          "mode": "height_cone",
+          "feasible": true,
+          "gap": 0.059624447379644896,
+          "min_tension": 1.5625694644574788,
+          "max_tension": 8.20000000000949,
+          "max_residual": 6.473908882731141e-13,
+          "refusal": null,
+          "smooth_force_solver": {
+            "status": "Solved",
+            "variables": 972,
+            "iterations": 21,
+            "force_rate_bound_n_s": 8.0,
+            "force_second_difference_bound_n_s2": 25.0,
+            "minimum_vertical_force_n": 0.55,
+            "minimum_outward_prestress_n": [
+              0.85,
+              1.4
+            ],
+            "linearized_endpoint_separation_m": null
+          },
+          "maximum_reference_speed_m_s": 1.0118557974892306,
+          "maximum_reference_acceleration_m_s2": 0.8998010485023545,
+          "dense_minimum_tension": 1.6894144455686075,
+          "dense_maximum_tension": 8.201868379385141,
+          "maximum_predicted_thrust_n": 16.004058517812084,
+          "maximum_predicted_tilt_deg": 33.908970124093976,
+          "dense_body_gap": 0.060204573219315154,
+          "dense_rope_hit": false
+        }
+      ]
+    }
+  ],
+  "initial_planning_wall_sec": 2.0143698000028962,
+  "pose_mode": "standard"
+}

@@ -1,0 +1,762 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T15:53:04Z",
+      "timestamp": 1792857184494,
+      "version": "4.5.0"
+    },
+    "reference-count": 42,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ast.2021.106917",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2021-07-01T09:14:46Z",
+      "timestamp": 1625130886000
+    },
+    "page": "106917",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 51,
+    "special_numbering": "C",
+    "title": [
+      "Planning and distributed control for cooperative transportation of a non-uniform slung-load by multiple quadrotors"
+    ],
+    "prefix": "10.1016",
+    "volume": "117",
+    "author": [
+      {
+        "given": "Farhad",
+        "family": "Arab",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7185-9427",
+        "authenticated-orcid": false,
+        "given": "Farzad A.",
+        "family": "Shirazi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohammad Reza Hairi",
+        "family": "Yazdi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ast.2021.106917_br0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1286",
+        "DOI": "10.1109/JSYST.2016.2628774",
+        "article-title": "Novel multiagent model-predictive control performance indices for monitoring of a large-scale distributed water system",
+        "volume": "12",
+        "author": "Kordestani",
+        "year": "2018",
+        "journal-title": "IEEE Syst. J."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "737",
+        "DOI": "10.1016/j.ast.2019.01.053",
+        "article-title": "Adaptive fractional order sliding mode control for a quadrotor with a varying load",
+        "volume": "86",
+        "author": "Vahdanipour",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1016/j.robot.2018.06.012",
+        "article-title": "Aerial manipulation—a literature survey",
+        "volume": "107",
+        "author": "Khamseh",
+        "year": "2018",
+        "journal-title": "Robot. Auton. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2019.106548",
+        "article-title": "Model predictive control of three-axis gimbal system mounted on UAV for real-time target tracking under external disturbances",
+        "volume": "138",
+        "author": "Altan",
+        "year": "2020",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0050",
+        "series-title": "27th Iranian Conference on Electrical Engineering",
+        "article-title": "Cooperative transportation of a point mass with unknown weight by multiple quadrotors",
+        "author": "Arab",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1016/j.ast.2018.10.027",
+        "article-title": "Cooperative load transportation using multiple UAVs",
+        "volume": "84",
+        "author": "Shirani",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2021.106917_br0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1007/s10846-020-01195-z",
+        "article-title": "Aerial load transportation with multiple quadrotors based on a kinematic controller and a neural SMC dynamic compensation",
+        "volume": "100",
+        "author": "Rossomando",
+        "year": "2020",
+        "journal-title": "J. Intell. Robot. Syst., Theory Appl."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0080",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Altan, Ö. Aslan, R. Hacıoğlu, Real-time control based on NARX neural network of hexarotor UAV with load transporting system for path tracking, in: 2018 6th International Conference on Control Engineering &, Information Technology (CEIT), Istanbul, Turkey.",
+        "DOI": "10.1109/CEIT.2018.8751829"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "S28",
+        "DOI": "10.1097/TA.0000000000002221",
+        "article-title": "The promising future of drones in prehospital medical care and its application to battlefield medicine",
+        "volume": "87",
+        "author": "Braun",
+        "year": "2019",
+        "journal-title": "J. Trauma Acute Care Surg."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "719",
+        "DOI": "10.1007/s10846-019-01045-7",
+        "article-title": "Zoning a service area of unmanned aerial vehicles for package delivery services",
+        "volume": "97",
+        "author": "Sung",
+        "year": "2020",
+        "journal-title": "J. Intell. Robot. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1109/MCS.2014.2320359",
+        "article-title": "The flight assembled architecture installation, cooperative construction with flying machines",
+        "volume": "34",
+        "author": "Augugliaro",
+        "year": "2014",
+        "journal-title": "IEEE Control Syst. Mag."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.robot.2017.12.006",
+        "article-title": "A decentralized cooperative control scheme for a distributed space transportation system",
+        "volume": "101",
+        "author": "Meng",
+        "year": "2018",
+        "journal-title": "Robot. Auton. Syst."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ast.2021.106917_br0130",
+        "first-page": "417",
+        "article-title": "Autonomous load control and transportation using multiple quadrotors",
+        "volume": "17",
+        "author": "Dhiman",
+        "year": "2020",
+        "journal-title": "J. Aerosp. Inform. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1016/j.isatra.2019.01.019",
+        "article-title": "Avoiding obstacles in cooperative load transportation",
+        "volume": "91",
+        "author": "Pizetta",
+        "year": "2019",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ast.2021.106917_br0150",
+        "first-page": "2760",
+        "article-title": "Cooperative control of a gripped load by a team of quadrotors",
+        "volume": "26",
+        "author": "Sayyaadi",
+        "year": "2019",
+        "journal-title": "Sci. Iran."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0160",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.105826",
+        "article-title": "An intelligent cooperative mission planning scheme of UAV swarm in uncertain dynamic environment",
+        "volume": "100",
+        "author": "Zhen",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0170",
+        "first-page": "1",
+        "article-title": "Recent survey of large-scale systems: architectures, controller strategies, and industrial applications",
+        "author": "Kordestani",
+        "year": "2021",
+        "journal-title": "IEEE Syst. J."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0180",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sysconle.2020.104841",
+        "article-title": "Completely distributed formation control for networked quadrotors under switching communication topologies",
+        "volume": "147",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Syst. Control Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1016/j.isatra.2019.02.030",
+        "article-title": "Distributed adaptive neural networks leader-following formation control for quadrotors with directed switching topologies",
+        "volume": "93",
+        "author": "Jia",
+        "year": "2019",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "2155",
+        "DOI": "10.1002/asjc.1516",
+        "article-title": "Distributed adaptive event-triggered control for leader-following consensus of multi-agent systems",
+        "volume": "19",
+        "author": "You",
+        "year": "2017",
+        "journal-title": "Asian J. Control"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/j.neucom.2018.01.059",
+        "article-title": "Distributed leader-following consensus of nonlinear multi-agent systems with nonlinear input dynamics",
+        "volume": "286",
+        "author": "Shi",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "3096",
+        "DOI": "10.1109/TIE.2019.2913813",
+        "article-title": "Robust vision-based tube model predictive control of multiple mobile robots for leader-follower formation",
+        "volume": "67",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "1752",
+        "DOI": "10.1109/TCNS.2017.2756346",
+        "article-title": "Robustness of leader-follower networked dynamical systems",
+        "volume": "5",
+        "author": "Pirani",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Control Netw. Syst."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1016/j.neucom.2016.03.073",
+        "article-title": "Leader–follower consensus for multi-agent systems with three-layer network framework and dynamic interaction jointly connected topology",
+        "volume": "207",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "5717",
+        "DOI": "10.1002/rnc.4339",
+        "article-title": "Leader-following consensus of general linear fractional-order multiagent systems with input delay via event-triggered control",
+        "volume": "28",
+        "author": "Ye",
+        "year": "2018",
+        "journal-title": "Int. J. Robust Nonlinear Control"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1016/j.isatra.2019.04.036",
+        "article-title": "Distributed nonlinear H∞ control algorithm for multi-agent quadrotor formation flying",
+        "volume": "96",
+        "author": "Rekabi",
+        "year": "2020",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0270",
+        "series-title": "IEEE International Conference on Robotics and Automation (ICRA)",
+        "article-title": "Dynamic movement primitives for cooperative manipulation and synchronized motions",
+        "author": "Umlauft",
+        "year": "2014"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2021.106917_br0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "713",
+        "DOI": "10.1109/TCST.2018.2885682",
+        "article-title": "Robust cooperative manipulation without force/torque measurements: control design and experiments",
+        "volume": "28",
+        "author": "Verginis",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Control Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1007/s10514-010-9205-0",
+        "article-title": "Cooperative manipulation and transportation with aerial robots",
+        "volume": "30",
+        "author": "Michael",
+        "year": "2011",
+        "journal-title": "Auton. Robots"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0300",
+        "series-title": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)",
+        "article-title": "Cooperative impedance control for multiple UAVs with a robotic arm",
+        "author": "Caccavale",
+        "year": "2015"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ast.2021.106917_br0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "1020",
+        "DOI": "10.1177/0278364919854131",
+        "article-title": "Robust collaborative object transportation using multiple MAVs",
+        "volume": "38",
+        "author": "Tagliabue",
+        "year": "2019",
+        "journal-title": "Int. J. Robot. Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2021.106917_br0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1109/TASE.2016.2605707",
+        "article-title": "Planning and control for collision-free cooperative aerial transportation",
+        "volume": "15",
+        "author": "Lee",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ast.2021.106917_br0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "2780",
+        "DOI": "10.1109/TII.2017.2692270",
+        "article-title": "Constraint-based cooperative control of multiple aerial manipulators for handling an unknown payload",
+        "volume": "13",
+        "author": "Lee",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0340",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.106284",
+        "article-title": "On-board implementation and experimental validation of collaborative transportation of loads with multiple UAVs",
+        "volume": "107",
+        "author": "Bacelar",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0350",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.105995",
+        "article-title": "Quaternion-based nonlinear attitude control of quadrotor formations carrying a slung load",
+        "volume": "105",
+        "author": "Ariyibi",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2021.106917_br0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "653",
+        "DOI": "10.1109/TCST.2018.2876518",
+        "article-title": "Cooperative control for multirotors transporting an unknown suspended load under environmental disturbances",
+        "volume": "28",
+        "author": "Klausen",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Control Syst. Technol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2021.106917_br0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "2577",
+        "DOI": "10.1109/LRA.2018.2803811",
+        "article-title": "Aerial co-manipulation with cables: the role of internal force for equilibria, stability, and passivity",
+        "volume": "3",
+        "author": "Tognon",
+        "year": "2018",
+        "journal-title": "IEEE Robot. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0380",
+        "series-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "article-title": "Asymptotically-optimal path planning for manipulation using incremental sampling-based algorithms",
+        "author": "Perez",
+        "year": "2011"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ast.2021.106917_br0390",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/s18020571",
+        "article-title": "A method on dynamic path planning for robotic manipulator autonomous obstacle avoidance based on an improved RRT algorithm",
+        "volume": "18",
+        "author": "Wei",
+        "year": "2018",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.ast.2021.106917_br0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1002/rob.20327",
+        "article-title": "Guidance and nonlinear control system for autonomous flight of minirotorcraft unmanned aerial vehicles",
+        "volume": "27",
+        "author": "Kendoul",
+        "year": "2009",
+        "journal-title": "J. Field Robot."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ast.2021.106917_br0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1115/1.1459071",
+        "article-title": "What is the general form of the explicit equations of motion for constrained mechanical systems?",
+        "volume": "69",
+        "author": "Udwadia",
+        "year": "2002",
+        "journal-title": "J. Appl. Mech."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ast.2021.106917_br0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0045-7825(72)90018-7",
+        "article-title": "Stabilization of constraints and integrals of motion in dynamical systems",
+        "volume": "1",
+        "author": "Baumgarte",
+        "year": "1972",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      }
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963821004272?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1270963821004272?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2025-10-22T11:46:20Z",
+      "timestamp": 1761133580000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1270963821004272"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 42,
+    "alternative-id": [
+      "S1270963821004272"
+    ],
+    "URL": "https://doi.org/10.1016/j.ast.2021.106917",
+    "relation": {},
+    "ISSN": [
+      "1270-9638"
+    ],
+    "issn-type": [
+      {
+        "value": "1270-9638",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Planning and distributed control for cooperative transportation of a non-uniform slung-load by multiple quadrotors",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Aerospace Science and Technology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ast.2021.106917",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2021 Elsevier Masson SAS. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106917"
+  }
+}

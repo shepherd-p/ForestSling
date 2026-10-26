@@ -1,0 +1,287 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T20:15:29Z",
+      "timestamp": 1792786529168,
+      "version": "4.5.0"
+    },
+    "reference-count": 0,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Deutsche Forschungsgemeinschaft",
+        "id": [
+          {
+            "id": "https://ror.org/018mejw64",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/icra57385.2026.11696542",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T19:06:13Z",
+      "timestamp": 1791399973000
+    },
+    "page": "2013-2020",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "CrazyMARL: Decentralized Direct Motor Control Policies for Cooperative Aerial Transport of Cable-Suspended Payloads"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Viktor",
+        "family": "Lorentz",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Technische Universität Berlin",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Khaled",
+        "family": "Wahba",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Berlin",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sayantan",
+        "family": "Auddy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Berlin",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marc",
+        "family": "Toussaint",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Berlin",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Hönig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Berlin",
+            "place": [
+              "Berlin, Germany"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "event": {
+      "name": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+      "location": "Vienna, Austria",
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11695711/11695694/11696542.pdf?arnumber=11696542",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T19:25:17Z",
+      "timestamp": 1791487517000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11696542/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1109/icra57385.2026.11696542",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    }
+  }
+}

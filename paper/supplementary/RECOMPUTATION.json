@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "task_attempts": 10,
+  "completed_model_pairs": 1,
+  "source_files_checked": 111,
+  "records": [
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.03706363049273846,
+      "max_attitude_error_deg": 2.6374750988191185,
+      "control_model_com_error_m": 0.0013398117704775591,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform",
+      "transport_executed": false,
+      "control_model_com_error_m": 0.11530944765364892,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.04101642698960523,
+      "max_attitude_error_deg": 1.8512210993056593,
+      "control_model_com_error_m": 0.0021767245886563234,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform",
+      "transport_executed": false,
+      "control_model_com_error_m": 0.10334676395816604,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.026230198143451657,
+      "max_attitude_error_deg": 1.2941661726875313,
+      "control_model_com_error_m": 0.0006792021808133327,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform",
+      "transport_executed": false,
+      "control_model_com_error_m": 0.11674023826488682,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.027585932428800322,
+      "max_attitude_error_deg": 0.6628604844440823,
+      "control_model_com_error_m": 0.0003856383726086964,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform",
+      "transport_executed": true,
+      "max_position_error_m": 0.0819374149288366,
+      "max_attitude_error_deg": 22.048992295639714,
+      "control_model_com_error_m": 0.1027536142202246,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.04057895335952782,
+      "max_attitude_error_deg": 1.7332238402532583,
+      "control_model_com_error_m": 0.0002704534618793999,
+      "minimum_aircraft_separation_m": 0.9464074518036389,
+      "passed_recomputation": true
+    },
+    {
+      "case": "runs/large_pose_course_20261026_v01/4_forked_estimated",
+      "transport_executed": true,
+      "max_position_error_m": 0.03340707619253373,
+      "max_attitude_error_deg": 2.193523222865771,
+      "control_model_com_error_m": 0.0006582247776473272,
+      "minimum_aircraft_separation_m": 0.6403792628140182,
+      "passed_recomputation": true
+    }
+  ]
+}

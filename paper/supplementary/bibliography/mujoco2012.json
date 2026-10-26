@@ -1,0 +1,233 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T07:41:27Z",
+      "timestamp": 1792914087277,
+      "version": "4.5.0"
+    },
+    "reference-count": 13,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iros.2012.6386109",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2013-01-02T23:15:05Z",
+      "timestamp": 1357168505000
+    },
+    "page": "5026-5033",
+    "source": "Crossref",
+    "is-referenced-by-count": 3274,
+    "title": [
+      "MuJoCo: A physics engine for model-based control"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Emanuel",
+        "family": "Todorov",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tom",
+        "family": "Erez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuval",
+        "family": "Tassa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-17452-0_15"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1529282.1529543"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2012.6386181"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4899-7560-7"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1778765.1778810"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1409060.1409117"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3596711.3596785"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1097-0207(19960815)39:15<2673::AID-NME972>3.0.CO;2-I"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2012.6386025"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15607/RSS.2010.VI.022"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.2010.5509739"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2011.5979814"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BioRob.2012.6290710"
+      }
+    ],
+    "event": {
+      "name": "2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2012)",
+      "location": "Vilamoura-Algarve, Portugal",
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            10,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2012,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2012 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/6363628/6385431/06386109.pdf?arnumber=6386109",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T07:18:12Z",
+      "timestamp": 1792912692000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6386109/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    },
+    "references-count": 13,
+    "URL": "https://doi.org/10.1109/iros.2012.6386109",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    }
+  }
+}

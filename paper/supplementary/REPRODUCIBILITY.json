@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "comparison": "Primary outputs versus isolated S1 regeneration in a fresh pip environment",
+  "figures": 9,
+  "tables": 4,
+  "files": [
+    {
+      "file": "figures/fig01_overview.png",
+      "identical": true,
+      "sha256": "4d283d37b7ff579cc58e3f3f04abddd62401d39bd5e428ec01146e9a9a8834c6"
+    },
+    {
+      "file": "figures/fig02_framework.png",
+      "identical": true,
+      "sha256": "990179aea43ebc0217285a2adbdb4445356ca9e0805cebf2a63b705f1f61fcb6"
+    },
+    {
+      "file": "figures/fig03_identification.png",
+      "identical": true,
+      "sha256": "babe9e8c55c725a0d99342674c951130cc5b2b3d3aed63509ab6888066110d82"
+    },
+    {
+      "file": "figures/fig04_configurations.png",
+      "identical": true,
+      "sha256": "96d2c0b6fc4aa22b39e1182506d18fd8c228d6ada767e730d256d9f32d017fcf"
+    },
+    {
+      "file": "figures/fig05_tracking.png",
+      "identical": true,
+      "sha256": "0da92cdba2eff3a0792e5798775eaf30d59724593c1149a82428b11436547348"
+    },
+    {
+      "file": "figures/fig06_tensions.png",
+      "identical": true,
+      "sha256": "0da047bd0160e5ef74c0346f381dcc206885e7f691816f939b8dc5b2bfb5831e"
+    },
+    {
+      "file": "figures/fig07_course.png",
+      "identical": true,
+      "sha256": "511a6324fca9e7689306f1baf03f435e8f001f4e55c353700791c91ebd8501a2"
+    },
+    {
+      "file": "figures/fig08_course_dynamics.png",
+      "identical": true,
+      "sha256": "7777393308fab50ff2b568cc99ab0b4e61b014262fbba6667891f0a791a342df"
+    },
+    {
+      "file": "figures/fig09_validation.png",
+      "identical": true,
+      "sha256": "8e64d67901a6ab08b288990849b3519ff9ba688c9187d4aa7b869b57030947b0"
+    },
+    {
+      "file": "table_ablation_rows.tex",
+      "identical": true,
+      "sha256": "9f8b2ecdbdf3151e8f1db51be772bc2cabd21a3c6297c4d0cb5112ca06c0823e"
+    },
+    {
+      "file": "table_baseline_rows.tex",
+      "identical": true,
+      "sha256": "c2358c960f9fe8778580f42d75e02c9b45130a21753c4c3469c235462cc0779d"
+    },
+    {
+      "file": "table_course_rows.tex",
+      "identical": true,
+      "sha256": "cc507755258a7bb11c38c8689c63a74516d1bf4c4f44b46803c3059d2a9ed1d9"
+    },
+    {
+      "file": "table_matrix_rows.tex",
+      "identical": true,
+      "sha256": "71cb31c76d29b560c78756ffe80d52aa41f6db8b4d8d0a6e51f5208cc82fd42b"
+    }
+  ]
+}

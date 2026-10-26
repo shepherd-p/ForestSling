@@ -1,0 +1,62 @@
+{
+  "first_attempts": 20,
+  "passed": 16,
+  "completed": 16,
+  "planning_accepted": 20,
+  "acquisition_aborts": 4,
+  "wilson95_all_attempts": [
+    0.5839825677481129,
+    0.9193423374202
+  ],
+  "conditional_success_among_completed": 16,
+  "wilson95_completed": [
+    0.8063923194655722,
+    1.0000000000000002
+  ],
+  "completed_transport_distributions": {
+    "peak_position_cm": {
+      "min": 2.7750345838288757,
+      "median": 2.792064465852058,
+      "p95": 2.8040991401431805,
+      "max": 2.8077821416328623
+    },
+    "peak_attitude_deg": {
+      "min": 0.6064323181114791,
+      "median": 0.7249073169347585,
+      "p95": 0.8301593972801131,
+      "max": 0.8511070233562034
+    },
+    "position_rms_cm": {
+      "min": 1.9510308882060592,
+      "median": 1.9601429219726918,
+      "p95": 1.9672804791953458,
+      "max": 1.970467748709178
+    },
+    "attitude_rms_deg": {
+      "min": 0.3663206073238629,
+      "median": 0.4274176502992234,
+      "p95": 0.48789079051555506,
+      "max": 0.5161091871476504
+    },
+    "com_error_mm": {
+      "min": 0.07226370217144612,
+      "median": 2.051431780679782,
+      "p95": 3.88471795059331,
+      "max": 4.093641119221981
+    },
+    "planning_sec": {
+      "min": 1.7979670000058832,
+      "median": 1.8370989999966696,
+      "p95": 1.8913383249964681,
+      "max": 1.9135249000100885
+    },
+    "minimum_aircraft_center_distance_m": {
+      "min": 1.5449246983867737,
+      "median": 1.5570815475655928,
+      "p95": 1.5636348174932717,
+      "max": 1.5649976051361103
+    }
+  },
+  "scope": "One fixed four-aircraft rectangular known-beam configuration with independent sensor seeds; fixed hidden ballast",
+  "retry_policy": "Initial attempts remain the statistical cohort. Explicitly labeled diagnostic retries are retained separately and never replace the original outcomes."
+}

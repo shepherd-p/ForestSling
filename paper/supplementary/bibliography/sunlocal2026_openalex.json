@@ -1,0 +1,722 @@
+{
+  "id": "https://openalex.org/W7126080290",
+  "doi": "https://doi.org/10.1016/j.ast.2026.111670",
+  "title": "Local obstacle avoidance and trajectory tracking control of multi-quadrotor cooperative transportation system",
+  "display_name": "Local obstacle avoidance and trajectory tracking control of multi-quadrotor cooperative transportation system",
+  "publication_year": 2026,
+  "publication_date": "2026-01-29",
+  "ids": {
+    "openalex": "https://openalex.org/W7126080290",
+    "doi": "https://doi.org/10.1016/j.ast.2026.111670"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.ast.2026.111670",
+    "doi": "https://doi.org/10.1016/j.ast.2026.111670",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ast.2026.111670",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S61564791",
+      "display_name": "Aerospace Science and Technology",
+      "issn_l": "1270-9638",
+      "issn": [
+        "1270-9638",
+        "1626-3219"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Aerospace Science and Technology",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5124204008",
+        "display_name": "Jinlong Sun",
+        "orcid": "https://orcid.org/0009-0002-4131-2193",
+        "observed_orcids": [
+          "https://orcid.org/0009-0002-4131-2193"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44468530",
+          "display_name": "Qingdao University of Technology",
+          "ror": "https://ror.org/01qzc0f54",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jinlong Sun",
+      "raw_affiliation_strings": [
+        "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0002-4131-2193",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China",
+          "institution_ids": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5124185164",
+        "display_name": "Dong Zhang",
+        "orcid": "https://orcid.org/0000-0002-9563-8415",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9563-8415"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44468530",
+          "display_name": "Qingdao University of Technology",
+          "ror": "https://ror.org/01qzc0f54",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Dong Zhang",
+      "raw_affiliation_strings": [
+        "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9563-8415",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China",
+          "institution_ids": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033834129",
+        "display_name": "Yuhe Chen",
+        "orcid": "https://orcid.org/0009-0000-1570-8501",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-1570-8501"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44468530",
+          "display_name": "Qingdao University of Technology",
+          "ror": "https://ror.org/01qzc0f54",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yuhe Chen",
+      "raw_affiliation_strings": [
+        "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0000-1570-8501",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China",
+          "institution_ids": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111301669",
+        "display_name": "Lingzhi Mu",
+        "orcid": "https://orcid.org/0009-0006-2847-9166",
+        "observed_orcids": [
+          "https://orcid.org/0009-0006-2847-9166"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44468530",
+          "display_name": "Qingdao University of Technology",
+          "ror": "https://ror.org/01qzc0f54",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lingzhi Mu",
+      "raw_affiliation_strings": [
+        "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0006-2847-9166",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China",
+          "institution_ids": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5156767723",
+        "display_name": "Guangyu Jia",
+        "orcid": "https://orcid.org/0009-0004-9893-094X",
+        "observed_orcids": [
+          "https://orcid.org/0009-0004-9893-094X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44468530",
+          "display_name": "Qingdao University of Technology",
+          "ror": "https://ror.org/01qzc0f54",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Guangyu Jia",
+      "raw_affiliation_strings": [
+        "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0004-9893-094X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, 266520, China",
+          "institution_ids": [
+            "https://openalex.org/I44468530"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5124185164"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I44468530"
+  ],
+  "apc_list": {
+    "value": 4360,
+    "currency": "USD",
+    "value_usd": 4360
+  },
+  "apc_paid": null,
+  "fwci": 4.2962,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.9056658,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "173",
+    "issue": null,
+    "first_page": "111670",
+    "last_page": "111670"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10249",
+    "display_name": "Distributed Control Multi-Agent Systems",
+    "score": 0.9735999703407288,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1705",
+      "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10249",
+      "display_name": "Distributed Control Multi-Agent Systems",
+      "score": 0.9735999703407288,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10040",
+      "display_name": "Adaptive Control of Nonlinear Systems",
+      "score": 0.015300000086426735,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11615",
+      "display_name": "Control and Dynamics of Mobile Robots",
+      "score": 0.004600000102072954,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/local-obstacle-avoidance",
+      "display_name": "local obstacle avoidance",
+      "score": 0.9309999942779541
+    },
+    {
+      "id": "https://openalex.org/keywords/trajectory-tracking-control",
+      "display_name": "trajectory tracking control",
+      "score": 0.972000002861023
+    },
+    {
+      "id": "https://openalex.org/keywords/udwadia-kalaba-equation",
+      "display_name": "Udwadia-Kalaba equation",
+      "score": 0.8889999985694885
+    },
+    {
+      "id": "https://openalex.org/keywords/cable-tension-estimation",
+      "display_name": "cable tension estimation",
+      "score": 0.7649999856948853
+    },
+    {
+      "id": "https://openalex.org/keywords/multi-agent-formation",
+      "display_name": "multi-agent formation",
+      "score": 0.8090000152587891
+    },
+    {
+      "id": "https://openalex.org/keywords/virtual-leader",
+      "display_name": "virtual leader",
+      "score": 0.75
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-potential-field",
+      "display_name": "artificial potential field",
+      "score": 0.9580000042915344
+    },
+    {
+      "id": "https://openalex.org/keywords/formation-switching",
+      "display_name": "formation switching",
+      "score": 0.8700000047683716
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C6683253",
+      "wikidata": "https://www.wikidata.org/wiki/Q7075535",
+      "display_name": "Obstacle avoidance",
+      "level": 4,
+      "score": 0.8622000217437744
+    },
+    {
+      "id": "https://openalex.org/C47446073",
+      "wikidata": "https://www.wikidata.org/wiki/Q5165890",
+      "display_name": "Control theory (sociology)",
+      "level": 3,
+      "score": 0.7674000263214111
+    },
+    {
+      "id": "https://openalex.org/C134066672",
+      "wikidata": "https://www.wikidata.org/wiki/Q1424639",
+      "display_name": "Payload (computing)",
+      "level": 3,
+      "score": 0.6193000078201294
+    },
+    {
+      "id": "https://openalex.org/C2776650193",
+      "wikidata": "https://www.wikidata.org/wiki/Q264661",
+      "display_name": "Obstacle",
+      "level": 2,
+      "score": 0.5936999917030334
+    },
+    {
+      "id": "https://openalex.org/C2780864053",
+      "wikidata": "https://www.wikidata.org/wiki/Q5147495",
+      "display_name": "Collision avoidance",
+      "level": 3,
+      "score": 0.5340999960899353
+    },
+    {
+      "id": "https://openalex.org/C13662910",
+      "wikidata": "https://www.wikidata.org/wiki/Q193139",
+      "display_name": "Trajectory",
+      "level": 2,
+      "score": 0.5216000080108643
+    },
+    {
+      "id": "https://openalex.org/C133731056",
+      "wikidata": "https://www.wikidata.org/wiki/Q4917288",
+      "display_name": "Control engineering",
+      "level": 1,
+      "score": 0.48649999499320984
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.48570001125335693
+    },
+    {
+      "id": "https://openalex.org/C177606310",
+      "wikidata": "https://www.wikidata.org/wiki/Q5674297",
+      "display_name": "Adaptability",
+      "level": 2,
+      "score": 0.46619999408721924
+    },
+    {
+      "id": "https://openalex.org/C203479927",
+      "wikidata": "https://www.wikidata.org/wiki/Q5165939",
+      "display_name": "Controller (irrigation)",
+      "level": 2,
+      "score": 0.4244999885559082
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.4147999882698059
+    },
+    {
+      "id": "https://openalex.org/C2780704645",
+      "wikidata": "https://www.wikidata.org/wiki/Q9251458",
+      "display_name": "Observer (physics)",
+      "level": 2,
+      "score": 0.40790000557899475
+    },
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.3752000033855438
+    },
+    {
+      "id": "https://openalex.org/C36662352",
+      "wikidata": "https://www.wikidata.org/wiki/Q6008560",
+      "display_name": "Sliding mode control",
+      "level": 3,
+      "score": 0.36550000309944153
+    },
+    {
+      "id": "https://openalex.org/C2775924081",
+      "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+      "display_name": "Control (management)",
+      "level": 2,
+      "score": 0.335999995470047
+    },
+    {
+      "id": "https://openalex.org/C2986897749",
+      "wikidata": "https://www.wikidata.org/wiki/Q231761",
+      "display_name": "Potential field",
+      "level": 2,
+      "score": 0.3176000118255615
+    },
+    {
+      "id": "https://openalex.org/C17500928",
+      "wikidata": "https://www.wikidata.org/wiki/Q959968",
+      "display_name": "Control system",
+      "level": 2,
+      "score": 0.3172999918460846
+    },
+    {
+      "id": "https://openalex.org/C9652623",
+      "wikidata": "https://www.wikidata.org/wiki/Q190109",
+      "display_name": "Field (mathematics)",
+      "level": 2,
+      "score": 0.31610000133514404
+    },
+    {
+      "id": "https://openalex.org/C48677424",
+      "wikidata": "https://www.wikidata.org/wiki/Q6888088",
+      "display_name": "Mode (computer interface)",
+      "level": 2,
+      "score": 0.3012999892234802
+    },
+    {
+      "id": "https://openalex.org/C63540848",
+      "wikidata": "https://www.wikidata.org/wiki/Q3140932",
+      "display_name": "Fault tolerance",
+      "level": 2,
+      "score": 0.28540000319480896
+    },
+    {
+      "id": "https://openalex.org/C2775936607",
+      "wikidata": "https://www.wikidata.org/wiki/Q466845",
+      "display_name": "Tracking (education)",
+      "level": 2,
+      "score": 0.2849000096321106
+    },
+    {
+      "id": "https://openalex.org/C2778701210",
+      "wikidata": "https://www.wikidata.org/wiki/Q28130034",
+      "display_name": "Constructive",
+      "level": 3,
+      "score": 0.2840999960899353
+    },
+    {
+      "id": "https://openalex.org/C79487989",
+      "wikidata": "https://www.wikidata.org/wiki/Q934680",
+      "display_name": "Vehicle dynamics",
+      "level": 2,
+      "score": 0.27649998664855957
+    },
+    {
+      "id": "https://openalex.org/C500300565",
+      "wikidata": "https://www.wikidata.org/wiki/Q925667",
+      "display_name": "Computer simulation",
+      "level": 2,
+      "score": 0.2702000141143799
+    },
+    {
+      "id": "https://openalex.org/C77405623",
+      "wikidata": "https://www.wikidata.org/wiki/Q598451",
+      "display_name": "System dynamics",
+      "level": 2,
+      "score": 0.26649999618530273
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.ast.2026.111670",
+      "doi": "https://doi.org/10.1016/j.ast.2026.111670",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ast.2026.111670",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S61564791",
+        "display_name": "Aerospace Science and Technology",
+        "issn_l": "1270-9638",
+        "issn": [
+          "1270-9638",
+          "1626-3219"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Aerospace Science and Technology",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/9",
+      "score": 0.5378999710083008,
+      "display_name": "Industry, innovation and infrastructure"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G941446203",
+      "display_name": null,
+      "funder_award_id": "ZR2022MF297",
+      "funder_id": "https://openalex.org/F4320324174",
+      "funder_display_name": "Natural Science Foundation of Shandong Province"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320324174",
+      "display_name": "Natural Science Foundation of Shandong Province",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 41,
+  "referenced_works": [
+    "https://openalex.org/W2010699465",
+    "https://openalex.org/W2012114174",
+    "https://openalex.org/W2589618410",
+    "https://openalex.org/W2766355181",
+    "https://openalex.org/W2795747388",
+    "https://openalex.org/W2886097753",
+    "https://openalex.org/W2888400894",
+    "https://openalex.org/W2898556730",
+    "https://openalex.org/W2904658231",
+    "https://openalex.org/W2911447833",
+    "https://openalex.org/W2912591963",
+    "https://openalex.org/W2948709251",
+    "https://openalex.org/W3000897224",
+    "https://openalex.org/W3007110967",
+    "https://openalex.org/W3082687559",
+    "https://openalex.org/W3094717166",
+    "https://openalex.org/W3132663004",
+    "https://openalex.org/W3137336600",
+    "https://openalex.org/W3152096498",
+    "https://openalex.org/W3165998071",
+    "https://openalex.org/W3166195560",
+    "https://openalex.org/W3170845014",
+    "https://openalex.org/W3182306612",
+    "https://openalex.org/W3202306395",
+    "https://openalex.org/W3203395639",
+    "https://openalex.org/W4282970004",
+    "https://openalex.org/W4285136244",
+    "https://openalex.org/W4291392500",
+    "https://openalex.org/W4309486526",
+    "https://openalex.org/W4312840277",
+    "https://openalex.org/W4364321445",
+    "https://openalex.org/W4379409270",
+    "https://openalex.org/W4385150517",
+    "https://openalex.org/W4386472976",
+    "https://openalex.org/W4386906053",
+    "https://openalex.org/W4388637356",
+    "https://openalex.org/W4392973898",
+    "https://openalex.org/W4393972736",
+    "https://openalex.org/W4394009542",
+    "https://openalex.org/W4402159677",
+    "https://openalex.org/W7092681568"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-04T09:36:47.201465",
+  "created_date": "2026-01-30T00:00:00"
+}

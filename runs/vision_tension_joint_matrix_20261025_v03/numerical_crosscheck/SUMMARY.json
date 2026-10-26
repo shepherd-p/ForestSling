@@ -1,0 +1,27 @@
+{
+  "source": "F:\\EpicGamesEnv\\ForestSlingLab\\runs\\vision_tension_joint_matrix_20261025_v03\\3_irregular_estimated",
+  "interval_start_sec": 29.3,
+  "interval_duration_sec": 2.0,
+  "independent_step_sec": 0.00025,
+  "metrics": [
+    {
+      "engine_step_sec": 0.001,
+      "maximum_payload_com_difference_m": 0.0009728333571645679,
+      "maximum_payload_angle_difference_deg": 0.1291078824798049,
+      "maximum_aircraft_com_difference_m": 0.0034684587083315763
+    },
+    {
+      "engine_step_sec": 0.0005,
+      "maximum_payload_com_difference_m": 0.000484419017744282,
+      "maximum_payload_angle_difference_deg": 0.06423393285184655,
+      "maximum_aircraft_com_difference_m": 0.0017273090201306792
+    },
+    {
+      "engine_step_sec": 0.00025,
+      "maximum_payload_com_difference_m": 0.00024170910884246708,
+      "maximum_payload_angle_difference_deg": 0.03203707617056623,
+      "maximum_aircraft_com_difference_m": 0.0008619249035616335
+    }
+  ],
+  "no_resets_within_interval": true
+}

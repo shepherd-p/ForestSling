@@ -1,0 +1,355 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2026-08-20T14:51:44Z",
+      "timestamp": 1787237504941,
+      "version": "build-2736575974"
+    },
+    "reference-count": 24,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2025-05-19T00:00:00Z",
+          "timestamp": 1747612800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2025-05-19T00:00:00Z",
+          "timestamp": 1747612800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1109/icra55743.2025.11128734",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2025-09-02T17:28:56Z",
+      "timestamp": 1756834136000
+    },
+    "page": "2808-2814",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Optimal Trajectory Planning for Cooperative Manipulation with Multiple Quadrotors Using Control Barrier Functions"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Arpan",
+        "family": "Pallar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guanrui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mrunal",
+        "family": "Sarvaiya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Loianno",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364919854131"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2018.2800121"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA40945.2020.9197394"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-71151-1_3"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2018.2876518"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2021.3084395"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3065286"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2020.2967279"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS55552.2023.10341785"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-010-9205-0"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-19457-3_38"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2015.7353700"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ast.2021.106917"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2017.7989269"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASE.2016.2605707"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isatra.2019.01.019"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3179984"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Safety-aware human-robot collaborative transportation and manipulation with multiple mavs",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.2023.3292810"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LCSYS.2021.3087339"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/ECC.2019.8796030"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511804441"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC45484.2021.9683174"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2023.3336320"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+      "location": "Atlanta, GA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11127273/11127223/11128734.pdf?arnumber=11128734",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2025-09-03T06:49:37Z",
+      "timestamp": 1756882177000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11128734/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1109/icra55743.2025.11128734",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    }
+  }
+}

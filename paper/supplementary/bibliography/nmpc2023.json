@@ -1,0 +1,380 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T15:52:52Z",
+      "timestamp": 1792857172743,
+      "version": "4.5.0"
+    },
+    "reference-count": 32,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100004356",
+        "name": "Nokia",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004356",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/iros55552.2023.10341785",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2023-12-13T14:17:55Z",
+      "timestamp": 1702477075000
+    },
+    "page": "5034-5041",
+    "source": "Crossref",
+    "is-referenced-by-count": 43,
+    "title": [
+      "Nonlinear Model Predictive Control for Cooperative Transportation and Manipulation of Cable Suspended Payloads with Multiple Quadrotors"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Guanrui",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Loianno",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University, Tandon School of Engineering,Brooklyn,NY,USA,11201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364919854131"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2018.2800121"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA40945.2020.9197394"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9560827"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-71151-1_3"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2018.2876518"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2021.3084395"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2021.3065286"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ast.2021.107139"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA40945.2020.9197279"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3194932"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2017.7989678"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2017.2656060"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2014.7040351"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364910382803"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-010-9205-0"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cdc.2013.6760757"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2020.2975956"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15607/RSS.2013.IX.011"
+      },
+      {
+        "key": "ref20",
+        "volume-title": "RotorTM: A flexible simulator for aerial transportation and manipulation",
+        "author": "Li",
+        "year": "2022"
+      },
+      {
+        "key": "ref21",
+        "volume-title": "Safety-aware human-robot collaborative transportation and manipulation with multiple aerial robots",
+        "author": "Li",
+        "year": "2022"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.I011067"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G004680"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA46639.2022.9811726"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS45743.2020.9341541"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICUAS57906.2023.10156031"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS47612.2022.9981880"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Quaternion kinematics for the error-state kalman filter",
+        "volume": "abs/1711.02508",
+        "author": "Solà",
+        "year": "2017",
+        "journal-title": "ArXiv"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12532-021-00208-8"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2014.7040353"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2016.2633290"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2017.2778018"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "location": "Detroit, MI, USA",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10341341/10341342/10341785.pdf?arnumber=10341785",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2023-12-19T19:24:28Z",
+      "timestamp": 1703013868000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10341785/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1109/iros55552.2023.10341785",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

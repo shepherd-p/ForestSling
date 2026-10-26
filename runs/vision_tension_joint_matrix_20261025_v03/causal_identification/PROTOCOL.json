@@ -1,0 +1,7 @@
+{
+  "source": "F:\\EpicGamesEnv\\ForestSlingLab\\runs\\vision_tension_joint_matrix_20261025_v03",
+  "kind": "Causal prefix reanalysis of four development trajectories",
+  "smoothing": "Nine-frame fixed-lag derivative; records after each prefix cutoff excluded",
+  "scoring": "Evaluator inertia read only after each shape/tension fit; same planned future task for all prefixes",
+  "independence": "No additional flight trials; observation prefixes share the original trajectory"
+}

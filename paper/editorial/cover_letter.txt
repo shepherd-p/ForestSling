@@ -1,0 +1,15 @@
+Dear Editor,
+
+Please consider our manuscript entitled "Vision- and Tension-Informed Inertial Identification and Formation Reconfiguration for Cooperative Aerial Transport Through Obstacles" for publication as a research article in Aerospace Science and Technology.
+
+The manuscript investigates how sensed internal mass properties affect the force distribution and spatial configuration of a cooperative UAV transport system. A markerless RGB-D scan defines the external geometry, while synchronized tension and integral momentum observations identify payload mass, center of mass and inertia. A smooth conic force planner maps these moments to compliant cable endpoints and checks aperture, aircraft separation and actuation conditions.
+
+The numerical evaluation includes a five-arm inertial-information ablation, sensor-seed repetitions and paired identified-model and uniform-shape experiments with three and four aircraft carrying rectangular and irregular objects. A separate forked-payload course demonstrates successive large-angle reorientations through narrow, low and tilted openings. The manuscript also reports independent command replay and integration-step refinement. The study addresses cooperative aerial load transport, flight control and constraint-aware formation planning, which align with the journal's aerospace systems and guidance and control scope.
+
+The article is accompanied by the public source repository https://github.com/shepherd-p/ForestSling, numerical records, analysis scripts and videos of the recorded closed-loop trajectories rendered in Unreal Engine. The dynamics and presentation renderer are identified separately in the manuscript and supplementary captions.
+
+Sincerely,
+Juntong Qi
+Corresponding author
+School of Future Technology, Shanghai University
+qijt@shu.edu.cn

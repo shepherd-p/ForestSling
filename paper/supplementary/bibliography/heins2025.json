@@ -1,0 +1,354 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2026-08-26T15:53:48Z",
+      "timestamp": 1787759628542,
+      "version": "build-2784847793"
+    },
+    "reference-count": 28,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007631",
+        "name": "Canadian Institute for Advanced Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007631",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Robot. Autom. Lett."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/lra.2025.3551067",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2025-03-13T13:46:28Z",
+      "timestamp": 1741873588000
+    },
+    "page": "4492-4499",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Robust Nonprehensile Object Transportation With Uncertain Inertial Parameters"
+    ],
+    "prefix": "10.1109",
+    "volume": "10",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0568-3520",
+        "authenticated-orcid": false,
+        "given": "Adam",
+        "family": "Heins",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Learning Systems and Robotics Lab, Technical University of Munich, Munich, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4012-4668",
+        "authenticated-orcid": false,
+        "given": "Angela P.",
+        "family": "Schoellig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Learning Systems and Robotics Lab, Technical University of Munich, Munich, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-00398-6_14"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Nonprehensile robotic manipulation: Controllability and planning",
+        "author": "Lynch",
+        "year": "1996"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2024.3414180"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2018.2801939"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364916675419"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2023.3324520"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2016.7759801"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2017.2729659"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/p665"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA46639.2022.9812424"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechmachtheory.2023.105286"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2024.3355731"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2023.3277224"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.conengprac.2018.06.018"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS47612.2022.9981173"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2021.3086773"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2023.3268594"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15607/RSS.2015.XI.028"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HUMANOIDS.2016.7803329"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5220/0006397800370044"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10514-022-10068-3"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3179463"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Fast and certifiable trajectory optimization",
+        "volume-title": "Proc. Workshop Algorithmic Foundations Robot.",
+        "author": "Kang",
+        "year": "2024"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364902021012003"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-61576-8_77"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.1993.583093"
+      },
+      {
+        "key": "ref27",
+        "article-title": "OCS2: An open source library for optimal control of switched systems",
+        "year": "2017"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ifacol.2020.12.073"
+      }
+    ],
+    "container-title": [
+      "IEEE Robotics and Automation Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/7083369/10935293/10925467.pdf?arnumber=10925467",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2025-11-19T18:47:27Z",
+      "timestamp": 1763578047000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10925467/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "5"
+    },
+    "URL": "https://doi.org/10.1109/lra.2025.3551067",
+    "relation": {},
+    "ISSN": [
+      "2377-3766",
+      "2377-3774"
+    ],
+    "issn-type": [
+      {
+        "value": "2377-3766",
+        "type": "electronic"
+      },
+      {
+        "value": "2377-3774",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    }
+  }
+}

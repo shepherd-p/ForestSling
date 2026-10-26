@@ -1,0 +1,87 @@
+[
+  {
+    "file": "runs/unreal_large_pose_20261026_v01/inspection_views_clear/offset_narrow.png",
+    "sha256": "320b74b3e47d032a953eb6bf2368114245b3e5220db61ff34a3ed5487836036f",
+    "role": "Fig. 1 linked Unreal crossing view; common spatial crop only"
+  },
+  {
+    "file": "runs/unreal_large_pose_20261026_v01/inspection_views_clear/low_roof.png",
+    "sha256": "0c125f31312b4d852b083ce2bfd829ad0ed99ea28fa342fa6314fc552f594a24",
+    "role": "Fig. 1 linked Unreal crossing view; common spatial crop only"
+  },
+  {
+    "file": "runs/unreal_large_pose_20261026_v01/inspection_views_clear/tilted_opening.png",
+    "sha256": "acccec416a0795addf4fb22b06b2bb2334a0b8c9fed55cb8c05799cbb918ea78",
+    "role": "Fig. 1 linked Unreal crossing view; common spatial crop only"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/PROTOCOL.json",
+    "sha256": "2ead9cdeea37736b7c698b941aee8c7974de0bf2832d4d159e3d1f7eb2e39679",
+    "role": "Fig. 1 common-frame known obstacle geometry"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/trajectory.npz",
+    "sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+    "role": "Fig. 1 recorded payload and supporting aircraft configurations"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/scan_world.npy",
+    "sha256": "b467d2bf375130aee256823a4e2dd70e3079614cb3955c822d105044f4861ef4",
+    "role": "Fig. 2 acquired surface point cloud"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/IDENTIFICATION.json",
+    "sha256": "59ae2f32c0531e50fc25b02b001e6052d27ae092d12ec6f7f02d1abf8ff456a2",
+    "role": "Fig. 2 fitted inertial parameters"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/ASSET.json",
+    "sha256": "8df84a5e358328f403c562a7a5a8d4c20c162683fe8eec09be8bb6b2aae7753f",
+    "role": "Fig. 2 attachment geometry and nonconvex load"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/trajectory.npz",
+    "sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+    "role": "Fig. 2 measured support configurations"
+  },
+  {
+    "file": "runs/unreal_vision_tension_20261026_v02/3_rectangular_estimated/frame_010.00.png",
+    "sha256": "e93f93e9f6271fa5c32a1506e496abd7229f613183e8535c2a60c5e3b0c5877b",
+    "role": "Fig. 4 base team/shape comparison; full original Unreal frame"
+  },
+  {
+    "file": "runs/unreal_vision_tension_20261026_v02/3_irregular_estimated/frame_010.00.png",
+    "sha256": "6a50b7fa4cd5c8c028f869199076895655b44c8f8f93b5bdaa2aa26188260eb3",
+    "role": "Fig. 4 base team/shape comparison; full original Unreal frame"
+  },
+  {
+    "file": "runs/unreal_vision_tension_20261026_v02/4_rectangular_estimated/frame_010.00.png",
+    "sha256": "c97d680898d8421a4417af06fab3401a88f816a8028e30a89977b00fd5ccc5f6",
+    "role": "Fig. 4 base team/shape comparison; full original Unreal frame"
+  },
+  {
+    "file": "runs/unreal_vision_tension_20261026_v02/4_irregular_estimated/frame_010.00.png",
+    "sha256": "d2b454567bba1ccbbd99c249d74323bc849c15dbcf629d106982a06ef7bfd91d",
+    "role": "Fig. 4 base team/shape comparison; full original Unreal frame"
+  },
+  {
+    "file": "runs/vision_tension_joint_matrix_20261025_v03/analysis/METRICS.json",
+    "sha256": "f172e117ec991c2dc086ba4268de8040852d6707e309bd7400f84a6937789f7e",
+    "role": "Numerical figure source"
+  },
+  {
+    "file": "runs/vision_tension_joint_matrix_20261025_v03/causal_identification/RESULTS.json",
+    "sha256": "9013784e96a1d8adc5019915c7d08d0a25c1f4841a82f42c661969906f3c157e",
+    "role": "Numerical figure source"
+  },
+  {
+    "file": "runs/vision_tension_joint_matrix_20261025_v03/numerical_crosscheck/SUMMARY.json",
+    "sha256": "0ffd09da41680f493b5ba97ae75ec012deea1366936d9fc58a24b77fc1b3d1ee",
+    "role": "Numerical figure source"
+  },
+  {
+    "file": "runs/large_pose_course_20261026_v01/4_forked_estimated/trajectory.npz",
+    "sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+    "role": "Numerical figure source"
+  }
+]

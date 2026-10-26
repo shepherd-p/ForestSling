@@ -1,0 +1,100 @@
+{
+  "source_trajectory_sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+  "pose_mode": "large",
+  "obstacle_count": 12,
+  "new_physics_trials": 1,
+  "known_obstacle_map": true,
+  "minimum_aircraft_separation_m": 0.6403792628140182,
+  "minimum_aircraft_028m_envelope_clearance_m": 0.08108916585559134,
+  "minimum_reconstructed_shape_0045m_envelope_clearance_m": 0.2681225168905152,
+  "cable_sweep_radius_m": 0.04683733840856708,
+  "cable_endpoint_speed_bound_m_s": 2.383733840845326,
+  "cable_swept_hits": 0,
+  "corner_mounts": true,
+  "cable_body_swept_hits": 0,
+  "cable_sweep_check": "Full segments at 50 Hz, radius 23 mm (including the shackle) plus half sample interval times observed maximum endpoint speed; conservative sampled sweep check, not an analytic continuous-time certificate.",
+  "load_peak_speed_m_s": 1.0464436534589519,
+  "formation_span_min_m": [
+    2.066852734937658,
+    0.9322563961156656,
+    0.018525731597074824
+  ],
+  "formation_span_max_m": [
+    3.908138095034854,
+    4.016457386792238,
+    1.3744615489367602
+  ],
+  "payload_size_m": [
+    1.2100000000000002,
+    0.9,
+    0.4
+  ],
+  "maximum_payload_tilt_deg": 90.33525546861388,
+  "payload_roll_min_deg": -86.637813767912,
+  "payload_roll_max_deg": 90.33525794838586,
+  "payload_yaw_min_deg": -25.254820852406283,
+  "payload_yaw_max_deg": 90.85143257407944,
+  "events": [
+    {
+      "name": "offset_narrow",
+      "label": "错位窄门",
+      "width_m": 2.1,
+      "height_m": 6.0,
+      "source_record_index": 4327,
+      "physics_time_sec": 86.54000000023119,
+      "transport_time_sec": 43.9600000002099,
+      "attitude_rpy_deg": [
+        90.02758813677016,
+        0.16156855324684527,
+        15.015867286245285
+      ],
+      "formation_extent_m": [
+        3.571726771246345,
+        1.249043988581784,
+        1.1228282759297716
+      ],
+      "load_speed_m_s": 0.39522559773666216
+    },
+    {
+      "name": "low_roof",
+      "label": "低顶区",
+      "width_m": 6.0,
+      "height_m": 4.45,
+      "source_record_index": 5151,
+      "physics_time_sec": 103.02000000030988,
+      "transport_time_sec": 60.44000000028859,
+      "attitude_rpy_deg": [
+        0.026070789484851843,
+        -0.1404711786435977,
+        90.20245172036391
+      ],
+      "formation_extent_m": [
+        2.5706734835218796,
+        3.9202105289921185,
+        0.19123846074530615
+      ],
+      "load_speed_m_s": 0.5496176876809543
+    },
+    {
+      "name": "tilted_opening",
+      "label": "斜向开口",
+      "width_m": 2.85,
+      "height_m": 6.0,
+      "source_record_index": 6029,
+      "physics_time_sec": 120.58000000039372,
+      "transport_time_sec": 78.00000000037244,
+      "attitude_rpy_deg": [
+        -84.24428834794502,
+        -0.11913002929318878,
+        -25.15627445112592
+      ],
+      "formation_extent_m": [
+        3.342080595153945,
+        1.7674126748234291,
+        0.8995265265742525
+      ],
+      "load_speed_m_s": 0.4707785379565805
+    }
+  ],
+  "passed": true
+}

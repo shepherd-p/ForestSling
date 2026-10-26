@@ -1,0 +1,41 @@
+\documentclass[5p,times]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec,etoolbox}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\AtBeginEnvironment{tabular}{\sffamily}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx,url,xcolor,placeins,ragged2e}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{3em}
+\setcounter{topnumber}{3}\setcounter{dbltopnumber}{3}\setcounter{totalnumber}{6}
+\renewcommand{\topfraction}{.92}\renewcommand{\dbltopfraction}{.92}
+\renewcommand{\textfraction}{.06}\renewcommand{\floatpagefraction}{.8}\renewcommand{\dblfloatpagefraction}{.8}
+\graphicspath{{figures/}}
+\journal{Aerospace Science and Technology}
+\newcommand{\R}{\mathbb{R}}\newcommand{\SO}{\mathrm{SO}(3)}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\sk}[1]{\left[#1\right]_{\times}}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:\nolinkurl{#1}}}
+\makeatletter
+\def\ps@pprintTitle{\let\@oddhead\@empty\let\@evenhead\@empty
+\def\@oddfoot{\hfil\footnotesize\thepage\hfil}\let\@evenfoot\@oddfoot}
+\makeatother
+\begin{document}
+\begin{frontmatter}
+\title{Vision- and Tension-Informed Inertial Identification and Formation Reconfiguration for Cooperative Aerial Transport Through Obstacles}
+\input{author_information.tex}
+\begin{abstract}
+Cooperative transport through spatial restrictions requires coordinated payload attitude, cable loading and aircraft formation. Visible shape determines occupied space, whereas hidden mass distribution determines the forces required to realize a configuration. This paper develops a vision- and tension-informed framework linking these quantities for rigid payloads and known obstacles. A markerless RGB-D scan establishes surface geometry and a common pose frame. Integral momentum observations and cable tensions identify physically consistent mass, center of mass and inertia. Given smooth payload pose references, conic force optimization determines compliant support endpoints and selects feasible timing and lowering candidates under aperture, actuation and separation constraints. Six nominal closed-loop simulations yield mass errors of 0.0024--0.0188 percent and center-of-mass inertia errors of 5.46--7.87 percent. A five-arm ablation separates mass, center-of-mass and inertia information: for the four-aircraft rectangular task, peak attitude error decreases from 29.66 degrees with a mass-matched uniform model to 0.73 degrees with mass and center-of-mass identification and 0.71 degrees with full identification. Three- and four-aircraft teams transport rectangular and irregular payloads. An asymmetric forked payload completes a 28 m course with successive side-on, horizontal and opposite-side orientations, with peak position and attitude errors of 3.34 cm and 2.19 degrees. Transport-only prediction, sensor-seed repetitions, independent rigid-body replay and time-step refinement provide complementary numerical evaluations. The results connect sensed inertial moments to feasible support geometry during substantial payload reorientation.
+\end{abstract}
+\begin{keyword}
+Cooperative aerial transport\sep Cable-suspended payload\sep Center of mass identification\sep Markerless perception\sep Payload reorientation\sep Formation reconfiguration
+\end{keyword}
+\end{frontmatter}
+\input{introduction.tex}
+\input{model.tex}
+\input{identification.tex}
+\input{planning.tex}
+\input{experiments.tex}
+\input{conclusion.tex}
+\input{references.tex}
+\end{document}

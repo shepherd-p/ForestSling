@@ -1,0 +1,1625 @@
+{
+  "matrix": [
+    {
+      "count": 3,
+      "shape": "irregular",
+      "method": "estimated",
+      "completed": true,
+      "reason": null,
+      "physics_time_sec": 42.30000000001995,
+      "wall_time_sec": 42.60531380000066,
+      "vision_frames": 422,
+      "task_wall_time_including_scan_sec": 42.95317830000022,
+      "initialization_and_scan_wall_sec": 0.3307624000008218,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7382968000001711,
+      "updated_vision_frames": 422,
+      "identification_samples": 159,
+      "max_position_error_m": 0.03706363049273846,
+      "max_attitude_error_deg": 2.6374750988191185,
+      "min_tension_n": 1.2044567661623022,
+      "max_tension_n": 7.547390900421757,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 1.560791899999458,
+      "beam": true,
+      "motion_start_sec": 18.3000000000027,
+      "planned_motion_duration_sec": 22.0,
+      "maximum_aircraft_tilt_deg": 25.33510185819599,
+      "maximum_motor_thrust_n": 4.677158464498639,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 1.010150454311583,
+      "maximum_aircraft_acceleration_m_s2": 2.764425423116583,
+      "sensor_age_p95_ms": 139.99999999967372,
+      "image_processing_p95_ms": 39.877165000598325,
+      "control_p95_ms": 1.5750599997772952,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 2.4322739298310303e-05,
+      "com_error_m": 0.0013398117704775591,
+      "passed": true,
+      "failed_gates": [],
+      "peak_payload_speed_m_s": 0.8993931283894546,
+      "mean_channel_payload_speed_m_s": 0.841799927820325,
+      "maximum_formation_width_y_m": 2.9742122312933,
+      "minimum_formation_width_y_m": 1.8299563784642678,
+      "maximum_aircraft_to_payload_height_m": 2.1404390690822854,
+      "minimum_aircraft_to_payload_height_m": 1.7143599939147962,
+      "physics_record_dt_sec": 0.019999999999997797,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.0013398117704775591,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 0.13411110667577714,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.6258421056697434,
+      "case": "3_irregular_estimated"
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "method": "uniform",
+      "completed": false,
+      "reason": "No force/geometry/actuation-feasible timing candidate",
+      "physics_time_sec": 17.320000000004985,
+      "wall_time_sec": 17.5027355000002,
+      "vision_frames": 172,
+      "task_wall_time_including_scan_sec": 17.850519099998564,
+      "initialization_and_scan_wall_sec": 0.33025350000025355,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7275595999999496,
+      "updated_vision_frames": 172,
+      "identification_samples": 159,
+      "max_position_error_m": null,
+      "max_attitude_error_deg": null,
+      "min_tension_n": 1.485958662439672,
+      "max_tension_n": 6.546811456528708,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.5855921000002127,
+      "beam": true,
+      "motion_start_sec": null,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 6.264930224265839,
+      "maximum_motor_thrust_n": 4.148783232978895,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 0.18701017771659142,
+      "maximum_aircraft_acceleration_m_s2": 1.6384879515922801,
+      "sensor_age_p95_ms": 120.00000000014666,
+      "image_processing_p95_ms": 40.656714999840915,
+      "control_p95_ms": 0.7916499989732984,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 2.4322739298310303e-05,
+      "com_error_m": 0.0013398117704775591,
+      "passed": false,
+      "failed_gates": [
+        "execution_completed",
+        "position_error",
+        "attitude_error"
+      ],
+      "peak_payload_speed_m_s": 0.20380383909450728,
+      "mean_channel_payload_speed_m_s": null,
+      "maximum_formation_width_y_m": 1.8875180961711928,
+      "minimum_formation_width_y_m": 1.8299563784642678,
+      "maximum_aircraft_to_payload_height_m": 2.1404390690822854,
+      "minimum_aircraft_to_payload_height_m": 2.0813424231965385,
+      "physics_record_dt_sec": 0.02000000000000668,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.11530944765364892,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 2.708241206275779,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.6258421056697434,
+      "case": "3_irregular_uniform"
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "method": "estimated",
+      "completed": true,
+      "reason": null,
+      "physics_time_sec": 39.68000000000744,
+      "wall_time_sec": 39.97418970000035,
+      "vision_frames": 396,
+      "task_wall_time_including_scan_sec": 40.33316830000149,
+      "initialization_and_scan_wall_sec": 0.3407697000002372,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7433525000014924,
+      "updated_vision_frames": 396,
+      "identification_samples": 159,
+      "max_position_error_m": 0.04101642698960523,
+      "max_attitude_error_deg": 1.8512210993056593,
+      "min_tension_n": 1.0828017885360615,
+      "max_tension_n": 8.384768893593424,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.9467388999983086,
+      "beam": true,
+      "motion_start_sec": 17.680000000004146,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 32.956920010068146,
+      "maximum_motor_thrust_n": 5.158670392941168,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 1.1406525240572083,
+      "maximum_aircraft_acceleration_m_s2": 3.3898082914271934,
+      "sensor_age_p95_ms": 120.00000000057298,
+      "image_processing_p95_ms": 39.70587499952671,
+      "control_p95_ms": 1.5469599999960333,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 4.17169301628606e-05,
+      "com_error_m": 0.0021767245886563234,
+      "passed": true,
+      "failed_gates": [],
+      "peak_payload_speed_m_s": 0.9892211751580496,
+      "mean_channel_payload_speed_m_s": 0.9260856062323808,
+      "maximum_formation_width_y_m": 2.7269317801292043,
+      "minimum_formation_width_y_m": 1.9593125967358267,
+      "maximum_aircraft_to_payload_height_m": 2.1411625610207548,
+      "minimum_aircraft_to_payload_height_m": 1.681815297475978,
+      "physics_record_dt_sec": 0.019999999999988916,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.0021767245886563234,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 0.15229337943043253,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.6834136583174877,
+      "case": "3_rectangular_estimated"
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "method": "uniform",
+      "completed": false,
+      "reason": "No force/geometry/actuation-feasible timing candidate",
+      "physics_time_sec": 17.4000000000048,
+      "wall_time_sec": 17.59293720000096,
+      "vision_frames": 173,
+      "task_wall_time_including_scan_sec": 17.944018000000142,
+      "initialization_and_scan_wall_sec": 0.33255989999997837,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7284720000006928,
+      "updated_vision_frames": 173,
+      "identification_samples": 159,
+      "max_position_error_m": null,
+      "max_attitude_error_deg": null,
+      "min_tension_n": 1.2843722189900397,
+      "max_tension_n": 6.584684871786889,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.6612591000011889,
+      "beam": true,
+      "motion_start_sec": null,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 6.944987601771652,
+      "maximum_motor_thrust_n": 4.140029385988648,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 0.1886224807487399,
+      "maximum_aircraft_acceleration_m_s2": 1.4007380270645193,
+      "sensor_age_p95_ms": 120.00000000014666,
+      "image_processing_p95_ms": 39.934220000577625,
+      "control_p95_ms": 0.7806800002981618,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 4.17169301628606e-05,
+      "com_error_m": 0.0021767245886563234,
+      "passed": false,
+      "failed_gates": [
+        "execution_completed",
+        "position_error",
+        "attitude_error"
+      ],
+      "peak_payload_speed_m_s": 0.15716846169948076,
+      "mean_channel_payload_speed_m_s": null,
+      "maximum_formation_width_y_m": 2.0113764899305226,
+      "minimum_formation_width_y_m": 1.9593125967358267,
+      "maximum_aircraft_to_payload_height_m": 2.111094389712767,
+      "minimum_aircraft_to_payload_height_m": 2.0619737217895393,
+      "physics_record_dt_sec": 0.02000000000000668,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.10334676395816604,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 2.7449558315114744,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.6834136583174877,
+      "case": "3_rectangular_uniform"
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "method": "estimated",
+      "completed": true,
+      "reason": null,
+      "physics_time_sec": 39.54000000000677,
+      "wall_time_sec": 39.874861899999814,
+      "vision_frames": 394,
+      "task_wall_time_including_scan_sec": 40.224097399999664,
+      "initialization_and_scan_wall_sec": 0.3311654000008275,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7405222999987018,
+      "updated_vision_frames": 394,
+      "identification_samples": 159,
+      "max_position_error_m": 0.026230198143451657,
+      "max_attitude_error_deg": 1.2941661726875313,
+      "min_tension_n": 1.0339637466011555,
+      "max_tension_n": 8.614180796465323,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.8034310999992158,
+      "beam": true,
+      "motion_start_sec": 17.540000000004472,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 32.67672588991509,
+      "maximum_motor_thrust_n": 4.060492885621369,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 1.0600201439392218,
+      "maximum_aircraft_acceleration_m_s2": 1.7909690908912392,
+      "sensor_age_p95_ms": 120.00000000057298,
+      "image_processing_p95_ms": 41.325239998877805,
+      "control_p95_ms": 1.6313600011926608,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 0.00015356268501209858,
+      "com_error_m": 0.0006792021808133327,
+      "passed": true,
+      "failed_gates": [],
+      "peak_payload_speed_m_s": 0.9835242278839135,
+      "mean_channel_payload_speed_m_s": 0.9246719336278625,
+      "maximum_formation_width_y_m": 3.117914254649846,
+      "minimum_formation_width_y_m": 2.1437517100966454,
+      "maximum_aircraft_to_payload_height_m": 2.0505179026709115,
+      "minimum_aircraft_to_payload_height_m": 1.0689900949613649,
+      "physics_record_dt_sec": 0.019999999999988916,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.0006792021808133327,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 0.13674517320008148,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 0.6312723699436954,
+      "case": "4_irregular_estimated"
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "method": "uniform",
+      "completed": false,
+      "reason": "No force/geometry/actuation-feasible timing candidate",
+      "physics_time_sec": 21.95999999999417,
+      "wall_time_sec": 22.170457800000804,
+      "vision_frames": 219,
+      "task_wall_time_including_scan_sec": 22.53033239999968,
+      "initialization_and_scan_wall_sec": 0.3416162000012264,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7430221999984497,
+      "updated_vision_frames": 219,
+      "identification_samples": 159,
+      "max_position_error_m": null,
+      "max_attitude_error_deg": null,
+      "min_tension_n": 1.0339637466011555,
+      "max_tension_n": 5.148083892912903,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 5.214665999999852,
+      "beam": true,
+      "motion_start_sec": null,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 9.418173615538539,
+      "maximum_motor_thrust_n": 3.810948359212372,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 0.18826867360752936,
+      "maximum_aircraft_acceleration_m_s2": 1.348399083208921,
+      "sensor_age_p95_ms": 120.00000000014666,
+      "image_processing_p95_ms": 41.770930000529916,
+      "control_p95_ms": 0.9473200010688736,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 0.00015356268501209858,
+      "com_error_m": 0.0006792021808133327,
+      "passed": false,
+      "failed_gates": [
+        "execution_completed",
+        "position_error",
+        "attitude_error"
+      ],
+      "peak_payload_speed_m_s": 0.30491345448891966,
+      "mean_channel_payload_speed_m_s": null,
+      "maximum_formation_width_y_m": 2.182521232137702,
+      "minimum_formation_width_y_m": 2.1437517100966454,
+      "maximum_aircraft_to_payload_height_m": 2.0454819451419444,
+      "minimum_aircraft_to_payload_height_m": 1.9948498343972463,
+      "physics_record_dt_sec": 0.019999999999997797,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.11674023826488682,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 2.4799954439340217,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.4652894144873012,
+      "case": "4_irregular_uniform"
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "method": "estimated",
+      "completed": true,
+      "reason": null,
+      "physics_time_sec": 39.480000000006484,
+      "wall_time_sec": 39.81173399999898,
+      "vision_frames": 394,
+      "task_wall_time_including_scan_sec": 40.17866219999996,
+      "initialization_and_scan_wall_sec": 0.34730649999983143,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 0.7530745999993087,
+      "updated_vision_frames": 394,
+      "identification_samples": 159,
+      "max_position_error_m": 0.027585932428800322,
+      "max_attitude_error_deg": 0.6628604844440823,
+      "min_tension_n": 1.6327292396672335,
+      "max_tension_n": 8.688073245324642,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.7405132999992929,
+      "beam": true,
+      "motion_start_sec": 17.480000000004612,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 29.791380782667318,
+      "maximum_motor_thrust_n": 4.226825855929225,
+      "motor_saturation_intervals": 0,
+      "maximum_aircraft_speed_m_s": 1.0736675728905718,
+      "maximum_aircraft_acceleration_m_s2": 1.6872157302757638,
+      "sensor_age_p95_ms": 120.00000000057298,
+      "image_processing_p95_ms": 41.091540000161324,
+      "control_p95_ms": 1.673399999799585,
+      "control_deadline_lateness_p95_ms": 0.0,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 0.00017118880499100708,
+      "com_error_m": 0.0003856383726086964,
+      "passed": true,
+      "failed_gates": [],
+      "peak_payload_speed_m_s": 0.984174387841243,
+      "mean_channel_payload_speed_m_s": 0.9252105394619607,
+      "maximum_formation_width_y_m": 3.3822831552315806,
+      "minimum_formation_width_y_m": 1.8639385906747246,
+      "maximum_aircraft_to_payload_height_m": 1.937937565281541,
+      "minimum_aircraft_to_payload_height_m": 1.0891301610494182,
+      "physics_record_dt_sec": 0.019999999999988916,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.0003856383726086964,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 0.11526514480415115,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 1.5446797931819674,
+      "case": "4_rectangular_estimated"
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "method": "uniform",
+      "completed": true,
+      "reason": null,
+      "physics_time_sec": 39.960000000008776,
+      "wall_time_sec": 40.27778749999925,
+      "vision_frames": 398,
+      "task_wall_time_including_scan_sec": 40.63242679999894,
+      "initialization_and_scan_wall_sec": 0.3355898999998317,
+      "identification_motion_sec": 16.0,
+      "identification_solve_and_worker_startup_wall_sec": 1.0190917999989324,
+      "updated_vision_frames": 398,
+      "identification_samples": 159,
+      "max_position_error_m": 0.0819374149288366,
+      "max_attitude_error_deg": 22.048992295639714,
+      "min_tension_n": 1.611761148741291,
+      "max_tension_n": 8.536688534591315,
+      "contacts": 0,
+      "cable_contact_steps": 0,
+      "initial_planning_wall_sec": 0.9386369999992894,
+      "beam": true,
+      "motion_start_sec": 17.960000000003493,
+      "planned_motion_duration_sec": 20.0,
+      "maximum_aircraft_tilt_deg": 37.1783187210307,
+      "maximum_motor_thrust_n": 6.781125608559819,
+      "motor_saturation_intervals": 6,
+      "maximum_aircraft_speed_m_s": 1.2970937343773776,
+      "maximum_aircraft_acceleration_m_s2": 6.194332477877624,
+      "sensor_age_p95_ms": 139.99999999967372,
+      "image_processing_p95_ms": 47.59763000010935,
+      "control_p95_ms": 1.7716850004944715,
+      "control_deadline_lateness_p95_ms": 0.4092599994692133,
+      "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+      "estimate_activated": true,
+      "mass_relative_error": 0.00017118880499100708,
+      "com_error_m": 0.0003856383726086964,
+      "passed": false,
+      "failed_gates": [
+        "attitude_error",
+        "aircraft_acceleration"
+      ],
+      "peak_payload_speed_m_s": 0.9806442111169311,
+      "mean_channel_payload_speed_m_s": 0.9197182902141932,
+      "maximum_formation_width_y_m": 3.29128229319094,
+      "minimum_formation_width_y_m": 1.8639385906747246,
+      "maximum_aircraft_to_payload_height_m": 2.143074383903242,
+      "minimum_aircraft_to_payload_height_m": 1.2182989710675423,
+      "physics_record_dt_sec": 0.019999999999988916,
+      "metric_source": "Saved dynamic states at 50 Hz; SUMMARY keeps cable/motor/tilt extrema from all physical substeps",
+      "control_model_com_error_m": 0.1027536142202246,
+      "minimum_sampled_aircraft_obstacle_clearance_m": 0.12435538603226387,
+      "conservative_interframe_cable_box_hits": 0,
+      "minimum_sampled_aircraft_separation_m": 0.5518830965236451,
+      "case": "4_rectangular_uniform"
+    }
+  ],
+  "courses": [
+    {
+      "case": "complex_forked_corner_lugs_20261026_v05",
+      "summary": {
+        "count": 4,
+        "shape": "forked",
+        "method": "estimated",
+        "completed": true,
+        "reason": null,
+        "physics_time_sec": 119.42000000038819,
+        "wall_time_sec": 121.31655790000514,
+        "vision_frames": 1191,
+        "task_wall_time_including_scan_sec": 122.0035624000011,
+        "initialization_and_scan_wall_sec": 0.6375246999959927,
+        "identification_motion_sec": 16.0,
+        "identification_solve_and_worker_startup_wall_sec": 1.7269712000052095,
+        "updated_vision_frames": 1191,
+        "identification_samples": 159,
+        "max_position_error_m": 0.04057895335952782,
+        "max_attitude_error_deg": 1.7332238402532583,
+        "min_tension_n": 2.107249703712273,
+        "max_tension_n": 4.893648513957473,
+        "contacts": 0,
+        "cable_contact_steps": 0,
+        "cable_body_contact_steps": 0,
+        "initial_planning_wall_sec": 14.690066000002844,
+        "beam": true,
+        "course": true,
+        "motion_start_sec": 32.419999999972774,
+        "planned_motion_duration_sec": 85.0,
+        "maximum_aircraft_tilt_deg": 17.27601273414159,
+        "maximum_motor_thrust_n": 3.9341081680439096,
+        "motor_saturation_intervals": 0,
+        "maximum_aircraft_speed_m_s": 1.908754718343491,
+        "maximum_aircraft_acceleration_m_s2": 1.6192154922293425,
+        "sensor_age_p95_ms": 160.00000000076398,
+        "image_processing_p95_ms": 85.4835499994806,
+        "control_p95_ms": 4.3258500008960254,
+        "control_deadline_lateness_p95_ms": 10.17715000489261,
+        "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+        "estimate_activated": true,
+        "mass_relative_error": 0.0001708366263308836,
+        "com_error_m": 0.0002704534618793999,
+        "passed": true,
+        "failed_gates": []
+      },
+      "geometry": {
+        "source_trajectory_sha256": "2c11056ee109542fa859296098ea9e2455682c7e11a256241ff330db60a7111b",
+        "obstacle_count": 12,
+        "new_physics_trials": 1,
+        "known_obstacle_map": true,
+        "minimum_aircraft_separation_m": 0.9464074518036389,
+        "minimum_aircraft_028m_envelope_clearance_m": 0.02746199117187148,
+        "minimum_reconstructed_shape_0045m_envelope_clearance_m": 0.19806034890571508,
+        "cable_sweep_radius_m": 0.042137387586101166,
+        "cable_endpoint_speed_bound_m_s": 1.9137387586009793,
+        "cable_swept_hits": 0,
+        "corner_mounts": true,
+        "cable_body_swept_hits": 0,
+        "cable_sweep_check": "Full segments at 50 Hz, radius 23 mm (including the shackle) plus half sample interval times observed maximum endpoint speed; conservative sampled sweep check, not an analytic continuous-time certificate.",
+        "load_peak_speed_m_s": 1.490032161959609,
+        "formation_span_min_m": [
+          2.955972895702175,
+          1.7639699257937662,
+          0.08161301669521581
+        ],
+        "formation_span_max_m": [
+          4.0217914986656425,
+          2.767209743405276,
+          0.3491421780604149
+        ],
+        "payload_size_m": [
+          1.2100000000000002,
+          0.9,
+          0.4
+        ],
+        "events": [
+          {
+            "name": "offset_narrow",
+            "label": "错位窄门",
+            "width_m": 2.7,
+            "height_m": 6.0,
+            "source_record_index": 3115,
+            "physics_time_sec": 62.300000000115446,
+            "transport_time_sec": 29.880000000142672,
+            "attitude_rpy_deg": [
+              2.018076231696387,
+              4.937146225840538,
+              14.926829883031305
+            ],
+            "formation_extent_m": [
+              3.5679544299850203,
+              2.5948185328864897,
+              0.22829844512274988
+            ],
+            "load_speed_m_s": 0.5811270856309901
+          },
+          {
+            "name": "low_roof",
+            "label": "低顶区",
+            "width_m": 6.0,
+            "height_m": 4.45,
+            "source_record_index": 3676,
+            "physics_time_sec": 73.52000000016902,
+            "transport_time_sec": 41.100000000196246,
+            "attitude_rpy_deg": [
+              9.250909113681676,
+              -1.7771531591293779,
+              0.41376917976950206
+            ],
+            "formation_extent_m": [
+              3.9480533013646326,
+              2.5995504434771997,
+              0.1408216315287163
+            ],
+            "load_speed_m_s": 0.8085513280610838
+          },
+          {
+            "name": "tilted_opening",
+            "label": "斜向开口",
+            "width_m": 2.85,
+            "height_m": 6.0,
+            "source_record_index": 4272,
+            "physics_time_sec": 85.44000000022594,
+            "transport_time_sec": 53.02000000025316,
+            "attitude_rpy_deg": [
+              18.455182306161728,
+              5.425634052850839,
+              -24.46417416128625
+            ],
+            "formation_extent_m": [
+              3.4313363483876707,
+              2.3073784760849865,
+              0.12600396697797134
+            ],
+            "load_speed_m_s": 0.7017868100011089
+          }
+        ],
+        "passed": true
+      },
+      "plan": {
+        "peak": [
+          3.0,
+          3.0
+        ],
+        "drop": 0.45,
+        "duration": 85.0,
+        "p0": [
+          0.1227644034823796,
+          -0.03670823547825715,
+          3.0974570463812334
+        ],
+        "R0": [
+          [
+            0.9945289901443667,
+            0.005850949950136295,
+            0.10429695176310697
+          ],
+          [
+            -0.0019035441627265563,
+            0.9992794511978468,
+            -0.03790718841221457
+          ],
+          [
+            -0.1044435937816001,
+            0.03750126395709603,
+            0.9938235210134079
+          ]
+        ],
+        "formation_mode": "multi_opening_constrained",
+        "candidates": [
+          {
+            "duration": 85.0,
+            "drop": 0.45,
+            "feasible": true,
+            "solver": {
+              "status": "Solved",
+              "variables": 1452,
+              "iterations": 13,
+              "force_rate_bound_n_s": 8.0,
+              "force_second_difference_bound_n_s2": 25.0,
+              "minimum_vertical_force_n": 0.55,
+              "minimum_outward_prestress_n": [
+                0.85,
+                1.4
+              ]
+            },
+            "maximum_reference_speed": 1.8968205427226619,
+            "maximum_reference_acceleration": 1.540541173159251,
+            "minimum_tension": 2.514789117747796,
+            "maximum_tension": 4.687548374163419,
+            "maximum_thrust": 13.933356569489618,
+            "maximum_tilt": 16.38943067015456,
+            "minimum_inflated_geometry_gap_m": 0.03437448829922224,
+            "rope_hit": false,
+            "minimum_aircraft_separation": 0.9395737857961006
+          }
+        ],
+        "initial_planning_wall_sec": 14.690066000002844
+      }
+    },
+    {
+      "case": "large_pose_course_20261026_v01",
+      "summary": {
+        "count": 4,
+        "shape": "forked",
+        "method": "estimated",
+        "completed": true,
+        "reason": null,
+        "physics_time_sec": 169.5799999994459,
+        "wall_time_sec": 172.21306059999915,
+        "vision_frames": 1682,
+        "task_wall_time_including_scan_sec": 172.9161771999934,
+        "initialization_and_scan_wall_sec": 0.6533503999962704,
+        "identification_motion_sec": 16.0,
+        "identification_solve_and_worker_startup_wall_sec": 1.729147499994724,
+        "updated_vision_frames": 1682,
+        "identification_samples": 159,
+        "max_position_error_m": 0.03340707619253373,
+        "max_attitude_error_deg": 2.193523222865771,
+        "min_tension_n": 2.107249703712273,
+        "max_tension_n": 4.749211654585709,
+        "contacts": 0,
+        "cable_contact_steps": 0,
+        "cable_body_contact_steps": 0,
+        "initial_planning_wall_sec": 24.85373239999899,
+        "beam": true,
+        "course": true,
+        "pose_mode": "large",
+        "motion_start_sec": 42.580000000021286,
+        "planned_motion_duration_sec": 125.0,
+        "maximum_aircraft_tilt_deg": 16.127196516719113,
+        "maximum_motor_thrust_n": 4.012778210973975,
+        "motor_saturation_intervals": 0,
+        "maximum_aircraft_speed_m_s": 2.3804233037789375,
+        "maximum_aircraft_acceleration_m_s2": 2.326658388650552,
+        "sensor_age_p95_ms": 160.00000000076398,
+        "image_processing_p95_ms": 91.03016999688403,
+        "control_p95_ms": 4.5702999996137805,
+        "control_deadline_lateness_p95_ms": 10.437720001209527,
+        "declared_sensor_model": "Two calibrated virtual external RGB-D views; no markers or object ID masks; noisy independent tension and aircraft telemetry",
+        "estimate_activated": true,
+        "mass_relative_error": 0.00018766918382318032,
+        "com_error_m": 0.0006582247776473272,
+        "passed": true,
+        "failed_gates": []
+      },
+      "geometry": {
+        "source_trajectory_sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+        "pose_mode": "large",
+        "obstacle_count": 12,
+        "new_physics_trials": 1,
+        "known_obstacle_map": true,
+        "minimum_aircraft_separation_m": 0.6403792628140182,
+        "minimum_aircraft_028m_envelope_clearance_m": 0.08108916585559134,
+        "minimum_reconstructed_shape_0045m_envelope_clearance_m": 0.2681225168905152,
+        "cable_sweep_radius_m": 0.04683733840856708,
+        "cable_endpoint_speed_bound_m_s": 2.383733840845326,
+        "cable_swept_hits": 0,
+        "corner_mounts": true,
+        "cable_body_swept_hits": 0,
+        "cable_sweep_check": "Full segments at 50 Hz, radius 23 mm (including the shackle) plus half sample interval times observed maximum endpoint speed; conservative sampled sweep check, not an analytic continuous-time certificate.",
+        "load_peak_speed_m_s": 1.0464436534589519,
+        "formation_span_min_m": [
+          2.066852734937658,
+          0.9322563961156656,
+          0.018525731597074824
+        ],
+        "formation_span_max_m": [
+          3.908138095034854,
+          4.016457386792238,
+          1.3744615489367602
+        ],
+        "payload_size_m": [
+          1.2100000000000002,
+          0.9,
+          0.4
+        ],
+        "maximum_payload_tilt_deg": 90.33525546861388,
+        "payload_roll_min_deg": -86.637813767912,
+        "payload_roll_max_deg": 90.33525794838586,
+        "payload_yaw_min_deg": -25.254820852406283,
+        "payload_yaw_max_deg": 90.85143257407944,
+        "events": [
+          {
+            "name": "offset_narrow",
+            "label": "错位窄门",
+            "width_m": 2.1,
+            "height_m": 6.0,
+            "source_record_index": 4327,
+            "physics_time_sec": 86.54000000023119,
+            "transport_time_sec": 43.9600000002099,
+            "attitude_rpy_deg": [
+              90.02758813677016,
+              0.16156855324684527,
+              15.015867286245285
+            ],
+            "formation_extent_m": [
+              3.571726771246345,
+              1.249043988581784,
+              1.1228282759297716
+            ],
+            "load_speed_m_s": 0.39522559773666216
+          },
+          {
+            "name": "low_roof",
+            "label": "低顶区",
+            "width_m": 6.0,
+            "height_m": 4.45,
+            "source_record_index": 5151,
+            "physics_time_sec": 103.02000000030988,
+            "transport_time_sec": 60.44000000028859,
+            "attitude_rpy_deg": [
+              0.026070789484851843,
+              -0.1404711786435977,
+              90.20245172036391
+            ],
+            "formation_extent_m": [
+              2.5706734835218796,
+              3.9202105289921185,
+              0.19123846074530615
+            ],
+            "load_speed_m_s": 0.5496176876809543
+          },
+          {
+            "name": "tilted_opening",
+            "label": "斜向开口",
+            "width_m": 2.85,
+            "height_m": 6.0,
+            "source_record_index": 6029,
+            "physics_time_sec": 120.58000000039372,
+            "transport_time_sec": 78.00000000037244,
+            "attitude_rpy_deg": [
+              -84.24428834794502,
+              -0.11913002929318878,
+              -25.15627445112592
+            ],
+            "formation_extent_m": [
+              3.342080595153945,
+              1.7674126748234291,
+              0.8995265265742525
+            ],
+            "load_speed_m_s": 0.4707785379565805
+          }
+        ],
+        "passed": true
+      },
+      "plan": {
+        "peak": [
+          3.0,
+          3.0
+        ],
+        "drop": 0.45,
+        "duration": 125.0,
+        "p0": [
+          0.12241396918049247,
+          -0.034723256294387765,
+          3.099947822971724
+        ],
+        "R0": [
+          [
+            0.994288080093966,
+            0.01038689333853936,
+            0.10622300235737163
+          ],
+          [
+            -0.006509413359591926,
+            0.9993020027274796,
+            -0.03678498175313072
+          ],
+          [
+            -0.10653094067337805,
+            0.035883419452970924,
+            0.9936616823081948
+          ]
+        ],
+        "formation_mode": "multi_opening_constrained",
+        "candidates": [
+          {
+            "duration": 125.0,
+            "drop": 0.45,
+            "feasible": true,
+            "solver": {
+              "status": "Solved",
+              "variables": 1452,
+              "iterations": 14,
+              "force_rate_bound_n_s": 8.0,
+              "force_second_difference_bound_n_s2": 25.0,
+              "minimum_vertical_force_n": 0.55,
+              "minimum_outward_prestress_n": [
+                0.85,
+                1.4
+              ],
+              "linearized_endpoint_separation_m": 0.72
+            },
+            "maximum_reference_speed": 2.3631089302088824,
+            "maximum_reference_acceleration": 2.3228985588335345,
+            "minimum_tension": 2.2900852931027544,
+            "maximum_tension": 4.621498118790734,
+            "maximum_thrust": 13.740095107363446,
+            "maximum_tilt": 15.496350441454009,
+            "minimum_inflated_geometry_gap_m": 0.0886863604493765,
+            "rope_hit": false,
+            "minimum_aircraft_separation": 0.6431715091666192
+          }
+        ],
+        "initial_planning_wall_sec": 24.85373239999899,
+        "pose_mode": "large"
+      }
+    }
+  ],
+  "prefixes": [
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 4.0,
+      "last_derivative_estimate_time_sec": 3.6000000000003696,
+      "activated": false,
+      "rank": 10,
+      "com_error_m": 0.00403733689742758,
+      "mass_relative_error": 8.03187057125676e-05,
+      "future_task_force_rms_error_n": 0.0008236017742697924,
+      "future_task_torque_rms_error_nm": 0.005747111287470451
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 6.0,
+      "last_derivative_estimate_time_sec": 5.599999999999616,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0032979182669047808,
+      "mass_relative_error": 9.089999125733161e-05,
+      "future_task_force_rms_error_n": 0.0009320250055126655,
+      "future_task_torque_rms_error_nm": 0.004827116249107211
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 8.0,
+      "last_derivative_estimate_time_sec": 7.5999999999985075,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0028742391382005875,
+      "mass_relative_error": 8.151809073653205e-05,
+      "future_task_force_rms_error_n": 0.0008358201840011857,
+      "future_task_torque_rms_error_nm": 0.0045084637259077695
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 10.0,
+      "last_derivative_estimate_time_sec": 9.600000000000241,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.002548358074349911,
+      "mass_relative_error": 0.00015741513214140301,
+      "future_task_force_rms_error_n": 0.0016139427928772946,
+      "future_task_torque_rms_error_nm": 0.003870720019831707
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 12.0,
+      "last_derivative_estimate_time_sec": 11.600000000002685,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0023463813370604982,
+      "mass_relative_error": 0.00011430042346238789,
+      "future_task_force_rms_error_n": 0.0011719001833282105,
+      "future_task_torque_rms_error_nm": 0.003681097462024052
+    },
+    {
+      "count": 3,
+      "shape": "rectangular",
+      "observation_prefix_sec": 16.0,
+      "last_derivative_estimate_time_sec": 15.500000000007452,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0021767245886563234,
+      "mass_relative_error": 4.17169301628606e-05,
+      "future_task_force_rms_error_n": 0.0004277698060862707,
+      "future_task_torque_rms_error_nm": 0.0033535744404828167
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 4.0,
+      "last_derivative_estimate_time_sec": 3.6000000000003696,
+      "activated": false,
+      "rank": 10,
+      "com_error_m": 0.00047494683811259735,
+      "mass_relative_error": 8.412410127145442e-05,
+      "future_task_force_rms_error_n": 0.00086239233293585,
+      "future_task_torque_rms_error_nm": 0.0009039505709563678
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 6.0,
+      "last_derivative_estimate_time_sec": 5.599999999999616,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0010978143067027983,
+      "mass_relative_error": 0.00012569075988178025,
+      "future_task_force_rms_error_n": 0.0012884986994957895,
+      "future_task_torque_rms_error_nm": 0.0013846857216225775
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 8.0,
+      "last_derivative_estimate_time_sec": 7.5999999999985075,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0006963561145447823,
+      "mass_relative_error": 0.00011286916527075697,
+      "future_task_force_rms_error_n": 0.001157060585572689,
+      "future_task_torque_rms_error_nm": 0.0007665811961847842
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 10.0,
+      "last_derivative_estimate_time_sec": 9.600000000000241,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0009327895016590277,
+      "mass_relative_error": 0.00014194126137223595,
+      "future_task_force_rms_error_n": 0.0014550874890936058,
+      "future_task_torque_rms_error_nm": 0.0009248546586974761
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 12.0,
+      "last_derivative_estimate_time_sec": 11.600000000002685,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0012894452839708561,
+      "mass_relative_error": 0.00010813772122963972,
+      "future_task_force_rms_error_n": 0.0011085545114938775,
+      "future_task_torque_rms_error_nm": 0.0016677453969591598
+    },
+    {
+      "count": 3,
+      "shape": "irregular",
+      "observation_prefix_sec": 16.0,
+      "last_derivative_estimate_time_sec": 15.500000000007452,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0013398117704775591,
+      "mass_relative_error": 2.4322739298310303e-05,
+      "future_task_force_rms_error_n": 0.00024936579702021803,
+      "future_task_torque_rms_error_nm": 0.0015684586134775674
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 4.0,
+      "last_derivative_estimate_time_sec": 3.6000000000003696,
+      "activated": false,
+      "rank": 10,
+      "com_error_m": 0.001961944247959157,
+      "mass_relative_error": 0.00026301276000095797,
+      "future_task_force_rms_error_n": 0.002695579286656981,
+      "future_task_torque_rms_error_nm": 0.003573327392543069
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 6.0,
+      "last_derivative_estimate_time_sec": 5.599999999999616,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0016828286653941262,
+      "mass_relative_error": 0.00019382288572322715,
+      "future_task_force_rms_error_n": 0.0019864746250253165,
+      "future_task_torque_rms_error_nm": 0.003786551774806632
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 8.0,
+      "last_derivative_estimate_time_sec": 7.5999999999985075,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.001163280904113629,
+      "mass_relative_error": 0.00012817590759117703,
+      "future_task_force_rms_error_n": 0.001313670062525885,
+      "future_task_torque_rms_error_nm": 0.0034212358588455627
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 10.0,
+      "last_derivative_estimate_time_sec": 9.600000000000241,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0007033501095588706,
+      "mass_relative_error": 0.00010285166920753763,
+      "future_task_force_rms_error_n": 0.0010541179453826014,
+      "future_task_torque_rms_error_nm": 0.002312691599622958
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 12.0,
+      "last_derivative_estimate_time_sec": 11.600000000002685,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.00034753285894407733,
+      "mass_relative_error": 0.0001445858663976507,
+      "future_task_force_rms_error_n": 0.0014818186202708063,
+      "future_task_torque_rms_error_nm": 0.0013745065277911439
+    },
+    {
+      "count": 4,
+      "shape": "rectangular",
+      "observation_prefix_sec": 16.0,
+      "last_derivative_estimate_time_sec": 15.500000000007452,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0003856383726086964,
+      "mass_relative_error": 0.00017118880499100708,
+      "future_task_force_rms_error_n": 0.0017544586027768896,
+      "future_task_torque_rms_error_nm": 0.001018199186202207
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 4.0,
+      "last_derivative_estimate_time_sec": 3.6000000000003696,
+      "activated": false,
+      "rank": 10,
+      "com_error_m": 0.003936684196038585,
+      "mass_relative_error": 0.0002851966951793461,
+      "future_task_force_rms_error_n": 0.0029230118017150096,
+      "future_task_torque_rms_error_nm": 0.007567910370032921
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 6.0,
+      "last_derivative_estimate_time_sec": 5.599999999999616,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.002540975540121534,
+      "mass_relative_error": 0.00020034478427410907,
+      "future_task_force_rms_error_n": 0.0020533370992462685,
+      "future_task_torque_rms_error_nm": 0.004472600857766443
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 8.0,
+      "last_derivative_estimate_time_sec": 7.5999999999985075,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.001971199103470816,
+      "mass_relative_error": 0.00012389416507130324,
+      "future_task_force_rms_error_n": 0.0012698157500777218,
+      "future_task_torque_rms_error_nm": 0.0039650364681395765
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 10.0,
+      "last_derivative_estimate_time_sec": 9.600000000000241,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0014105425362960996,
+      "mass_relative_error": 0.00010926384623821672,
+      "future_task_force_rms_error_n": 0.0011198595083154806,
+      "future_task_torque_rms_error_nm": 0.003411991730856916
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 12.0,
+      "last_derivative_estimate_time_sec": 11.600000000002685,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0010216440780815312,
+      "mass_relative_error": 0.00013388392790614212,
+      "future_task_force_rms_error_n": 0.0013721580726795937,
+      "future_task_torque_rms_error_nm": 0.002401310475361701
+    },
+    {
+      "count": 4,
+      "shape": "irregular",
+      "observation_prefix_sec": 16.0,
+      "last_derivative_estimate_time_sec": 15.500000000007452,
+      "activated": true,
+      "rank": 10,
+      "com_error_m": 0.0006792021808133327,
+      "mass_relative_error": 0.00015356268501209858,
+      "future_task_force_rms_error_n": 0.0015738238619480084,
+      "future_task_torque_rms_error_nm": 0.0016050027525447896
+    }
+  ],
+  "numerical": {
+    "source": "F:\\EpicGamesEnv\\ForestSlingLab\\runs\\vision_tension_joint_matrix_20261025_v03\\3_irregular_estimated",
+    "interval_start_sec": 29.3,
+    "interval_duration_sec": 2.0,
+    "independent_step_sec": 0.00025,
+    "metrics": [
+      {
+        "engine_step_sec": 0.001,
+        "maximum_payload_com_difference_m": 0.0009728333571645679,
+        "maximum_payload_angle_difference_deg": 0.1291078824798049,
+        "maximum_aircraft_com_difference_m": 0.0034684587083315763
+      },
+      {
+        "engine_step_sec": 0.0005,
+        "maximum_payload_com_difference_m": 0.000484419017744282,
+        "maximum_payload_angle_difference_deg": 0.06423393285184655,
+        "maximum_aircraft_com_difference_m": 0.0017273090201306792
+      },
+      {
+        "engine_step_sec": 0.00025,
+        "maximum_payload_com_difference_m": 0.00024170910884246708,
+        "maximum_payload_angle_difference_deg": 0.03203707617056623,
+        "maximum_aircraft_com_difference_m": 0.0008619249035616335
+      }
+    ],
+    "no_resets_within_interval": true
+  },
+  "source_files": {
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/analysis/METRICS.json": {
+      "sha256": "d52cd35c86dc4293dae1b3378ce6a120048e01f6ab917fabf0da636af4924121",
+      "bytes": 2843
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/ASSET.json": {
+      "sha256": "abaa7c18d172c8412823e885dba0516464097446148982b20b1b2d8a6d8b1fba",
+      "bytes": 25295
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/CONTROL_MODEL.json": {
+      "sha256": "92bc5af5c7d4c1cc49703d4b2bb8e88758288308b5d1fc62f4591f4b50b4ed76",
+      "bytes": 311
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/IDENTIFICATION.json": {
+      "sha256": "d0c85e0ad7fa83d0d51b34569344e5446fb840576bccf6bac52ceec9188e049a",
+      "bytes": 224743
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/IDENTIFICATION_ROWS.json": {
+      "sha256": "86bb61e64743db79b7a3035eea4b294ec2ae0962e929819687481f266f057734",
+      "bytes": 207590
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/model.xml": {
+      "sha256": "cab751ef34c562e62ccfc2af602bb07e5059c3c063db50680a36303f5d782046",
+      "bytes": 55571
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/PLAN.json": {
+      "sha256": "093b44f0ce31317fafe9bbd1b2505d55e75d545802a06791e109c29f5d60fae2",
+      "bytes": 1465
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/planned_endpoints.npz": {
+      "sha256": "a77b3f34e4cd5cb98c43f42732b44de05e3c2cb5bddb75a6e433358bd8113629",
+      "bytes": 5901780
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/PROTOCOL.json": {
+      "sha256": "689374f6139a12e035c7cc331e48eeb9b00a2e377b3c3e93017d7743c3fc51bb",
+      "bytes": 8105
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SCAN_APPEARANCE.json": {
+      "sha256": "bd0dc5c3c623a2a2d25d8ff88e8d4b0526befeac93d3aa9764e85f8ed412067b",
+      "bytes": 159
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/scan_world.npy": {
+      "sha256": "659d9afd12bab28de8ded37982dcf538bf4c0c8f9251de7b387ae9c08cc93dda",
+      "bytes": 144128
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SENSOR_ROWS.json": {
+      "sha256": "14e827ac79d0a1ba944cd776b4181bb150a51806511ece616761741570961335",
+      "bytes": 7796083
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SMOOTHED_IDENTIFICATION_ROWS.json": {
+      "sha256": "ce4162b4fcbb356e1231919cbca9d910c18773fce59d0d9f808cade3ab8a6346",
+      "bytes": 197063
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SOURCE_AUDIT.json": {
+      "sha256": "115612089487af5650fae87bd410491e8864a6a4dc5f93246466b514c31e9aeb",
+      "bytes": 2262
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SOURCE_SHA256.json": {
+      "sha256": "e19649721697555dcd2528ad904333aed5fe8fe237b9fb4ad4e5ec18f1e33f41",
+      "bytes": 1669
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/SUMMARY.json": {
+      "sha256": "a918a020456ab8a5fbe9f8dd56ca8d6db6321a07f9c1d6e873e4aa49af2b5908",
+      "bytes": 1701
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/trajectory.npz": {
+      "sha256": "2c11056ee109542fa859296098ea9e2455682c7e11a256241ff330db60a7111b",
+      "bytes": 5019927
+    },
+    "runs/complex_forked_corner_lugs_20261026_v05/4_forked_estimated/VISION.json": {
+      "sha256": "7174988d934d58ddba2cb1887b7cf6a387b6227493b87198760eb1e9aa9de5e2",
+      "bytes": 1429956
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/analysis/METRICS.json": {
+      "sha256": "b0d677a3f73bac3564ee7bc47d7eace5eea9a103b54962616dcc5bd3adb05759",
+      "bytes": 3100
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/ASSET.json": {
+      "sha256": "8df84a5e358328f403c562a7a5a8d4c20c162683fe8eec09be8bb6b2aae7753f",
+      "bytes": 25295
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/CONTROL_MODEL.json": {
+      "sha256": "0c22bc407da018a935b9bb5d701df9f8a5a2fbd454a8660155759d2f15a7f4ac",
+      "bytes": 315
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/IDENTIFICATION.json": {
+      "sha256": "59ae2f32c0531e50fc25b02b001e6052d27ae092d12ec6f7f02d1abf8ff456a2",
+      "bytes": 223421
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/IDENTIFICATION_ROWS.json": {
+      "sha256": "924cdf48ea34c94b651a88cf8431ebcb754e0a594ba633c522407ce4c24672c4",
+      "bytes": 207613
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/model.xml": {
+      "sha256": "f358eb9cb5737855eb0a49d6f8c99f58c3c49944240d2e9ad9a7767d9cb048f2",
+      "bytes": 55571
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/PLAN.json": {
+      "sha256": "4ad831943c4c6e745f7c270eb968fcb6302144f23aba8be1d92940c807df1d51",
+      "bytes": 1544
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/planned_endpoints.npz": {
+      "sha256": "21c963e8715363a6991cbb86da94b969642ffab9a0ef8b8400c96f605d2b0b32",
+      "bytes": 8627277
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/PROTOCOL.json": {
+      "sha256": "2ead9cdeea37736b7c698b941aee8c7974de0bf2832d4d159e3d1f7eb2e39679",
+      "bytes": 8142
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SCAN_APPEARANCE.json": {
+      "sha256": "2c01b9294664827ee70b1bcce645e8b69bf99cc0da6c2b87e7a3a1aa5e5a8cf0",
+      "bytes": 159
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/scan_world.npy": {
+      "sha256": "b467d2bf375130aee256823a4e2dd70e3079614cb3955c822d105044f4861ef4",
+      "bytes": 144128
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SENSOR_ROWS.json": {
+      "sha256": "43d78a16a675a60cb2a21d434b947a8cde49045b065616db23807508ab6c7940",
+      "bytes": 11088487
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SMOOTHED_IDENTIFICATION_ROWS.json": {
+      "sha256": "f1f5be4c5d4c07538c996e9ba7de9c6edf938d1d28f157dbdf1bfe108906f357",
+      "bytes": 197092
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SOURCE_AUDIT.json": {
+      "sha256": "115612089487af5650fae87bd410491e8864a6a4dc5f93246466b514c31e9aeb",
+      "bytes": 2262
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SOURCE_SHA256.json": {
+      "sha256": "36d050e4297479cbfb7730633295f1923b78f1ef5fda182c11219f2dce7e7fe7",
+      "bytes": 1669
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/SUMMARY.json": {
+      "sha256": "9eab05767a14fe9ea21e1a9552157d050a5a525b3d20aa6f5b001b6befb58990",
+      "bytes": 1726
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/trajectory.npz": {
+      "sha256": "06979b382a154bf7393c4c7014214a3dd037bc91a2f8c40af4e29c31f2811bb6",
+      "bytes": 6936693
+    },
+    "runs/large_pose_course_20261026_v01/4_forked_estimated/VISION.json": {
+      "sha256": "b6fb6d9d473720f40280bb6b7f7d64afaed76f1892d1fbc8686e95637199ff23",
+      "bytes": 2023141
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/ASSET.json": {
+      "sha256": "093f1a2bb1e73f34c30f876e1051dd589784f938def411e1b31f83f5c6158766",
+      "bytes": 23698
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/CONTROL_MODEL.json": {
+      "sha256": "5283aa443b9f543d45b173447f43d5407f503a0ce68a40877b6861c67544a3c8",
+      "bytes": 311
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/IDENTIFICATION.json": {
+      "sha256": "da42f8a400852d60fc0e642943dcd46c8e00eaf491a7033adf763dcdc02f4a0f",
+      "bytes": 188813
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/PLAN.json": {
+      "sha256": "75da948ca54ce5e66c382675760ca106dde8d7cf1e0a8a1b8ce2ceda6f629534",
+      "bytes": 5886
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/PROTOCOL.json": {
+      "sha256": "9dce723745f4b56edcaccb314cad19391076840e3ce82bf86c77fa98ca52f944",
+      "bytes": 1241
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/scan_world.npy": {
+      "sha256": "9d724bd257b27c0d3a7e3b5ee51567f84cc9e5646d42a51931bfbfc46f20df47",
+      "bytes": 122456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/SUMMARY.json": {
+      "sha256": "ac0d67046aa9f92a1861a1cfd69720287b6c2319baa67ceaac1a1bb1de9a451b",
+      "bytes": 1632
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_estimated/trajectory.npz": {
+      "sha256": "f6fd23a36176218ce510dd9f7d7025e940a0345e0e76a8422fd9197a7e238002",
+      "bytes": 1396679
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/ASSET.json": {
+      "sha256": "093f1a2bb1e73f34c30f876e1051dd589784f938def411e1b31f83f5c6158766",
+      "bytes": 23698
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/CONTROL_MODEL.json": {
+      "sha256": "7f5e97489d187015baf41777b574252967ea5aa4c390bddff4933773825e27d6",
+      "bytes": 317
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/IDENTIFICATION.json": {
+      "sha256": "da42f8a400852d60fc0e642943dcd46c8e00eaf491a7033adf763dcdc02f4a0f",
+      "bytes": 188813
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/PLANNING_REFUSAL.json": {
+      "sha256": "a107422c4d2a4af770fdbfd15e92a4a0312d0fd14179d8bdc3068a05bde10c62",
+      "bytes": 7104
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/PROTOCOL.json": {
+      "sha256": "91559347afef7a474c8954556184b66c0fe9b36c2c1dcf645fca1907a36d33d2",
+      "bytes": 1239
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/scan_world.npy": {
+      "sha256": "9d724bd257b27c0d3a7e3b5ee51567f84cc9e5646d42a51931bfbfc46f20df47",
+      "bytes": 122456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/SUMMARY.json": {
+      "sha256": "ecb3d5f22610b819d9f26a6d7b35f7144c1fcba3cc0cff8dba57df9feead33af",
+      "bytes": 1724
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_irregular_uniform/trajectory.npz": {
+      "sha256": "aea3e6d070bce5f7456fd0373377d99abf27e4b61c0c3ea35db689bb89092b13",
+      "bytes": 526711
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/ASSET.json": {
+      "sha256": "10204a4278f8dfaf450e9496617bf8e576e422621127764384ac813292e69faf",
+      "bytes": 28298
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/CONTROL_MODEL.json": {
+      "sha256": "b2bdb18d660bc88a239cde402cea1056fe7d86168a4cc0c60bb19a307047380f",
+      "bytes": 314
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/IDENTIFICATION.json": {
+      "sha256": "5e892980f94d8d0c33ffca2417a631aebc4377b0be08da42d0545435e623691b",
+      "bytes": 190884
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/PLAN.json": {
+      "sha256": "a256092f5a210dc84abbb91e937b1721b15111d45a4587d11bc99075619ecc13",
+      "bytes": 3285
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/PROTOCOL.json": {
+      "sha256": "c6fcdfdc2339ae2df9aa5d27535da181dedaa1a37ef7d6551b2a4572dcce2d50",
+      "bytes": 1243
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/scan_world.npy": {
+      "sha256": "89c32285c9f0b625819007f9fa38910775c95372a004f0184145c0448eea08c9",
+      "bytes": 110384
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/SUMMARY.json": {
+      "sha256": "d4062eaf9002089a3cb97e33ae0af28b19a4962eb40ebdcc39311b7ee970e0ea",
+      "bytes": 1637
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated/trajectory.npz": {
+      "sha256": "26379dc5389e55705d70739338cd81efd1143b09d06ad5ef73714c0264aec416",
+      "bytes": 1308967
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/ASSET.json": {
+      "sha256": "10204a4278f8dfaf450e9496617bf8e576e422621127764384ac813292e69faf",
+      "bytes": 28298
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/CONTROL_MODEL.json": {
+      "sha256": "d056678b198d212f177b24e0d59293156204964f51ee83433dc3bf5e999e58ea",
+      "bytes": 320
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/IDENTIFICATION.json": {
+      "sha256": "5e892980f94d8d0c33ffca2417a631aebc4377b0be08da42d0545435e623691b",
+      "bytes": 190884
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/PLANNING_REFUSAL.json": {
+      "sha256": "c22e4e1e973b605ff1b751b2f5953f35b79e5f6982d3c59b258821a1c8ac238e",
+      "bytes": 7102
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/PROTOCOL.json": {
+      "sha256": "ab0a7b62c1841314b56427a1ec99aa6b98c19f8f586ab654b416a30356a74d76",
+      "bytes": 1241
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/scan_world.npy": {
+      "sha256": "89c32285c9f0b625819007f9fa38910775c95372a004f0184145c0448eea08c9",
+      "bytes": 110384
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/SUMMARY.json": {
+      "sha256": "309aa4e57195349cdc0eec102dac2362aa10e3ab2d60d5634c28c1bea91e70fa",
+      "bytes": 1723
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/3_rectangular_uniform/trajectory.npz": {
+      "sha256": "51fd11fd962fe159243152187ac0f0c18df15145da38ec2b2a698f5882359973",
+      "bytes": 529328
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/ASSET.json": {
+      "sha256": "760b65acfab0a5a603d695a1ae72e4765d1449fa6f3e3d5ff38107fa82b08201",
+      "bytes": 23910
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/CONTROL_MODEL.json": {
+      "sha256": "28cfb6d94229ff446922edf2416ef36a20c9caca28384ff64e03736b2326350e",
+      "bytes": 312
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/IDENTIFICATION.json": {
+      "sha256": "615bd9cc4503f28aa35993e13246064778e458659f31dc35fba11c9b08ca3b19",
+      "bytes": 188506
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/PLAN.json": {
+      "sha256": "6593979df298aa4aa6e52a1c8d15d2a13b0f7e964fffbc0a8f68547df01c11a1",
+      "bytes": 1847
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/PROTOCOL.json": {
+      "sha256": "939285925c5e9d0f2bc0852d0f932f6c612bb2872d526a266fc5cce29d8b8bb6",
+      "bytes": 1241
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/scan_world.npy": {
+      "sha256": "82bcb8b6455e0237128c9cac13f4b609cd5d65bc272c5e0dd4299d6d77b3ad39",
+      "bytes": 121592
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/SUMMARY.json": {
+      "sha256": "465915ac95c6499ca4f1af593bd018e869307b935b5cb42bf2b175275e562c74",
+      "bytes": 1640
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_estimated/trajectory.npz": {
+      "sha256": "744d33773b457a7c07e684e79e7706f43ac348998b8c577297924e6216493406",
+      "bytes": 1630022
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/ASSET.json": {
+      "sha256": "760b65acfab0a5a603d695a1ae72e4765d1449fa6f3e3d5ff38107fa82b08201",
+      "bytes": 23910
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/CONTROL_MODEL.json": {
+      "sha256": "5f7cfc4cb01493da2bb5a27292134505637f8a1768d982a479b13e1d5a94db3d",
+      "bytes": 315
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/IDENTIFICATION.json": {
+      "sha256": "615bd9cc4503f28aa35993e13246064778e458659f31dc35fba11c9b08ca3b19",
+      "bytes": 188506
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/PLANNING_REFUSAL.json": {
+      "sha256": "391ea405a36bf68d6944222484ae8ce730694b2e1586d003e7f054d438b8ea40",
+      "bytes": 7819
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/PROTOCOL.json": {
+      "sha256": "b9d266d9231d854f1c85bee664056e7e08aea7fe054c0980d3b8418082702092",
+      "bytes": 1239
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/scan_world.npy": {
+      "sha256": "82bcb8b6455e0237128c9cac13f4b609cd5d65bc272c5e0dd4299d6d77b3ad39",
+      "bytes": 121592
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/SUMMARY.json": {
+      "sha256": "6fe04cddb1c60a4ff9fa6e2ab7d85ffa298037049f1896d3efcfd656d11d5370",
+      "bytes": 1722
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_irregular_uniform/trajectory.npz": {
+      "sha256": "998eba8a8d39996033927c9c856c9b5d76c0d3073423764d414906dbc043461a",
+      "bytes": 848357
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/ASSET.json": {
+      "sha256": "a47e3fd6001bff4e38a04c337bef8cef7f1e3bf81e0de5840d966a4dea0e7b5a",
+      "bytes": 28502
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/CONTROL_MODEL.json": {
+      "sha256": "bfcdd3af8f1313eaa9e5d013ef5facba2152695c5953502fefb4feddf4e42d16",
+      "bytes": 313
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/IDENTIFICATION.json": {
+      "sha256": "f77ad511f0fc24acfecde33f0adfaa152c8a167646fb1982b936fd9e3559cfd4",
+      "bytes": 191062
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/PLAN.json": {
+      "sha256": "eb6d2dfb1b34a00743a24885e77f92dd20f42294f8191bca4869dc1b253351dd",
+      "bytes": 1853
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/PROTOCOL.json": {
+      "sha256": "5c06772f68feb7c480b1859f2eb2e630b1f4d992ff7dcb914679bcdaf903fc87",
+      "bytes": 1243
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/scan_world.npy": {
+      "sha256": "37aa67e497bdae95e843d4a13aa6646f57ed6fadd7f0194e990f45dde68dfc3f",
+      "bytes": 109928
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/SUMMARY.json": {
+      "sha256": "81562a372f13a13d23f6ff64698ffd05c2e86cf67542ca9123d4a6ff6662dfdf",
+      "bytes": 1642
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated/trajectory.npz": {
+      "sha256": "a559078d6db71eaa1d2fce6016c51d208c4adf6afbf210ac2d782fd6a9b324e0",
+      "bytes": 1624015
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/ASSET.json": {
+      "sha256": "a47e3fd6001bff4e38a04c337bef8cef7f1e3bf81e0de5840d966a4dea0e7b5a",
+      "bytes": 28502
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/CONTROL_MODEL.json": {
+      "sha256": "9bbed4ed85328cbb70beffb33462aebc4e6fbd1249a5a3e2b3b47ec9b9234d8b",
+      "bytes": 319
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/IDENTIFICATION.json": {
+      "sha256": "f77ad511f0fc24acfecde33f0adfaa152c8a167646fb1982b936fd9e3559cfd4",
+      "bytes": 191062
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/PLAN.json": {
+      "sha256": "1aba6174625b1d1ba66a78dd2c4b9d6ec40be596866900ecd8a10a5c2584c5da",
+      "bytes": 2213
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/PROTOCOL.json": {
+      "sha256": "44a55071560af0e065ddf20eab3a005674b84387739c616efda32d4fbbcaf120",
+      "bytes": 1241
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/scan_world.npy": {
+      "sha256": "37aa67e497bdae95e843d4a13aa6646f57ed6fadd7f0194e990f45dde68dfc3f",
+      "bytes": 109928
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/SOURCE_SHA256.json": {
+      "sha256": "cfef08386ee136d8e3dee394056ee6dbd7e4a2d15785a672346c700d5301fd63",
+      "bytes": 1456
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/SUMMARY.json": {
+      "sha256": "aa15bbc52de67db109634c7e0d7b167ca79b43677dbc5dc412a9aed788bfd345",
+      "bytes": 1705
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/4_rectangular_uniform/trajectory.npz": {
+      "sha256": "938490c24c1238c24958f175eec2d201f566e320fa2189a5fa060159ad836c0d",
+      "bytes": 1649063
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/causal_identification/PROTOCOL.json": {
+      "sha256": "8f75bcddaa65784bf4b3f42392a98594517018f5e2fbee262b7d8e36812c1de1",
+      "bytes": 485
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/causal_identification/RESULTS.json": {
+      "sha256": "9013784e96a1d8adc5019915c7d08d0a25c1f4841a82f42c661969906f3c157e",
+      "bytes": 9892
+    },
+    "runs/vision_tension_joint_matrix_20261025_v03/numerical_crosscheck/SUMMARY.json": {
+      "sha256": "0ffd09da41680f493b5ba97ae75ec012deea1366936d9fc58a24b77fc1b3d1ee",
+      "bytes": 1028
+    }
+  }
+}

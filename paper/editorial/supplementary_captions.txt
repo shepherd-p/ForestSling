@@ -1,0 +1,24 @@
+Supplementary Material S1. Numerical data and analysis
+
+S1 contains the eight base task attempts (three or four UAVs, rectangular or irregular payload, identified or uniform-shape model), the moderate-rotation and large-rotation forked-payload course records, numerical cross-check results, causal observation-prefix results and figure-source images. Archived force-planning and simulation source snapshots preserve the implementation for each experiment group. The provided analysis scripts regenerate the numerical figures and recompute the reported error and center-of-mass values. The source manifest identifies every archived input by SHA-256.
+
+Supplementary Videos S2a to S2d. Team size and payload shape
+
+S2a: Three UAVs carrying a rectangular payload.
+S2b: Three UAVs carrying an irregular stepped payload.
+S2c: Four UAVs carrying a rectangular payload.
+S2d: Four UAVs carrying an irregular stepped payload.
+
+Each video shows the identified-model closed-loop transport below the beam, using the numerical execution reported in Table 2. The three-aircraft irregular task uses a 22 s transport; the other three use 20 s. Videos additionally include pretransport and terminal-hold frames.
+
+Supplementary Video S3. Forked payload through sequential apertures
+
+Four UAVs transport the forked payload through the 2.70 m offset opening, low ceiling and tilted opening. The transport duration is 85 s. The video shows corner-mounted padeyes, rotating shackles and rope terminations consistent with the attachment model.
+
+Supplementary Video S4. Successive large-angle reorientations
+
+The same forked payload passes the 2.10 m narrow opening side-on, returns to horizontal with approximately 90 degree yaw under the ceiling, rolls toward the opposite side for the tilted opening, and returns to its nominal attitude. The transport duration is 125 s. The measured payload roll ranges from -86.64 to 90.34 degrees. This is the execution in Figures 6 to 8 and the second row of Table 4.
+
+Video acquisition
+
+All videos are original 1920 by 1080, 25 fps Unreal Engine 5.2 RGB recordings of the corresponding archived MuJoCo motor/rigid-body/cable closed-loop states. Playback uses one physical-time scale. Unreal renders the presentation; the quantitative dynamics, visual tracking inputs and control measurements are defined in the manuscript. Alternate-view still images in Figure 7 show the same recorded physical crossing instants.

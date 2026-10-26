@@ -1,0 +1,8 @@
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+Pillow>=10,<13
+mujoco==3.3.7
+clarabel==0.11.1
+opencv-python>=4.8,<6
+pytest>=8,<10

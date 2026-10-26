@@ -1,0 +1,52 @@
+{
+  "count": 4,
+  "shape": "irregular",
+  "seed": 2501,
+  "ballast_seed": 2501,
+  "beam": true,
+  "course": false,
+  "duration": 20.0,
+  "method": "mass_matched",
+  "corner_mounts": false,
+  "pose_mode": "standard",
+  "obstacles": [
+    {
+      "center": [
+        4.0,
+        0.0,
+        4.6
+      ],
+      "half": [
+        0.12,
+        3.0,
+        0.1
+      ]
+    }
+  ],
+  "obstacle_source": "Declared known obstacle map for isolating perception/inertia/formation coupling",
+  "controller_hz": 50.0,
+  "rgbd_hz": 10.0,
+  "physics_dt_sec": 0.0005,
+  "tracking_pixel_stride": 2,
+  "tracking_correspondence_gate_m": 0.08,
+  "tracking_appearance_filter": "not enabled",
+  "commanded_aircraft_speed_limit_m_s": 2.5,
+  "commanded_aircraft_acceleration_limit_m_s2": 4.5,
+  "acceptance_gates": {
+    "position_error_m": 0.1,
+    "attitude_error_deg": 5.0,
+    "tension_n": [
+      0.5,
+      9.0
+    ],
+    "aircraft_tilt_deg": 40.0,
+    "motor_thrust_n": 7.5,
+    "aircraft_speed_m_s": 2.6,
+    "aircraft_acceleration_m_s2": 6.0,
+    "no_body_or_cable_contact": true
+  },
+  "development": true,
+  "perception": "Two calibrated external virtual RGB-D views, no markers or object IDs",
+  "planning": "Asynchronous finite whole-segment candidate search; continuous local-map replanning not enabled in this test",
+  "scan_phase": "Known static fixture, before cable rigging; subsequent image tracking includes cables"
+}
