@@ -56,6 +56,8 @@
     "failed_gates": []
   },
   "statistical_cohort_inclusion": false,
-  "figure_regeneration_identical": 13,
-  "archived_source_hashes_checked": 111
+  "archived_source_hashes_checked": 111,
+  "regenerated_outputs_identical": 13,
+  "regenerated_figures": 9,
+  "regenerated_table_fragments": 4
 }

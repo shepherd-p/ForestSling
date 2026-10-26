@@ -1,0 +1,43 @@
+{
+  "abstract_words": 233,
+  "figures": 9,
+  "tables": 5,
+  "bibliography_records": 19,
+  "references_resolved": true,
+  "overfull_boxes": [],
+  "highlight_character_counts": [
+    77,
+    77,
+    79,
+    75
+  ],
+  "pdfs": [
+    {
+      "language": "English",
+      "pages": 15,
+      "sha256": "b8b451474da2687abf55094cb48ae992d4d8ab6a6ef3223ebabefb4bce890a1a",
+      "text_outside_page": []
+    },
+    {
+      "language": "Chinese",
+      "pages": 16,
+      "sha256": "40d9d786384bc0243647605dffa2ababd85e05c4b2a1c8950c1cc988fb9a8d4e",
+      "text_outside_page": []
+    }
+  ],
+  "status": "passed_with_visual_review",
+  "visual_review": {
+    "english_pages": 15,
+    "chinese_pages": 16,
+    "response_pages": 3,
+    "all_figures": 9,
+    "checked": [
+      "Page flow and figure captions",
+      "No clipping or overlap",
+      "Readable Arial figure and table typography",
+      "Five-arm table kept together in Chinese",
+      "No near-empty intermediate pages",
+      "Complete references and working repository target"
+    ]
+  }
+}
