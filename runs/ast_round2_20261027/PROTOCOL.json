@@ -1,0 +1,257 @@
+{
+  "jobs": [
+    {
+      "name": "4_rectangular_estimated_27000",
+      "seed": 27000,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27001",
+      "seed": 27001,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27002",
+      "seed": 27002,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27003",
+      "seed": 27003,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27004",
+      "seed": 27004,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27005",
+      "seed": 27005,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27006",
+      "seed": 27006,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27007",
+      "seed": 27007,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27008",
+      "seed": 27008,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27009",
+      "seed": 27009,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27010",
+      "seed": 27010,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27011",
+      "seed": 27011,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27012",
+      "seed": 27012,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27013",
+      "seed": 27013,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27014",
+      "seed": 27014,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27015",
+      "seed": 27015,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27016",
+      "seed": 27016,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27017",
+      "seed": 27017,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27018",
+      "seed": 27018,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_estimated_27019",
+      "seed": 27019,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_unconstrained_28000",
+      "seed": 28000,
+      "shape": "rectangular",
+      "method": "unconstrained",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_forked_unconstrained_28000",
+      "seed": 28000,
+      "shape": "forked",
+      "method": "unconstrained",
+      "perturbation": "none",
+      "course": true
+    },
+    {
+      "name": "4_rectangular_moment_psd_28000",
+      "seed": 28000,
+      "shape": "rectangular",
+      "method": "moment_psd",
+      "perturbation": "none",
+      "course": false
+    },
+    {
+      "name": "4_forked_moment_psd_28000",
+      "seed": 28000,
+      "shape": "forked",
+      "method": "moment_psd",
+      "perturbation": "none",
+      "course": true
+    },
+    {
+      "name": "4_rectangular_tension_bias_28001",
+      "seed": 28001,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "tension_bias",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_motor_tau_28001",
+      "seed": 28001,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "motor_tau",
+      "course": false
+    },
+    {
+      "name": "4_rectangular_observation_loss_28001",
+      "seed": 28001,
+      "shape": "rectangular",
+      "method": "estimated",
+      "perturbation": "observation_loss",
+      "course": false
+    },
+    {
+      "name": "4_forked_tension_bias_28001",
+      "seed": 28001,
+      "shape": "forked",
+      "method": "estimated",
+      "perturbation": "tension_bias",
+      "course": true
+    },
+    {
+      "name": "4_forked_motor_tau_28001",
+      "seed": 28001,
+      "shape": "forked",
+      "method": "estimated",
+      "perturbation": "motor_tau",
+      "course": true
+    },
+    {
+      "name": "4_forked_observation_loss_28001",
+      "seed": 28001,
+      "shape": "forked",
+      "method": "estimated",
+      "perturbation": "observation_loss",
+      "course": true
+    }
+  ],
+  "age_gate_sec": 0.35,
+  "cohort": "Same twenty seeds as original, one new initial attempt each, process-isolated image worker",
+  "perturbations": {
+    "tension_bias_N": [
+      0.04,
+      -0.04,
+      0.04,
+      -0.04
+    ],
+    "motor_time_constant_sec": 0.0375,
+    "observation_loss": "Discard every tenth delivered observation; no ground-truth pose replacement"
+  },
+  "scope": "Two configurations, three declared perturbations, one execution per condition; not a population robustness estimate"
+}

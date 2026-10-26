@@ -1,1 +1,1 @@
-"""Cooperative cable-suspended rigid-payload transport."""
+"""Cooperative cable-suspended transport."""

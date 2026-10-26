@@ -2,7 +2,7 @@
 from pathlib import Path
 import sys,json,time,copy
 import numpy as np
-ROOT=Path(__file__).resolve().parents[1];LAB=ROOT.parent
+ROOT=Path(__file__).resolve().parents[1];LAB=ROOT if (ROOT/'runs').is_dir() else ROOT.parent
 sys.path[:0]=[str(LAB),str(LAB/'.deps/markerless'),str(LAB/'.deps/submission_review'),
               str(LAB/'research/vision_tension_20261025')]
 from forestlab.inertial_identification import parameters,decode,tensor,integral_system

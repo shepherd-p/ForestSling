@@ -1,0 +1,4 @@
+# Keep archived experiment bytes unchanged for SOURCE_SHA256 and input manifests.
+runs/** -text
+paper/manuscript/table*_rows.tex -text
+paper/supplementary/** -text

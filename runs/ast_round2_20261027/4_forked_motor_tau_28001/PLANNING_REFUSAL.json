@@ -1,0 +1,74 @@
+[
+  {
+    "duration": 125.0,
+    "drop": 0.45,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 125.0,
+    "drop": 0.65,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 125.0,
+    "drop": 0.85,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 150.0,
+    "drop": 0.45,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 150.0,
+    "drop": 0.65,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 150.0,
+    "drop": 0.85,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 181.25,
+    "drop": 0.45,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 181.25,
+    "drop": 0.65,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 181.25,
+    "drop": 0.85,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 212.5,
+    "drop": 0.45,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 212.5,
+    "drop": 0.65,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  },
+  {
+    "duration": 212.5,
+    "drop": 0.85,
+    "feasible": false,
+    "reason": "Whole-interval force optimization: PrimalInfeasible"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "peak": [
+    3.0,
+    3.0
+  ],
+  "drop": 0.45,
+  "duration": 125.0,
+  "p0": [
+    0.12249836896435748,
+    -0.03751887190985118,
+    3.099200827199638
+  ],
+  "R0": [
+    [
+      0.9943190416199201,
+      0.006684081254412024,
+      0.1062307230977243
+    ],
+    [
+      -0.002157656477362392,
+      0.9990870055632222,
+      -0.04266731574935252
+    ],
+    [
+      -0.10641892684389921,
+      0.04219571509660278,
+      0.9934256558176757
+    ]
+  ],
+  "formation_mode": "multi_opening_constrained",
+  "candidates": [
+    {
+      "duration": 125.0,
+      "drop": 0.45,
+      "feasible": true,
+      "solver": {
+        "status": "Solved",
+        "variables": 1452,
+        "iterations": 14,
+        "force_rate_bound_n_s": 8.0,
+        "force_second_difference_bound_n_s2": 25.0,
+        "minimum_vertical_force_n": 0.55,
+        "minimum_outward_prestress_n": [
+          0.85,
+          1.4
+        ],
+        "linearized_endpoint_separation_m": 0.72
+      },
+      "maximum_reference_speed": 2.368154003171318,
+      "maximum_reference_acceleration": 2.332941294675777,
+      "minimum_tension": 2.28951835552929,
+      "maximum_tension": 4.618187803063028,
+      "maximum_thrust": 13.747026801261237,
+      "maximum_tilt": 15.474122912748216,
+      "minimum_inflated_geometry_gap_m": 0.08870199057006578,
+      "rope_hit": false,
+      "minimum_aircraft_separation": 0.644806544470815
+    }
+  ],
+  "initial_planning_wall_sec": 25.15414860000601,
+  "pose_mode": "large"
+}

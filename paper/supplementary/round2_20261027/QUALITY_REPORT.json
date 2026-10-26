@@ -1,0 +1,37 @@
+{
+  "abstract_words": 235,
+  "figures": 9,
+  "tables": 8,
+  "bibliography_records": 19,
+  "references_resolved": true,
+  "overfull_boxes": [],
+  "highlight_character_counts": [
+    77,
+    77,
+    79,
+    75
+  ],
+  "pdfs": [
+    {
+      "language": "English",
+      "pages": 17,
+      "sha256": "2f5f49bf140e0394b0c3b4b68dfb264a2a9e4f9ee64ef07e06e58f0e3cacf093",
+      "text_outside_page": []
+    },
+    {
+      "language": "Chinese",
+      "pages": 19,
+      "sha256": "d4717d34a641de3a3b9eb5881a12f84758a8f651bbe36b83228edd5000731b01",
+      "text_outside_page": []
+    }
+  ],
+  "status": "passed_with_visual_review",
+  "visual_review": {
+    "english_pages_reviewed": 17,
+    "chinese_pages_reviewed": 19,
+    "response_pages_reviewed": 3,
+    "last_change_review": "Chinese pages 11 and 12 and all three response pages rerendered and inspected after final cross-reference and title-border corrections. English PDF hash unchanged from the complete 17-page visual review.",
+    "figures_1_2_rechecked": true,
+    "defects_remaining": []
+  }
+}

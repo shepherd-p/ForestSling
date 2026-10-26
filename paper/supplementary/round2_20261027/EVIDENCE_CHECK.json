@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "meaning": "Archive integrity and declared configuration checks; not a claim that every trial passed its execution gates",
+  "initial_attempts": 30,
+  "source_snapshot_files_verified": 459,
+  "raw_ols_rejection_preserved": true,
+  "motor_perturbation_checked_from_native_xml": true,
+  "process_cohort_accepted": 20,
+  "checks": [
+    {
+      "case": "4_rectangular_estimated_27000",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27001",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27002",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27003",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27004",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27005",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27006",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27007",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27008",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27009",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27010",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27011",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27012",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27013",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27014",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27015",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27016",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27017",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27018",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_estimated_27019",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_rectangular_unconstrained_28000",
+      "completed": false,
+      "accepted": false,
+      "trajectory_available": false,
+      "source_files_verified": 15
+    },
+    {
+      "case": "4_forked_unconstrained_28000",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_rectangular_moment_psd_28000",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_forked_moment_psd_28000",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_rectangular_tension_bias_28001",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_rectangular_motor_tau_28001",
+      "completed": true,
+      "accepted": false,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_rectangular_observation_loss_28001",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_forked_tension_bias_28001",
+      "completed": true,
+      "accepted": false,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_forked_motor_tau_28001",
+      "completed": false,
+      "accepted": false,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    },
+    {
+      "case": "4_forked_observation_loss_28001",
+      "completed": true,
+      "accepted": true,
+      "trajectory_available": true,
+      "source_files_verified": 16
+    }
+  ]
+}

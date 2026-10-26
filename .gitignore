@@ -6,3 +6,4 @@ __pycache__/
 artifacts/
 runs/local_*/
 *.log
+!runs/ast_round2_20261027/*.log

@@ -23,6 +23,6 @@ The contribution is an explicit connection from identified inertial moments to c
 
 \begin{figure*}[t]
 \centering\includegraphics[width=\textwidth]{fig02_framework.pdf}
-\caption{Information flow from acquired geometry to supporting formation. Surface and pose registration supplies a common geometric frame; integral momentum and tension observations supply the inertial moments. The known openings and prescribed smooth payload references enter constrained force optimization together with the reconstructed geometry and identified moments. The compliant endpoint map converts cable forces to supporting aircraft positions, followed by motor-driven feedback execution. Point clouds and support configurations use the forked-payload records. The return path denotes visual and tension feedback, rather than online attitude-sequence search.}
+\caption{Mechanical schematic of the sensing-to-formation connection. (a) RGB-D observations provide the surface and registered pose. (b) Cable tensions and motion identify mass, CoM and inertia during preparation; the orange point marks the CoM and arrows indicate cable forces. (c) Constrained force allocation maps the identified moments to supporting endpoints during payload reorientation. Obstacle geometry, calibrated mounts and the smooth payload reference family are given inputs. The dashed path denotes transport pose feedback.}
 \label{fig:framework}
 \end{figure*}

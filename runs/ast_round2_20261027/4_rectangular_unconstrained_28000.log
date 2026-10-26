@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\EpicGamesEnv\ForestSlingLab\research\vision_tension_20261025\round2_vision_closed_loop.py", line 331, in <module>
+    a=p.parse_args();run(Path(a.out).resolve(),a.count,a.shape,a.duration,a.beam,a.method,a.physics_dt,a.course,a.corner_mounts,a.pose_mode,a.sensor_seed,a.perturbation)
+  File "F:\EpicGamesEnv\ForestSlingLab\research\vision_tension_20261025\round2_vision_closed_loop.py", line 202, in run
+    servo=TensionPoseServo(anchors,control_theta,rest_length=e.rest_length,stiffness=e.stiffness,
+  File "F:\EpicGamesEnv\ForestSlingLab\forestlab\tension_transport.py", line 159, in __init__
+    raise ValueError('Physical identified inertia required')
+ValueError: Physical identified inertia required

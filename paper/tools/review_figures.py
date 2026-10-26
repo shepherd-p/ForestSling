@@ -18,7 +18,7 @@ def overview(fig,data,events,unreal,bind):
     txt(fig,.025,.968,'Geometry and inertial sensing enable coordinated obstacle passage',9.4,weight='bold')
     folder=unreal.parent/'large_pose_course_20261026_v01/4_forked_estimated'
     protocol=json.loads((folder/'PROTOCOL.json').read_text(encoding='utf-8'))
-    ax=plain(fig,[.025,.430,.95,.490])
+    ax=plain(fig,[.025,.515,.95,.415])
     faces=[]
     for box in protocol['obstacles']:
         center=np.asarray(box['center']);half=np.asarray(box['half']);R=np.asarray(box.get('rotation',np.eye(3)))
@@ -47,69 +47,59 @@ def overview(fig,data,events,unreal,bind):
                 bbox=dict(boxstyle='circle,pad=.2',fc='white',ec=PALETTE[j],lw=.7))
         ax.plot([qp[0],qp[0]],[qp[1]-.4,label_y+.3],color=PALETTE[j],lw=.6,ls=':')
     ax.set(xlim=(lo[0]-.8,hi[0]+.8),ylim=(label_y-.5,hi[1]+.4));ax.set_aspect('equal')
-    txt(fig,.035,.418,'Known openings; one continuous transport',8,color=INK)
-    txt(fig,.965,.418,'Recorded states in a common spatial frame',7.5,ha='right',color=INK)
+    # Each camera image fills its column at its original pixel aspect ratio.
+    # Equal widths and a narrow gutter remove the former aspect-induced gaps.
     headings=['(a) Side-on passage','(b) Low-ceiling passage','(c) Opposite-side passage']
-    for j,(x,event,title) in enumerate(zip([.025,.350,.675],events,headings)):
+    for j,(x,event,title) in enumerate(zip([.015,.342,.669],events,headings)):
         path=unreal/'inspection_views_clear'/f"{event['name']}.png"
-        ax=fig.add_axes([x,.059,.30,.285]);ax.imshow(Image.open(path).crop((400,0,1680,1080)));ax.set_axis_off()
-        txt(fig,x,.366,title,8,weight='bold',color=PALETTE[j])
-        txt(fig,x,.024,f"Roll {event['attitude_rpy_deg'][0]:.1f} deg",8.1)
+        height=.316*fig.get_figwidth()/fig.get_figheight()/(1280/1080)
+        ax=fig.add_axes([x,.045,.316,height]);ax.imshow(Image.open(path).crop((400,0,1680,1080)));ax.set_axis_off()
+        txt(fig,x,.463,title,7.6,weight='bold',color=PALETTE[j])
+        roll,pitch,yaw=event['attitude_rpy_deg']
+        txt(fig,x,.014,rf'Roll ${roll:.0f}^\circ$   Yaw ${yaw:.0f}^\circ$',7.8)
         bind(path,'Fig. 1 linked Unreal crossing view; common spatial crop only')
     bind(folder/'PROTOCOL.json','Fig. 1 common-frame known obstacle geometry')
     bind(folder/'trajectory.npz','Fig. 1 recorded payload and supporting aircraft configurations')
 
 def framework(fig,folder,data,events,unreal,bind):
-    """A continuous mechanical information flow with explicit given/optimized quantities."""
-    ax=plain(fig,[0,0,1,1]);stages=[(.02,.285,'1  Acquire'),(.365,.625,'2  Identify'),(.705,.98,'3  Reconfigure')]
-    for left,right,label in stages:
-        ax.plot([left,right],[.944,.944],color=INK,lw=.8)
-        txt(fig,left,.968,label,9.4,weight='bold')
-    cloud=np.load(folder/'scan_world.npy');cloud-=cloud.mean(0)
-    p=projection(cloud);order=np.argsort(p[:,2]);ca=plain(fig,[.025,.620,.253,.247])
-    ca.scatter(p[order,0],p[order,1],c=p[order,2],cmap='Blues',s=.5,linewidths=0)
-    ca.set_aspect('equal');ca.autoscale();ca.margins(.03)
-    txt(fig,.025,.574,'RGB-D surface and pose',8.5)
-    txt(fig,.025,.524,r'$\mathcal{S},\ \hat p(t),\ \hat R(t),\ b_i$',10,color=TEAL)
-    txt(fig,.025,.470,'12-view scan; calibrated mounts',8)
-    ca=plain(fig,[.360,.618,.264,.251]);asset=data['asset'];draw_body(ca,asset,center=-np.asarray(asset['scan_offset']))
-    ident=json.loads((folder/'IDENTIFICATION.json').read_text(encoding='utf-8'));c=projection(ident['decoded']['com'])
-    ca.scatter(*c[:2],s=30,c=ORANGE,edgecolors='white',zorder=9)
+    """Mechanical schematic; mathematical and implementation detail belongs in text."""
+    from matplotlib.patches import Polygon,Ellipse
+    ax=plain(fig,[0,0,1,1])
+    for x,label in [(.02,'(a) Scan'),(.35,'(b) Identify'),(.68,'(c) Reconfigure')]:
+        txt(fig,x,.93,label,9,weight='bold')
+    cloud=np.load(folder/'scan_world.npy')
+    cloud-=np.asarray(data['asset']['scan_offset'])+np.array([0.,0.,3.])
+    p=projection(cloud);order=np.argsort(p[:,2])
+    ca=plain(fig,[.025,.27,.25,.52]);ca.scatter(p[order,0],p[order,1],c=p[order,2],cmap='Blues',s=.35,linewidths=0)
+    ca.set_aspect('equal');ca.autoscale();ca.margins(.1)
+    # Calibrated camera glyphs and viewing rays, with no synthetic image textures.
+    for x,y,sign in [(.025,.79,1),(.262,.34,-1)]:
+        ax.add_patch(Rectangle((x,y),.026,.043,fc='white',ec=INK,lw=.8))
+        xx=x+(.026 if sign==1 else 0)
+        ax.add_patch(Polygon([(xx,y+.008),(xx+sign*.012,y+.001),(xx+sign*.012,y+.042),(xx,y+.035)],closed=True,fc=LIGHT,ec=INK,lw=.7))
+        ax.plot([xx+sign*.012,.15],[y+.022,.57],ls=':',lw=.7,color=TEAL)
+    txt(fig,.145,.17,r'$\mathcal{S},\ \hat p,\ \hat R$',11,ha='center',color=TEAL)
+    ca=plain(fig,[.345,.27,.255,.52]);asset=data['asset']
+    draw_body(ca,asset,center=-np.asarray(asset['scan_offset']))
+    ident=json.loads((folder/'IDENTIFICATION.json').read_text(encoding='utf-8'))
+    c=projection(ident['decoded']['com']);ca.scatter(*c[:2],s=30,c=ORANGE,edgecolors='white',zorder=9)
+    origin=projection([0.,0.,0.]);ca.scatter(*origin[:2],s=22,c=INK,marker='+',zorder=9)
+    ca.plot([origin[0],c[0]],[origin[1],c[1]],ls=':',lw=.8,color=ORANGE)
+    ca.text(c[0]+.045,c[1]-.03,'CoM',fontsize=7.2,color=ORANGE)
     anchors=projection(np.asarray(asset['public']['anchors'])-np.asarray(asset['scan_offset']))
-    for j,a in enumerate(anchors):arrow(ca,a[:2],a[:2]+np.array([(-.15 if j<2 else .15),.50]),color=PALETTE[j],scale=8)
+    for j,a in enumerate(anchors):
+        arrow(ca,a[:2],a[:2]+np.array([(-.12 if j<2 else .12),.48]),color=PALETTE[j],scale=7,lw=.9)
     ca.set(xlim=(-.85,.85),ylim=(-.5,.85),aspect='equal')
-    txt(fig,.365,.574,'Tensions and integral momentum',8.5)
-    txt(fig,.365,.522,r'$A\theta=b,\quad\theta=B\mu,\quad\mu\geq0$',10)
-    txt(fig,.365,.470,r'$\hat\theta:\ \hat m,\ \hat c,\ \hat J_O$',10,color=ORANGE)
-    for x,event in [(.703,events[0]),(.845,events[1])]:
-        ca=plain(fig,[x,.615,.135,.250]);configuration(ca,data,event['source_record_index'])
-    txt(fig,.705,.574,'Cable forces set support geometry',8.5)
-    txt(fig,.705,.522,r'$f_i\ \mapsto\ x_{i,r}(t)$',10,color=TEAL)
-    txt(fig,.705,.470,'Side-on and spread formations',8)
-    arrow(ax,(.286,.740),(.347,.740),color=INK,scale=10)
-    arrow(ax,(.631,.740),(.690,.740),color=INK,scale=10)
-    # The mechanical chain occupies one shared baseline beneath the observations.
-    ax.plot([.025,.975],[.408,.408],color=LIGHT,lw=.7)
-    txt(fig,.025,.369,'GIVEN',7.4,weight='bold',color=INK)
-    txt(fig,.160,.369,'Known obstacles and smooth payload pose references',8.4)
-    arrow(ax,(.490,.350),(.490,.311),color=INK,scale=9)
-    arrow(ax,(.638,.469),(.638,.312),color=ORANGE,scale=8)
-    ax.add_patch(Rectangle((.251,.157),.495,.147,facecolor='#F7F9FA',edgecolor='#BAC8CE',lw=.8))
-    txt(fig,.498,.267,'Constrained cable-force optimization',8.8,weight='bold',ha='center')
-    txt(fig,.498,.217,r'$\min\ \mathcal{J}(f)\quad\mathrm{s.t.}\quad G(R_r)f=Y_d\hat\theta$',11,ha='center')
-    txt(fig,.498,.178,'Aperture, loading, actuation and endpoint separation',8,ha='center')
-    txt(fig,.025,.262,'GEOMETRY',7.4,weight='bold',color=TEAL)
-    txt(fig,.025,.214,'Surface and attachments',8.1)
-    arrow(ax,(.115,.304),(.115,.325),color=TEAL,scale=7)
-    arrow(ax,(.150,.243),(.241,.243),color=TEAL,scale=8)
-    txt(fig,.779,.262,'EXECUTION',7.4,weight='bold',color=TEAL)
-    txt(fig,.779,.214,'Endpoint / attitude control',8.1)
-    arrow(ax,(.752,.243),(.771,.243),color=TEAL,scale=8)
-    txt(fig,.779,.168,'50 Hz motor commands',8.1)
-    arrow(ax,(.920,.151),(.920,.088),color=TEAL,scale=8)
-    arrow(ax,(.920,.088),(.115,.088),color=TEAL,scale=8,linestyle=(0,(3,2)))
-    arrow(ax,(.115,.088),(.115,.146),color=TEAL,scale=8,linestyle=(0,(3,2)))
-    txt(fig,.498,.035,'10 Hz RGB-D requests and synchronized tension feedback',8.2,ha='center',color=TEAL)
+    txt(fig,.475,.17,r'$\hat m,\ \hat c,\ \hat J_C$',11,ha='center',color=ORANGE)
+    for x,event in [(.674,events[0]),(.839,events[1])]:
+        ca=plain(fig,[x,.275,.157,.52]);configuration(ca,data,event['source_record_index'])
+    txt(fig,.833,.17,r'$f_i\ \longmapsto\ x_{i,r}$',11,ha='center',color=TEAL)
+    arrow(ax,(.284,.58),(.331,.58),scale=10,lw=1)
+    arrow(ax,(.610,.58),(.658,.58),scale=10,lw=1)
+    # One transport feedback route. Fitting is performed during preparation.
+    ax.plot([.935,.935,.032,.032],[.25,.075,.075,.31],color=TEAL,lw=.8,ls=(0,(3,2)))
+    arrow(ax,(.032,.29),(.032,.31),color=TEAL,scale=7,lw=.8)
+    txt(fig,.54,.016,'Visual feedback',7.8,ha='center',color=TEAL)
     bind(folder/'scan_world.npy','Fig. 2 acquired surface point cloud')
     bind(folder/'IDENTIFICATION.json','Fig. 2 fitted inertial parameters')
     bind(folder/'ASSET.json','Fig. 2 attachment geometry and nonconvex load')

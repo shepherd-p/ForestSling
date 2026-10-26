@@ -1,0 +1,308 @@
+[
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated",
+    "model": "Oracle",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.04872837275516415,
+    "moment_impulse_RMS_Nms": 0.22691393940811014,
+    "force_component_mean_Ns": [
+      -0.0006828308653874618,
+      0.002020309127833744,
+      0.0005951178625550512
+    ],
+    "moment_component_mean_Nms": [
+      -0.00016216463755081573,
+      -0.0021204455367837298,
+      0.012188162455029204
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated",
+    "model": "Full ID",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.048719257825174826,
+    "moment_impulse_RMS_Nms": 0.2269010324820647,
+    "force_component_mean_Ns": [
+      -0.0006851107543277938,
+      0.0020196251494406375,
+      0.0004240272282584965
+    ],
+    "moment_component_mean_Nms": [
+      -0.0008829116768303362,
+      -0.0020235801057569584,
+      0.012179040657451297
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_rectangular_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.04928539054303609,
+    "moment_impulse_RMS_Nms": 0.33368574614315644,
+    "force_component_mean_Ns": [
+      -0.0006880503429879934,
+      0.001970668663030796,
+      0.0004884226057761246
+    ],
+    "moment_component_mean_Nms": [
+      0.08005111150485608,
+      0.40627775167787594,
+      0.01197918605701611
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_irregular_estimated",
+    "model": "Oracle",
+    "windows": 49,
+    "force_impulse_RMS_Ns": 0.043115045835693484,
+    "moment_impulse_RMS_Nms": 0.22353134468768707,
+    "force_component_mean_Ns": [
+      -0.0009205779513065339,
+      0.0011462569249943116,
+      0.00023424228774907415
+    ],
+    "moment_component_mean_Nms": [
+      0.0005208046818582399,
+      -0.0005400854040745185,
+      0.004395629867694665
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_irregular_estimated",
+    "model": "Full ID",
+    "windows": 49,
+    "force_impulse_RMS_Ns": 0.04311280140235663,
+    "moment_impulse_RMS_Nms": 0.22353148306909468,
+    "force_component_mean_Ns": [
+      -0.000920940904625769,
+      0.0011470900904055879,
+      0.00013452238194629519
+    ],
+    "moment_component_mean_Nms": [
+      0.0002128386704746597,
+      -0.0003364977661832837,
+      0.0043928482395331455
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/3_irregular_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 49,
+    "force_impulse_RMS_Ns": 0.04282702190713452,
+    "moment_impulse_RMS_Nms": 0.35058330993090286,
+    "force_component_mean_Ns": [
+      -0.000945885203630591,
+      0.0011011302130851967,
+      0.00016894268141322022
+    ],
+    "moment_component_mean_Nms": [
+      0.11210238193057827,
+      0.4484599492410161,
+      0.004352238439396295
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated",
+    "model": "Oracle",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.0057230413175001155,
+    "moment_impulse_RMS_Nms": 0.01939775773351097,
+    "force_component_mean_Ns": [
+      -0.0014528559069258763,
+      0.0011634630408563342,
+      0.0009208639781109044
+    ],
+    "moment_component_mean_Nms": [
+      0.00012129090127584418,
+      -0.004987034302466503,
+      0.007040812650241942
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated",
+    "model": "Full ID",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.005701869256063835,
+    "moment_impulse_RMS_Nms": 0.019174118987971077,
+    "force_component_mean_Ns": [
+      -0.0014528808690650167,
+      0.001163688414036792,
+      0.0002191797663896625
+    ],
+    "moment_component_mean_Nms": [
+      0.00037910373306685103,
+      -0.0019791470817502525,
+      0.007039872156251512
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_rectangular_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.0058271998885396125,
+    "moment_impulse_RMS_Nms": 0.24105203152881596,
+    "force_component_mean_Ns": [
+      -0.0014589433174599742,
+      0.0011737208525590885,
+      0.0009418166245687749
+    ],
+    "moment_component_mean_Nms": [
+      0.07933319022327723,
+      0.4008819377575809,
+      0.007205959954294819
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_irregular_estimated",
+    "model": "Oracle",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.004729187096175816,
+    "moment_impulse_RMS_Nms": 0.013454427838743524,
+    "force_component_mean_Ns": [
+      -0.001608078588701666,
+      0.002022829498434654,
+      0.0010049851100043022
+    ],
+    "moment_component_mean_Nms": [
+      -0.0011663321077583298,
+      -0.004029341902728629,
+      0.008737931992245866
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_irregular_estimated",
+    "model": "Full ID",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.0047009367898515255,
+    "moment_impulse_RMS_Nms": 0.013327356707721873,
+    "force_component_mean_Ns": [
+      -0.001608959403786228,
+      0.002023018650536763,
+      0.0003753981378987848
+    ],
+    "moment_component_mean_Nms": [
+      -0.0006665197313310329,
+      -0.001693475130113941,
+      0.008739070869822153
+    ]
+  },
+  {
+    "case": "vision_tension_joint_matrix_20261025_v03/4_irregular_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 44,
+    "force_impulse_RMS_Ns": 0.0048293178802000045,
+    "moment_impulse_RMS_Nms": 0.27315899567553487,
+    "force_component_mean_Ns": [
+      -0.0016063076717015652,
+      0.0020025821039923904,
+      0.0011418896167762432
+    ],
+    "moment_component_mean_Nms": [
+      0.12137415696841668,
+      0.4479605478582893,
+      0.00857177482319971
+    ]
+  },
+  {
+    "case": "complex_forked_corner_lugs_20261026_v05/4_forked_estimated",
+    "model": "Oracle",
+    "windows": 207,
+    "force_impulse_RMS_Ns": 0.027834791594844914,
+    "moment_impulse_RMS_Nms": 0.3917400428917657,
+    "force_component_mean_Ns": [
+      0.00012582595616786313,
+      0.0020374702290693594,
+      0.00038118323082394036
+    ],
+    "moment_component_mean_Nms": [
+      -0.0007894658769120203,
+      -0.006442468026042651,
+      0.03024836451252746
+    ]
+  },
+  {
+    "case": "complex_forked_corner_lugs_20261026_v05/4_forked_estimated",
+    "model": "Full ID",
+    "windows": 207,
+    "force_impulse_RMS_Ns": 0.027835878708172838,
+    "moment_impulse_RMS_Nms": 0.3917832163489144,
+    "force_component_mean_Ns": [
+      0.0001258309039355512,
+      0.0020375436958853907,
+      -0.00031907096844217397
+    ],
+    "moment_component_mean_Nms": [
+      -0.00025317476501932545,
+      0.003149265478838434,
+      0.030249186351190806
+    ]
+  },
+  {
+    "case": "complex_forked_corner_lugs_20261026_v05/4_forked_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 207,
+    "force_impulse_RMS_Ns": 0.02825360228245186,
+    "moment_impulse_RMS_Nms": 0.4475664475827156,
+    "force_component_mean_Ns": [
+      0.00012565701532212212,
+      0.0020386483589994076,
+      0.0003835445000359083
+    ],
+    "moment_component_mean_Nms": [
+      0.07899214457264413,
+      0.3424078576559844,
+      0.030234822828774592
+    ]
+  },
+  {
+    "case": "large_pose_course_20261026_v01/4_forked_estimated",
+    "model": "Oracle",
+    "windows": 307,
+    "force_impulse_RMS_Ns": 0.022352642782346673,
+    "moment_impulse_RMS_Nms": 0.20543327959793153,
+    "force_component_mean_Ns": [
+      -0.0010826190200398276,
+      0.001466821099579191,
+      0.0011973768157534227
+    ],
+    "moment_component_mean_Nms": [
+      -0.0013240334222251063,
+      -0.011875618039283137,
+      -0.008503271344447396
+    ]
+  },
+  {
+    "case": "large_pose_course_20261026_v01/4_forked_estimated",
+    "model": "Full ID",
+    "windows": 307,
+    "force_impulse_RMS_Ns": 0.022341044327554016,
+    "moment_impulse_RMS_Nms": 0.20514736303848258,
+    "force_component_mean_Ns": [
+      -0.0010826362297810315,
+      0.0014667432956697994,
+      0.0004281120185298919
+    ],
+    "moment_component_mean_Nms": [
+      -0.0011468704739557786,
+      -0.0013215847243097916,
+      -0.008503379093740335
+    ]
+  },
+  {
+    "case": "large_pose_course_20261026_v01/4_forked_estimated",
+    "model": "Mass-matched uniform",
+    "windows": 307,
+    "force_impulse_RMS_Ns": 0.0213703680189565,
+    "moment_impulse_RMS_Nms": 0.2645876916259891,
+    "force_component_mean_Ns": [
+      -0.0010824315634518137,
+      0.0014683533119942414,
+      0.0011978247506228754
+    ],
+    "moment_component_mean_Nms": [
+      0.002139480274895657,
+      0.2762033089503752,
+      -0.00851573131464715
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "interval": "minimum_aircraft_clearance",
+    "start_sec": 99.12000000029126,
+    "end_sec": 101.1200000003008,
+    "integration_step_sec": 0.0005,
+    "geometry_step_sec": 0.002,
+    "minimum_aircraft_clearance_2ms_m": 0.08108813498575207,
+    "minimum_aircraft_clearance_20ms_m": 0.08108916585559134,
+    "minimum_surface_clearance_m": 1.5359892221004414,
+    "cable_intersection_samples": 0,
+    "maximum_aircraft_center_speed_m_s": 0.5608218060543864,
+    "local_half_sample_translation_bound_m": 0.0005608218060543864,
+    "scope": "Recorded motor-command replay initialized once per 2 s interval; no interior state resets. Fine sampled margin, not a disturbance-invariant safety guarantee."
+  },
+  {
+    "interval": "side_on",
+    "start_sec": 85.54000000022641,
+    "end_sec": 87.54000000023596,
+    "integration_step_sec": 0.0005,
+    "geometry_step_sec": 0.002,
+    "minimum_aircraft_clearance_2ms_m": 0.8519456992457162,
+    "minimum_aircraft_clearance_20ms_m": 0.857638219474076,
+    "minimum_surface_clearance_m": 0.7430926820896556,
+    "cable_intersection_samples": 0,
+    "maximum_aircraft_center_speed_m_s": 0.42197379324801626,
+    "local_half_sample_translation_bound_m": 0.0004219737932480163,
+    "scope": "Recorded motor-command replay initialized once per 2 s interval; no interior state resets. Fine sampled margin, not a disturbance-invariant safety guarantee."
+  },
+  {
+    "interval": "low_ceiling",
+    "start_sec": 102.0200000003051,
+    "end_sec": 104.02000000031465,
+    "integration_step_sec": 0.0005,
+    "geometry_step_sec": 0.002,
+    "minimum_aircraft_clearance_2ms_m": 0.08200990477358727,
+    "minimum_aircraft_clearance_20ms_m": 0.08200994679896423,
+    "minimum_surface_clearance_m": 1.5358167607574287,
+    "cable_intersection_samples": 0,
+    "maximum_aircraft_center_speed_m_s": 0.5549011697698265,
+    "local_half_sample_translation_bound_m": 0.0005549011697698266,
+    "scope": "Recorded motor-command replay initialized once per 2 s interval; no interior state resets. Fine sampled margin, not a disturbance-invariant safety guarantee."
+  },
+  {
+    "interval": "opposite_side",
+    "start_sec": 119.58000000038895,
+    "end_sec": 121.5800000003985,
+    "integration_step_sec": 0.0005,
+    "geometry_step_sec": 0.002,
+    "minimum_aircraft_clearance_2ms_m": 0.9400097939333326,
+    "minimum_aircraft_clearance_20ms_m": 0.9475263332751349,
+    "minimum_surface_clearance_m": 1.1106930900788297,
+    "cable_intersection_samples": 0,
+    "maximum_aircraft_center_speed_m_s": 0.498155207560866,
+    "local_half_sample_translation_bound_m": 0.000498155207560866,
+    "scope": "Recorded motor-command replay initialized once per 2 s interval; no interior state resets. Fine sampled margin, not a disturbance-invariant safety guarantee."
+  }
+]

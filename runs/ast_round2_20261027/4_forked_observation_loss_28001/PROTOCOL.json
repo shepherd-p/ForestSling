@@ -1,0 +1,427 @@
+{
+  "actual_motor_time_constant_sec": 0.025,
+  "sensor_worker": "isolated process, one outstanding frame, unchanged 0.35 s age gate",
+  "perturbation": "observation_loss",
+  "count": 4,
+  "shape": "forked",
+  "seed": 28001,
+  "ballast_seed": 2501,
+  "beam": true,
+  "course": true,
+  "duration": 125.0,
+  "method": "estimated",
+  "corner_mounts": true,
+  "pose_mode": "large",
+  "obstacles": [
+    {
+      "name": "offset_narrow_post_-1",
+      "gate": "offset_narrow",
+      "center": [
+        5.318347425476101,
+        -0.5380887663355539,
+        3.0
+      ],
+      "half": [
+        0.22,
+        0.18,
+        3.0
+      ],
+      "rotation": [
+        [
+          0.9659258262890683,
+          -0.25881904510252074,
+          0.0
+        ],
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "offset_narrow_post_1",
+      "gate": "offset_narrow",
+      "center": [
+        4.681652574523899,
+        1.838088766335554,
+        3.0
+      ],
+      "half": [
+        0.22,
+        0.18,
+        3.0
+      ],
+      "rotation": [
+        [
+          0.9659258262890683,
+          -0.25881904510252074,
+          0.0
+        ],
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "offset_narrow_lintel",
+      "gate": "offset_narrow",
+      "center": [
+        5.0,
+        0.65,
+        6.1
+      ],
+      "half": [
+        0.22,
+        1.4100000000000001,
+        0.1
+      ],
+      "rotation": [
+        [
+          0.9659258262890683,
+          -0.25881904510252074,
+          0.0
+        ],
+        [
+          0.25881904510252074,
+          0.9659258262890683,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_wood.png"
+    },
+    {
+      "name": "low_roof_panel",
+      "gate": "low_roof",
+      "center": [
+        13.0,
+        -0.65,
+        4.57
+      ],
+      "half": [
+        1.05,
+        3.0,
+        0.12
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_wood.png"
+    },
+    {
+      "name": "low_roof_post_-1",
+      "gate": "low_roof",
+      "center": [
+        13.0,
+        -3.82,
+        2.225
+      ],
+      "half": [
+        0.22,
+        0.17,
+        2.225
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "low_roof_post_1",
+      "gate": "low_roof",
+      "center": [
+        13.0,
+        2.52,
+        2.225
+      ],
+      "half": [
+        0.22,
+        0.17,
+        2.225
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "tilted_opening_post_-1",
+      "gate": "tilted_opening",
+      "center": [
+        21.33652022280953,
+        -0.8728369738031039,
+        2.666301736237496
+      ],
+      "half": [
+        0.22,
+        0.18,
+        3.0
+      ],
+      "rotation": [
+        [
+          0.9063077870366499,
+          0.4133830387479567,
+          -0.0878672773689712
+        ],
+        [
+          -0.42261826174069944,
+          0.8865027874162641,
+          -0.18843198440409165
+        ],
+        [
+          -0.0,
+          0.20791169081775934,
+          0.9781476007338057
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "tilted_opening_post_1",
+      "gate": "tilted_opening",
+      "center": [
+        22.66347977719047,
+        1.972836973803104,
+        3.333698263762504
+      ],
+      "half": [
+        0.22,
+        0.18,
+        3.0
+      ],
+      "rotation": [
+        [
+          0.9063077870366499,
+          0.4133830387479567,
+          -0.0878672773689712
+        ],
+        [
+          -0.42261826174069944,
+          0.8865027874162641,
+          -0.18843198440409165
+        ],
+        [
+          -0.0,
+          0.20791169081775934,
+          0.9781476007338057
+        ]
+      ],
+      "material": "portal_guard_blue.png"
+    },
+    {
+      "name": "tilted_opening_lintel",
+      "gate": "tilted_opening",
+      "center": [
+        21.72761144015619,
+        -0.03413915165268411,
+        6.032257562274798
+      ],
+      "half": [
+        0.22,
+        1.7850000000000001,
+        0.1
+      ],
+      "rotation": [
+        [
+          0.9063077870366499,
+          0.4133830387479567,
+          -0.0878672773689712
+        ],
+        [
+          -0.42261826174069944,
+          0.8865027874162641,
+          -0.18843198440409165
+        ],
+        [
+          -0.0,
+          0.20791169081775934,
+          0.9781476007338057
+        ]
+      ],
+      "material": "portal_wood.png"
+    },
+    {
+      "name": "approach_left",
+      "gate": "clutter",
+      "center": [
+        2.2,
+        -2.45,
+        1.3
+      ],
+      "half": [
+        0.3,
+        0.45,
+        1.3
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_wood.png"
+    },
+    {
+      "name": "between_right",
+      "gate": "clutter",
+      "center": [
+        9.0,
+        2.65,
+        1.65
+      ],
+      "half": [
+        0.38,
+        0.48,
+        1.65
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_wood.png"
+    },
+    {
+      "name": "exit_left",
+      "gate": "clutter",
+      "center": [
+        26.0,
+        -2.5,
+        1.6
+      ],
+      "half": [
+        0.38,
+        0.45,
+        1.6
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "portal_wood.png"
+    }
+  ],
+  "obstacle_source": "Declared known obstacle map for isolating perception/inertia/formation coupling",
+  "controller_hz": 50.0,
+  "rgbd_hz": 10.0,
+  "physics_dt_sec": 0.0005,
+  "tracking_pixel_stride": 4,
+  "tracking_correspondence_gate_m": 0.08,
+  "tracking_appearance_filter": "RGB chromaticity learned from pre-rigging fixture scan",
+  "commanded_aircraft_speed_limit_m_s": 2.5,
+  "commanded_aircraft_acceleration_limit_m_s2": 4.5,
+  "acceptance_gates": {
+    "position_error_m": 0.1,
+    "attitude_error_deg": 5.0,
+    "tension_n": [
+      0.5,
+      9.0
+    ],
+    "aircraft_tilt_deg": 40.0,
+    "motor_thrust_n": 7.5,
+    "aircraft_speed_m_s": 2.6,
+    "aircraft_acceleration_m_s2": 6.0,
+    "no_body_or_cable_contact": true
+  },
+  "development": true,
+  "perception": "Two calibrated external virtual RGB-D views, no markers or object IDs",
+  "planning": "Asynchronous finite whole-segment candidate search; continuous local-map replanning not enabled in this test",
+  "scan_phase": "Known static fixture, before cable rigging; subsequent image tracking includes cables"
+}

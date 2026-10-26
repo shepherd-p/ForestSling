@@ -1,0 +1,83 @@
+{
+  "first_attempts": 20,
+  "completed": 20,
+  "passed": 20,
+  "wilson95_all_attempts": [
+    0.838874841947188,
+    0.9999999999999999
+  ],
+  "gate_sec": 0.35,
+  "source": "Process-isolated sensor driver; same seeds 27000--27019, fixed configuration and ballast",
+  "delay_distributions_ms": {
+    "queue_sec": {
+      "min": 0.9220000065397471,
+      "median": 4.430500004673377,
+      "p95": 5.3348550012742635,
+      "max": 7.860800003982149
+    },
+    "processing_sec": {
+      "min": 26.666899997508153,
+      "median": 52.82620000070892,
+      "p95": 69.96659999713302,
+      "max": 82.83420000225306
+    },
+    "return_and_read_sec": {
+      "min": 0.5230000097071752,
+      "median": 10.525850004341919,
+      "p95": 26.91173999919556,
+      "max": 34.31540000019595
+    },
+    "exposure_to_read_sec": {
+      "min": 37.69249998731539,
+      "median": 69.8508000059519,
+      "p95": 85.49304998959995,
+      "max": 111.40909999085125
+    },
+    "received_sensor_age_sec": {
+      "min": 39.99999999990678,
+      "median": 60.00000000028649,
+      "p95": 80.00000000038199,
+      "max": 100.00000000047748
+    }
+  },
+  "completed_transport_distributions": {
+    "position_rms_cm": {
+      "min": 1.953203960535175,
+      "median": 1.9593663068284097,
+      "p95": 1.9679667266803367,
+      "max": 1.9685016277466236
+    },
+    "attitude_rms_deg": {
+      "min": 0.3533197098602343,
+      "median": 0.39724720553869003,
+      "p95": 0.4308585600690902,
+      "max": 0.4541145086494006
+    },
+    "max_attitude_error_deg": {
+      "min": 0.5866920774336862,
+      "median": 0.6696284936505925,
+      "p95": 0.7278007621764897,
+      "max": 0.7588296217733232
+    },
+    "mass_relative_error": {
+      "min": 9.01659404317634e-06,
+      "median": 7.366955940324438e-05,
+      "p95": 0.00016505097784594305,
+      "max": 0.00020000451801738262
+    },
+    "minimum_aircraft_clearance_m": {
+      "min": 0.04082517609096381,
+      "median": 0.04095755436630977,
+      "p95": 0.041259554793087426,
+      "max": 0.041283225296227744
+    },
+    "minimum_aircraft_center_distance_m": {
+      "min": 1.5466057889132658,
+      "median": 1.5510111287480282,
+      "p95": 1.5589619104583559,
+      "max": 1.5599072635169664
+    }
+  },
+  "aborts": [],
+  "independence": "New initial attempts with the same sensor seeds; historical attempts retained. Anonymous-clone tests are author-run portability checks, not third-party replication."
+}

@@ -27,7 +27,7 @@ Physical integration step & 0.5 ms\\\bottomrule
 \end{tabular}
 \end{table}
 
-Two complementary task groups are evaluated. The base group comprises rectangular and nonconvex stepped payloads, each carried by three and four aircraft, as illustrated in Fig.~\ref{fig:configurations}. Each configuration is paired with a uniform-shape control model, giving eight task attempts. Within each pair, the object, hidden ballast, sensor seed, preparation procedure and planning rules are held fixed. The uniform model distributes a nominal 1.05 kg over interior scan-support locations, while the identification model uses Eq.~\eqref{eq:fit}. The comparison therefore evaluates the inertial information supplied to planning and feedback under the same acquired external geometry.
+The nominal task group N comprises rectangular and nonconvex stepped payloads, each carried by three and four aircraft, as illustrated in Fig.~\ref{fig:configurations}. Each configuration is paired with a nominal uniform-shape control model, giving eight attempts (N3B, N3I, N4B and N4I denote the identified-model three/four-aircraft box/irregular executions). A separate group A contains the twenty initial five-arm ablations and the original twenty sensor-seed attempts; group B contains the process-isolated sensor experiments introduced below. Every record has an experiment path, sensor seed, fixed ballast seed, configuration and source-hash manifest in the public experiment identity index. Within each nominal pair, the object, hidden ballast, sensor seed, preparation procedure and planning rules are held fixed. The uniform model distributes a nominal 1.05 kg over interior scan-support locations, while the identification model uses Eq.~\eqref{eq:fit}. The comparison therefore evaluates the inertial information supplied to planning and feedback under the same acquired external geometry.
 
 \begin{figure*}[t]
 \centering\includegraphics[width=.90\textwidth]{fig04_configurations.pdf}
@@ -35,19 +35,19 @@ Two complementary task groups are evaluated. The base group comprises rectangula
 \label{fig:configurations}
 \end{figure*}
 
-The second group carries a forked payload through sequential restrictions. The object measures $1.21\times0.90\times0.40$ m and has unequal side arms, open bays and a raised boss. Four mounts are installed at material-supported outer corners. Fixed padeyes, rotating shackles and rope terminations share the same attachment geometry as the force model. Mount mass and inertia are included in the load properties. The effective 2 m cable includes the 60 mm rigid termination, with the force application point at its pin center. These details permit large rotations while maintaining consistent visual and mechanical attachments.
+Two further nominal courses carry a forked payload through sequential restrictions. The object measures $1.21\times0.90\times0.40$ m and has unequal side arms, open bays and a raised boss. Four mounts are installed at material-supported outer corners. Fixed padeyes, rotating shackles and rope terminations share the same attachment geometry as the force model. Mount mass and inertia are included in the load properties. The effective 2 m cable includes the 60 mm rigid termination, with the force application point at its pin center. These details permit large rotations while maintaining consistent visual and mechanical attachments.
 
 Execution acceptance requires completed transport, peak position error at most 0.10 m, peak rotation error at most $5^\circ$, and tensions strictly between 0.5 and 9 N. Additional limits are $40^\circ$ aircraft tilt, 7.5 N per motor, 2.6 m/s aircraft speed and 6 m/s$^2$ aircraft acceleration. Rotation error is the magnitude of the logarithm of $RR_r^T$. Rigid-body contacts are monitored at physical substeps. Complete cable-segment checks use the 50 Hz records; the course clearance analysis inflates segment radius by the termination width and half a sampling interval of endpoint motion. Corresponding obstacle and load-body checks use the complete saved segment, rather than only cable endpoints.
 
 The RGB-D inputs used for identification and feedback are rendered from the dynamic state and returned through the image-processing interface. Separately, Unreal Engine 5.2 and the CityPark Showcase environment produce the presentation images and videos. The distinction follows the useful separation between visual and physical simulation~\cite{airsim2017}: in this study numerical performance is measured from the MuJoCo closed loop, and Unreal displays those recorded states. The video output is $1920\times1080$ at 25 frames/s with one-to-one physical time. No display interpolation changes the recorded motion.
 
 \subsection{Complete inertial identification and held-out prediction}
-Across the four base configurations and two forked-payload executions, mass relative error is 0.0024--0.0188\%, and the CoM-inertia Frobenius relative error is 5.46--7.87\%. True and estimated mass, three-axis CoM, all six origin-inertia entries and principal moments are provided in the public numerical records. Figure~\ref{fig:identification}(a),(b) therefore evaluates the complete ten-parameter model rather than using CoM accuracy as a proxy for inertia accuracy. 
+Across the four base configurations and two forked-payload executions, mass relative error is below 0.02\%, and the CoM-inertia Frobenius relative error is 5.46--7.87\%. True and estimated mass, three-axis CoM, all six origin-inertia entries and principal moments are provided in the public numerical records. Figure~\ref{fig:identification}(a),(b) therefore evaluates the complete ten-parameter model rather than using CoM accuracy as a proxy for inertia accuracy. 
 Figure~\ref{fig:identification} compares the models used for transportation. The identified CoM errors range from 0.39 to 2.18 mm across the four configurations. In contrast, the uniform-shape models differ from the actual CoM by approximately 103--117 mm. The external shape and installation coordinates are available to both models, so this difference concerns internal mass moments rather than surface acquisition.
 
 Figure~\ref{fig:identification}(c) evaluates observation geometry at causal prefixes from 4 to 16 s. The normalized systems have rank ten, with condition numbers of approximately 4.4--9.0. At a 6 s prefix, the original activation criteria are satisfied in all four base cases. The prefix calculations share the original observation streams and quantify information availability during preparation.
 
-For predictive evaluation, complete 0.4 s integral windows are formed from transport-only observations, excluding the first and last second of transport. These samples do not enter the preparation fit. Figure~\ref{fig:identification}(d) compares each model's predicted moment impulse against the true-inertia prediction on the same held-out regressor. Matching the uniform model's total mass isolates its remaining first- and second-moment errors. The repository also reports measured impulse residuals for both the fitted and true-inertia models, so parameter-model discrepancy can be distinguished from observation and integration residuals.
+For predictive evaluation, complete 0.4 s integral windows are formed from transport-only observations, excluding the first and last second of transport. These samples do not enter the preparation fit. Figure~\ref{fig:identification}(d) compares each model's predicted moment impulse against the true-inertia prediction on the same held-out regressor. Matching the uniform model's total mass isolates its remaining first- and second-moment errors. Table~\ref{tab:residual} additionally evaluates $A\theta-b$ against the measured cable impulse for oracle, identified and mass-matched uniform models. The oracle residual includes the image-motion, tension and quadrature error of this same simulated observation chain; it supplies a reference residual floor rather than independent physical validation.
 
 The completed four-aircraft rectangular pair provides a direct tracking comparison. Its uniform model has 102.75 mm CoM error and $22.05^\circ$ peak attitude error. With the identified model, these values are 0.39 mm and $0.66^\circ$. Peak translation error decreases from 8.19 to 2.76 cm. Thus the attitude error is reduced by approximately 97\% for this pair. The change has a mechanical explanation: a misplaced CoM creates an incorrect gravity moment in Eq.~\eqref{eq:moment}, which produces inappropriate cable-force distribution during rotation and load lowering.
 
@@ -59,13 +59,27 @@ The completed four-aircraft rectangular pair provides a direct tracking comparis
 
 \begin{table*}[t]
 \centering\small
-\caption{Base transport results with identified inertial moments. Each row is one executed team/shape configuration. Tension extrema include the complete preparation and transport at physical substeps.}
+\caption{Group N nominal transport results with identified moments (rows N3B, N3I, N4B, N4I). Each row is one executed team/shape configuration. Tension extrema include the complete preparation and transport at physical substeps.}
 \label{tab:matrix}
 \begin{tabular}{@{}clrrrrl@{}}\toprule
 UAVs & Payload & Transport (s) & CoM error (mm) & Peak position (cm) & Peak attitude ($^\circ$) & Tension (N)\\\midrule
 \input{table_matrix_rows.tex}\\
 \bottomrule\end{tabular}
 \end{table*}
+
+
+\begin{table*}[t]
+\centering\small
+\caption{Transport-only measured cable-impulse residuals $A\theta-b$ on the same held-out windows. U denotes the true-mass uniform model; ID denotes full identification. RMS is taken over all windows and three components, separately for force and moment. The oracle uses the simulator's true moments.}
+\label{tab:residual}
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+& \multicolumn{3}{c}{Force impulse RMS (N s)} & \multicolumn{3}{c}{Moment impulse RMS (N m s)}\\
+Case & Oracle & ID & U & Oracle & ID & U\\\midrule
+\input{table_measured_residual_rows.tex}\\\bottomrule
+\end{tabular}
+\end{table*}
+
+The identified and oracle measured residuals are close, whereas the uniform-moment discrepancy is particularly pronounced in four-aircraft transportation. This comparison includes the observation-chain residual floor. The small nominal mass errors arise under bounded virtual measurement noise and the shared rigid-body model; they do not specify the accuracy of a physical RGB-D/tension installation.
 
 \subsection{Team size and payload geometry}
 All four identified-model configurations satisfy the execution criteria. Table~\ref{tab:matrix} reports their individual results rather than treating them as repeated samples of one configuration. Peak position errors are 2.62--4.10 cm, and peak attitude errors are $0.66$--$2.64^\circ$. The three-aircraft irregular case selects 22 s from the candidate duration set; the other three use 20 s. Their peak payload speeds are 0.90--0.99 m/s, and average speeds within the central passage region are 0.84--0.93 m/s.
@@ -80,7 +94,7 @@ Figure~\ref{fig:tensions} shows cable loading during transportation. Across prep
 
 \begin{table*}[t]
 \centering\small
-\caption{Paired uniform-shape and identified-model outcomes under the same task rules. ``Planning rejection'' denotes that the candidate set did not produce an accepted force/geometry/actuation trajectory for that model.}
+\caption{Group N nominal uniform (1.05 kg) and identified-model outcomes under the same task rules. ``Planning rejection'' denotes that the candidate set did not produce an accepted force/geometry/actuation trajectory for that model.}
 \label{tab:baseline}
 \begin{tabular}{@{}clrlc@{}}\toprule
 UAVs & Payload & Uniform CoM error (mm) & Uniform-model outcome & Identified outcome\\\midrule
@@ -91,11 +105,13 @@ UAVs & Payload & Uniform CoM error (mm) & Uniform-model outcome & Identified out
 The uniform-model outcomes in Table~\ref{tab:baseline} complement the tracking example. Three configurations do not obtain an accepted candidate. The completed four-aircraft rectangular execution exceeds the attitude and aircraft acceleration limits. This comparison shows that the scanned outline alone does not provide the same task model as the outline augmented by measured inertial moments. Candidate rejection here is a result of the specified finite search, not a claim of global infeasibility of the physical task.
 
 \subsection{Controlled ablations and sensor-seed repetitions}
+Groups N and A are separate executions, not repeated labels for the same trajectories. Although both use sensor and ballast seed 2501, asynchronous image delivery and preparation/planning waits change the exposure times and transport initial states. This explains the N/A attitude peaks of $0.66/0.71^\circ$ for the four-aircraft box and $1.29/1.06^\circ$ for the four-aircraft irregular load. The uniform results also differ because group N assumes 1.05 kg while group A matches the true total mass. The public identity index maps every table entry to its source record.
+
 The controlled comparison uses five inertial-information levels on each of the four base configurations: a uniform-shape model with true total mass; identified mass with uniform-shape CoM and central inertia; identified mass and CoM with mass-scaled uniform-shape central inertia; full identification; and true inertial parameters. All arms use the same acquired-geometry procedure, fixed ballast, sensor seed, preparation, reference family, candidate budget and feedback gains. The true-mass arm isolates errors in the first and second moments without a mass mismatch. The oracle is an information reference, rather than a competing planner.
 
 \begin{table*}[t]
 \centering\small
-\caption{Five-arm controlled ablation. Entries give peak attitude error ($^\circ$) for completed executions. R denotes candidate planning rejection; A denotes an image-age abort before transport. Asterisks mark completed executions outside the common acceptance criteria. Each cell is one initial attempt, with all attempt records retained.}
+\caption{Group A five-arm controlled ablation (rows A3B, A3I, A4B, A4I). The uniform arm matches the true mass, unlike the 1.05 kg nominal uniform in Table~\ref{tab:baseline}. Entries give peak attitude error ($^\circ$) for completed executions. R denotes candidate planning rejection; A denotes an image-age abort before transport. Asterisks mark completed executions outside the common acceptance criteria. Each cell is one initial attempt, with all attempt records retained.}
 \label{tab:ablation}
 \begin{tabular}{@{}clrrrrr@{}}\toprule
 UAVs & Payload & True mass, uniform & Mass only & Mass + CoM & Full identification & True inertia\\\midrule
@@ -109,10 +125,51 @@ The three-aircraft irregular mass--CoM initial attempt stops on the image-age ga
 
 Twenty additional initial attempts use independent virtual sensor seeds for the fixed four-aircraft rectangular task. All 20 obtain an initial plan; 16 complete and satisfy the execution criteria, while 4 stop on the image-age gate. The all-attempt completion-and-acceptance rate is 16/20 (80\%; Wilson 95\% interval 58.4--91.9\%). Among the 16 complete transports, peak attitude error is $0.606$--$0.851^\circ$, and its median is $0.725^\circ$. Transport-only position RMS has median 1.96 cm and p95 1.97 cm; attitude RMS has median $0.427^\circ$ and p95 $0.488^\circ$. Initial planning time among complete transports has median 1.84 s and p95 1.89 s. These distributions are conditional on completed transport, and the initial attempts remain the statistical cohort even when a separately labeled diagnostic retry is available. The repeated task fixes shape and ballast; its seed distribution concerns sensing and acquisition timing under that configuration.
 
-\subsection{Observation and support-model sensitivity}
+
+The process-isolated group B repeats exactly seeds 27000--27019 once each, retaining group A unchanged. All 20 new initial attempts complete and satisfy the common execution gates (20/20; Wilson 95\% interval 83.9--100\%). Their transport-only position RMS median/p95 is 1.96/1.97 cm, and attitude RMS is $0.397/0.431^\circ$; peak attitude error is $0.587$--$0.759^\circ$. Relative mass error has median 0.0074\% and p95 0.0165\% under the declared virtual sensor model. Across these executions, the minimum aircraft-envelope obstacle clearance is 0.0408--0.0413 m. These results describe a fixed task with new sensor executions, rather than a cross-object reliability guarantee.
+
+The revised image pipeline runs rendering and registration in an isolated process, with one outstanding frame and the unchanged 0.35 s maximum age of the latest valid exposure. Per-frame wall-clock stamps give p95 queue/dispatch, image-processing and return/control-read times of 5.33, 69.97 and 26.91 ms; exposure-to-read p95/max is 85.49/111.41 ms. Their separate quantiles are not additive. The four original aborts occurred at physical times 19.42, 34.06, 36.66 and 39.58 s. Original logs retain processing and exposure/receipt times, but do not support retrospective queue/IPC decomposition. The supplementary timing figure presents a failure timeline and both complete cohorts. If the age gate expires, the simulated execution is terminated and counted as incomplete; no blind continuation or automatic retry is included.
+
+\subsection{From inertial parameters to support geometry}
+To isolate the mechanical link, each group N reference is frozen at its recorded duration, lowering and initial payload pose. All allocations use that same reference and acquired scan, rather than selecting different motions for different models. A controlled 10 mm shift of the identified CoM along the scan $x$ axis retains its mass and central inertia. Table~\ref{tab:forcegeometry} reports the change in optimized cable forces and compliant endpoints. This is a planning sensitivity comparison, not another set of executed flights.
+
+\begin{table*}[t]
+\centering\small
+\caption{Fixed-reference parameter-to-geometry comparison. Only the CoM changes by $+10$ mm in $x$; force and endpoint differences are relative to full identification. Paired entries give original/shifted values. Geometry uses aircraft endpoints and a 0.27 m aircraft envelope.}
+\label{tab:forcegeometry}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Case & Force difference RMS (N) & Endpoint difference RMS (cm) & Min. endpoint distance (m) & Min. obstacle clearance (cm)\\\midrule
+\input{table_force_geometry_rows.tex}\\\bottomrule
+\end{tabular}
+\end{table*}
+
+The 10 mm parameter change produces 0.128--0.230 N RMS force changes and 3.86--13.29 cm RMS endpoint changes. This amplification includes active force and aperture constraints, rather than only an unconstrained wrench pseudoinverse. At the same reference, replacing central inertia by its mass-scaled uniform value while retaining identified mass and CoM changes endpoint RMS by less than 0.16 mm. These results independently locate the principal base-task benefit in CoM correction; they do not establish an additional tracking advantage from central-inertia identification.
+
+A standard stagewise wrench allocator provides a separate force-planning comparison. At each of the same 81 time nodes it projects the outward preload and preceding force onto wrench equality, tension, vertical-span and nominal thrust constraints, without whole-interval derivative penalties or rate bounds. Both methods receive the full identified inertial model. After the same spline/stretch conversion, stagewise allocation has peak endpoint accelerations of 6.92--11.21 m/s$^2$, versus 0.80--1.99 m/s$^2$ for whole-interval allocation, and fails the common 2.25 m/s$^2$ candidate gate in all four frozen-reference cases. This comparison evaluates a specified standard allocation policy, rather than reproducing a complete published navigation system or asserting global infeasibility after retiming.
+
+Multiplying all three derivative-penalty weights in Eq.~\eqref{eq:objective} by 0.5 or 2 retains the sampled force, body-geometry and dynamic gates in all eight fixed-reference checks. Tension peaks are 7.31--8.17 N and endpoint acceleration peaks are 0.67--1.99 m/s$^2$. The coefficients therefore affect the distribution of feasible support positions; the complete candidate-level records retain these alternatives and their geometry differences. The 0.25--2 m residual-length scaling test in Section 3 yields 0.27--3.68 mm CoM errors and 5.06--8.80\% central-inertia errors across the six nominal records.
+
+Two additional identification baselines are executed through the same image-based controller and candidate search on the four-aircraft box and large-angle forked tasks, with sensor seed 28000. Raw unconstrained least squares produces a nonphysical central inertia in the box task and is rejected before transport; its forked execution completes with 3.68 cm peak position error and $2.17^\circ$ peak attitude error. A support-free physically consistent baseline constrains the $4\times4$ pseudo-inertia matrix to be positive semidefinite~\cite{wensing2018}, with the same 0.7--1.5 kg mass interval but no scanned spatial support. It completes both tasks: box/forked position peaks are 2.76/3.38 cm, attitude peaks are $0.67/2.16^\circ$, and tension ranges are 1.64--8.66/2.11--4.75 N. These results show that a physically consistent estimator without spatial support is also viable in the evaluated tasks. The proposed scan-supported model supplies a geometry-linked moment representation; the comparison does not establish a tracking advantage over the support-free PSD estimator. The baseline uses the same integral observation formulation and a $10^{-8}$ quadratic regularizer, and its full solver settings and original rejection record are archived.
+
+\subsection{Observation-record and support-model sensitivity}
 Two archived preparation records, the four-aircraft rectangular case and the large-angle forked case, are each refitted under four declared measurement perturbations and twenty seeds per perturbation. The 160 fits isolate added pose noise (2 mm translation and $0.15^\circ$ rotation standard deviations), tension noise and bias (0.02 N each), fixed pose-frame bias (3 mm and $0.1^\circ$), and random observation removal (20\%). These synthetic ranges define a record-space sensitivity analysis; they do not represent hardware calibration or newly executed occluded-image flights. For the forked case, CoM-error p95 is 4.76 mm with added pose noise, 5.50 mm with tension perturbation, 2.25 mm with frame bias and 0.89 mm with observation removal. The corresponding central-inertia error p95 values are 19.52\%, 14.56\%, 11.05\% and 11.60\%. The full distributions for both records are available with the analysis protocol.
 
 Changing $\lambda$ from $10^{-10}$ through $10^{-8}$ and $10^{-6}$ to $10^{-4}$ across all six nominal records changes CoM-error norms by at most 0.038 mm and central-inertia relative errors by at most 0.092 percentage points. A separate post-execution diagnostic restricts support locations to the evaluator's occupied body material for the two forked records. Central-inertia errors become 5.85\% and 6.72\%, compared with 5.86\% and 6.77\% for the acquired-surface hull. This comparison tests the moment envelope under the same observed motion; evaluator material geometry is used only in this diagnostic.
+
+\subsection{Representative closed-loop measurement and actuator mismatch}
+The four-aircraft box and large-angle forked tasks are each executed under three perturbations, with sensor seed 28001 and fixed ballast: alternating tension-measurement biases of $\pm0.04$ N, removal of every tenth delivered image observation, and an actual motor time constant of 37.5 ms instead of the nominal 25 ms. Planning and control retain the nominal motor model. These six new initial attempts use the process-isolated image pipeline and the unchanged execution gates. Table~\ref{tab:perturbation} separates initial planning, task completion and full acceptance. Five attempts obtain a plan and complete transport; three satisfy every acceptance criterion. The two observation-loss tasks pass, with box/forked attitude peaks of $0.73/4.70^\circ$ and minimum aircraft-envelope clearances of 0.0409/0.0811 m.
+
+\begin{table*}[t]
+\centering\small
+\caption{Representative perturbed closed-loop attempts, one execution per condition. P/C/A denotes plan obtained / transport completed / all gates accepted (Y or N). Attitude peaks concern transport; tension extrema include preparation. Clearance is the minimum sampled aircraft gap after 0.28 m inflation. Dashes denote no transport.}
+\label{tab:perturbation}
+\begin{tabular}{@{}llcrrr@{}}\toprule
+Task & Perturbation & P/C/A & Peak attitude ($^\circ$) & Tension (N) & Min. clearance (cm)\\\midrule
+\input{table_perturbation_rows.tex}\\\bottomrule
+\end{tabular}
+\end{table*}
+
+The tension-biased box execution passes, whereas the forked execution reaches $8.63^\circ$ attitude error with 5.02 mm CoM estimation error. With the slower motors, the box completes but reaches $7.92^\circ$ payload attitude error, $45.87^\circ$ aircraft tilt and 6.90 m/s$^2$ aircraft acceleration. The forked attempt develops a preparation transient, including cable unloading, and obtains no accepted course candidate. Thus the tests distinguish tolerance to the specified observation removal from sensitivity to unmodeled actuator lag and tension bias during large rotations. The sample size describes these particular mismatch conditions; it is not a population robustness estimate. Per-attempt position errors, planning diagnostics, contacts, tensions and clearances are public with the original records.
 
 \subsection{Sequential apertures and large-angle reorientation}
 The course comprises a 28 m centerline and twelve oriented solid obstacles: a laterally offset narrow frame, a low ceiling, a tilted frame, and three staggered blocks along the approach and exit regions. Figure~\ref{fig:course} shows the actual load and aircraft trajectories relative to these obstacles. Two course executions use the same forked object and corner mounts. The moderate-rotation course has a 2.70 m first opening and an 85 s transport. The large-rotation course narrows this opening to 2.10 m and uses a 125 s transport. The ceiling underside is 4.45 m above the ground, and the tilted opening has 2.85 m clear width.
@@ -139,7 +196,7 @@ Course & Transport (s) & Peak position (cm) & Peak attitude ($^\circ$) & Tension
 
 Table~\ref{tab:course} reports the course results. The large-rotation execution has a 3.34 cm peak position error and $2.19^\circ$ peak attitude error. Tensions remain between 2.11 and 4.75 N, maximum aircraft tilt is $16.13^\circ$, and maximum aircraft speed is 2.38 m/s. The actual payload peak speed is 1.05 m/s. There are no rigid-body contacts, sampled cable-obstacle or cable-body intersections, slack cables or motor saturation intervals. All 1682 processed visual observations are valid under the registration tests.
 
-The large-rotation geometric audit finds 0.081 m minimum aircraft clearance after a 0.28 m envelope inflation and 0.268 m minimum scanned-surface clearance after 0.045 m inflation. Complete cable segments are checked with a 0.0468 m radius including termination width and observed half-sample motion. These are sampled geometric margins with the stated motion inflation; they are not a general continuous-time safety certificate under arbitrary execution disturbances. The corner attachment geometry remains outside the material body during rotation. The full physical task takes 169.58 s, including 16 s preparation, identification and planning waits, transport, and terminal holding.
+The large-rotation geometric audit finds 0.081 m minimum aircraft clearance after a 0.28 m envelope inflation and 0.268 m minimum scanned-surface clearance after 0.045 m inflation. Complete cable segments are checked with a 0.0468 m radius including termination width and observed half-sample motion. These are sampled geometric margins with the stated motion inflation; they are not a general continuous-time safety certificate under arbitrary execution disturbances. A finer geometric audit replays four two-second command intervals covering the closest aircraft approach and all three aperture crossings, using 0.5 ms integration and 2 ms geometry samples without interior resets. The minimum aircraft clearance is 0.081088 m, versus 0.081089 m at 20 ms in the same replay, and no inflated cable segment intersects an obstacle. Interval speed maxima and half-sample translation scales accompany the records. These checks refine the reported execution margins without asserting disturbance-invariant safety. The corner attachment geometry remains outside the material body during rotation. The full physical task takes 169.58 s, including 16 s preparation, identification and planning waits, transport, and terminal holding.
 
 \begin{figure*}[t]
 \centering\includegraphics[width=\textwidth]{fig08_course_dynamics.pdf}

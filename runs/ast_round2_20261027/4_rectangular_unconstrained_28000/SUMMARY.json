@@ -1,0 +1,11 @@
+{
+  "count": 4,
+  "shape": "rectangular",
+  "method": "unconstrained",
+  "completed": false,
+  "passed": false,
+  "reason": "model_inertia_nonphysical",
+  "max_attitude_error_deg": null,
+  "physics_time_sec": null,
+  "software_exit": "Original attempt raised ValueError at the pretransport physical-model gate; retained log and acquired scan, no trajectory was saved. This record is not a completed experiment."
+}

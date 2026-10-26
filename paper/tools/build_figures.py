@@ -56,7 +56,7 @@ def figure02():
     from review_figures import framework
     with matplotlib.rc_context({'font.family':'Arial','mathtext.fontset':'stix',
                                'text.color':'#202D35','axes.labelcolor':'#202D35'}):
-        fig=plt.figure(figsize=(7.15,4.9))
+        fig=plt.figure(figsize=(7.15,2.80))
         framework(fig,LARGE,trajectory(LARGE),E['courses'][1]['geometry']['events'],UNREAL,bind)
         save(fig,'fig02_framework')
 
